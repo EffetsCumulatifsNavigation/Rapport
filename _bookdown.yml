@@ -1,6 +1,11 @@
 book_filename: bookdown
 repo: https://github.com/EffetsCumulatifsNavigation/Methode
 output_dir: docs
+rmd_subdir:
+  - "Contenu/Intro"
+  - "Contenu/Portrait"
+  - "Contenu/Analyse"
+  - "Contenu/References"
 clean: [packages.bib, bookdown.bbl]
 delete_merged_file: true
 language:

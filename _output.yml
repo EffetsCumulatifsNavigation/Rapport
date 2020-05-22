@@ -6,7 +6,7 @@ bookdown::gitbook:
   toc_depth: 3
   config:
     toc:
-      collapse: none
+      collapse: no
       before: |
         <li><a href="./">Effets cumulatives - activités maritimes</a></li>
       after: |

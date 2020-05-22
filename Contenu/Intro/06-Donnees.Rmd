@@ -17,7 +17,6 @@ un outil de contrôle de version qui permettra la documentation, le contrôle de
 la qualité et l’historique du développements et des modifications des éléments
 de programmation pertinents à l’ensemble du projet.
 
-[^grise]: La littérature grise correspond à des documents produits par des par diverses instances publiques, commerciales ou industrielles, soumis aux règles de la propriété intellectuelle, et non contrôlés par le processus de révision par les pairs scientifique.
 [^r]: R est un logiciel libre destiné aux statistiques, la science des données et les graphiques (https://www.r-project.org/)
 [^arc]: ArcGIS est une suite de logiciels d'information géographique (SIG) développés par la société américaine Esri (https://www.arcgis.com/index.html)
 [^git]: GitHub est un service web d'hébergement et de gestion de développement de logiciels utilisé par plus de 40 millions d'utilisateurs partout à travers le monde (https://github.com/).
