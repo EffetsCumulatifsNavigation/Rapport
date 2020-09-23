@@ -4,7 +4,9 @@ output_dir: docs
 rmd_subdir:
   - "Contenu/Intro"
   - "Contenu/Portrait"
+  - "Contenu/Stresseurs"
   - "Contenu/Analyse"
+  - "Contenu/Accronymes"
   - "Contenu/References"
 clean: [packages.bib, bookdown.bbl]
 delete_merged_file: true

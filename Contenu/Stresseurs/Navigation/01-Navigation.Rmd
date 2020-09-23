@@ -1,0 +1,21 @@
+## Navigation
+
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+<img src="https://img.shields.io/badge/Zone-Marin-blue">
+
+
+| Activité maritime     | Sous-catégorie   | Description            | Unités |
+| :-------------------- | :--------------- | :--------------------- | :----- |
+| Navigation  | Types et tailles?    | Tracé des déplacements en navire et type de navire | Nombre de bateaux et volume |
+
+
+### Ressources identifiées
+
+- Transport Canada
+  - Jeff Campagnola
+- AIS
+- Système de surveillance des navires national (VMS) du MPO
+- Innovation maritime
+  - *Nous avons fait plusieurs analyses (par zones) touchant le trafic. Voir www.statsmaritimes.com pour certaines données historiques. Capacité à faire des analyses pointues du trafic à partir des bases de données INNAV et AIS. Diposons des données INNAV depuis 2002 et AIS depuis 2013. Possibilité de faire des analyses sur mesure selon vos besoins (types de navires, dimensions, vitesse, zones de passage, variations mensuelles/annuelles, analyse par points d'origine/destination, etc.).*
+- Données de Clément Chion utilisées? MPO (Samuel Turgeon) aura trois observateurs terrestres pour compter des plaisanciers dans l'estuaire à l'été 2020
+- Desgagné - voyages entre ports

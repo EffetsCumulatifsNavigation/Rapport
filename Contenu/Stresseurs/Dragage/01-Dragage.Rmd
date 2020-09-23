@@ -1,0 +1,28 @@
+## Dragage
+
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+<img src="https://img.shields.io/badge/Zone-Marin-blue">
+
+
+| Activité maritime     | Sous-catégorie   | Description            | Unités |
+| :-------------------- | :--------------- | :--------------------- | :----- |
+| Dragage               | Zones de dragage | Localisation des sites de dragage | $m^3$ |
+|                       | Zones de dépôt   | et quantité de sédiments dragués  | |
+
+
+### Ressources identifiées
+
+- Environnement et Changement climatique Canada (ECCC)
+  - Simon Blais
+  - volume dragage St-Laurent (fluvial et maritime) 1995 à 2016 (à valider)
+- Garde côtière canadienne (GCC)
+  - Pierre Dion 
+  - volume dragage chenal navigation
+- Service hydrographique du Canada (SHC)
+  - Bathymétrie
+- Ministère des transports du Québec (MTQ)
+  - Dragage quai de traversier (?)
+- Ministère de l'environnement et lutte contre les changements climatiques (MELCC)
+  - Chantier maritime et marinas (?)
+- Plan Saint-Laurent
+  - [Registre de dragage](http://planstlaurent.qc.ca/fr/usages/registre_de_dragage.html)

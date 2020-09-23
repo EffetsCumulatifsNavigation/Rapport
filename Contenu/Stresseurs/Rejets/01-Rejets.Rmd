@@ -1,0 +1,20 @@
+## Rejets opérationels
+
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+<img src="https://img.shields.io/badge/Zone-Marin-blue">
+
+
+| Activité maritime     | Sous-catégorie   | Description            | Unités |
+| :-------------------- | :--------------- | :--------------------- | :----- |
+| Rejets opérationnels  |     | Localisation et quantité | ? |
+
+
+### Ressources identifiées
+
+- GCC
+- BCU (?)
+- CEGRIM
+- Autre:
+  - registre des eaux huileuses --3 ans -- et eau grises
+  - portrait des eaux de ballast
+  - industrie (Caroline, Daniel et

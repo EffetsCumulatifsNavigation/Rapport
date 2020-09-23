@@ -1,0 +1,15 @@
+## Pêches
+
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+<img src="https://img.shields.io/badge/Zone-Marin-blue">
+
+
+| Activité maritime     | Sous-catégorie   | Description            | Unités |
+| :-------------------- | :--------------- | :--------------------- | :----- |
+| Pêches  | Engins    | Journaux de bord + VMS | - |
+
+### Ressources identifiées
+
+- MPO
+  - Julie Aucoin?
+  - Voir travaux de thèse

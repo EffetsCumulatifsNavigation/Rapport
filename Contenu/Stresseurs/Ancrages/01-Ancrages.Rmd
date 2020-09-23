@@ -1,0 +1,17 @@
+## Ancrages
+
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+<img src="https://img.shields.io/badge/Zone-Marin-blue">
+
+
+| Activité maritime     | Sous-catégorie   | Description            | Unités |
+| :-------------------- | :--------------- | :--------------------- | :----- |
+| Ancrages              | - | Localisation des sites d'ancrage | - |
+
+### Ressources identifiées
+
+- Transport Canada (TC)
+  - Jeff Campagnola
+- Service hydrographique du Canada (SHC)
+- [Innovation maritime](https://www.innovationmaritime.ca/fr)
+  - Commentaire: *Nous pourrions fournir un portrait complet de l'utilisation des maillages (types de navire, temps de présence, période d'utilisation, évolution mensuelle/annuelle, etc.).*
