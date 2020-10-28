@@ -25,3 +25,17 @@ cover-image: images/cover.jpg -->
 <!--
 suppressWarnings(bookdown::render_book("index.Rmd", "bookdown::gitbook"))
 -->
+
+<!--
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+-->
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  comment = '',
+  message = FALSE,
+  echo = FALSE
+)
+
+source('./Code/Functions/RenderTables.R')
+```

@@ -1,12 +1,8 @@
 ## Rejets opérationels
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime     | Sous-catégorie   | Description            | Unités |
-| :-------------------- | :--------------- | :--------------------- | :----- |
-| Rejets opérationnels  |     | Localisation et quantité | ? |
+```{r}
+RenderData(type = 'Rejets opérationels')
+```
 
 
 ### Ressources identifiées

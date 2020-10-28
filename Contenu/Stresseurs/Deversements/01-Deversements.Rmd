@@ -1,12 +1,8 @@
 ## Déversements accidentels
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime     | Sous-catégorie   | Description            | Unités |
-| :-------------------- | :--------------- | :--------------------- | :----- |
-| Déversements accidentels  |     | Localisation et quantité | ? |
+```{r}
+RenderData(type = 'Déversements accidentels')
+```
 
 
 ### Ressources identifiées

@@ -1,0 +1,5 @@
+## Sites d’intérêt culturels, patrimoniaux et archéologiques
+
+```{r}
+RenderData(type = "Sites d'intérêt culturels, patrimoniaux et archéologiques")
+```

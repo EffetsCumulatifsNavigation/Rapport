@@ -1,0 +1,129 @@
+Composante	Categorie	SousCategorie	Description	Organisation	Contact	Contact2	URL	Communication	Priorite	Commentaire
+Stresseurs	Ancrages	NA	NA	TC	Jeff Campagnola	NA	NA	3		NA
+Stresseurs	Ancrages	NA	NA	SHC	NA	NA	NA	1		NA
+Stresseurs	Ancrages	NA	Voir commentaire	Innovation maritime	NA	NA	NA	2		Nous pourrions fournir un portrait complet de utilisation des maillages (types de navire, temps de présence, période utilisation, évolution mensuelle/annuelle)
+Stresseurs	Déversements accidentels	NA	NA	GCC	Pierre Nellis	NA	NA	1		NA
+Stresseurs	Déversements accidentels	NA	Voir commentaire	CNUE	NA	NA	NA	1		Olivier Parent: le CNUE posséde de information sur le sujet, mais je ne suis toutefois pas certain sous quel format ça peut étre disponible, si disponible.
+Stresseurs	Déversements accidentels	NA	Voir commentaire	Innovation maritime	NA	NA	NA	3		Information disponible partiellement auprés de la Caisse indemnisation des dommages dus é la pollution par les hydrocarbures causée par les navires.
+Stresseurs	Déversements accidentels	NA	NA	BCU	NA	NA	NA	0		NA
+Stresseurs	Déversements accidentels	NA	NA	CEGRIM	Joannie Ferland	NA	NA	2		NA
+Stresseurs	Dragages	Zones de dragage	Volume dragage St-Laurent (fluvial et maritime) 1995 é 2016 (à valider)	ECCC	Simon Blais	NA	NA	1		NA
+Stresseurs	Dragages	Zones de dragage	Volume dragage chenal navigation	GCC	Pierre Dion	NA	NA	1		NA
+Stresseurs	Dragages	Zones de dragage	Bathymétrie	SHC	NA	NA	NA	1		NA
+Stresseurs	Dragages	Zones de dragage	Dragage quai de traversier	MTQ	NA	NA	NA	1		NA
+Stresseurs	Dragages	Zones de dragage	Chantier maritime et marinas	MELCC	NA	NA	NA	1		NA
+Stresseurs	Dragages	Zones de dragage	Registre de dragage	PSL	NA	NA	http://planstlaurent.qc.ca/fr/usages/registre_de_dragage.html	1		NA
+Stresseurs	Naufrages et échouements	NA	Données et statistiques sur les événements de transport maritime	BST	NA	Olivier Parent	https://www.tsb.gc.ca/fra/stats/marine/index.html	1		Olivier Parent: Le BST recence tous les événements maritime depuis 1995, incluant les échouements. Le tout est accessible en ligne.
+Stresseurs	Naufrages et échouements	NA	épaves considérées comme sites archéologiques	MCC	NA	Olivier Parent	NA	1		Olivier Parent: Le MCC peut étre une bonne source intervention au niveau de emplacement des épaves considérées comme sites archéologiques.
+Stresseurs	Navigation	NA	Données AIS: Tracé des déplacements en navire et type de navire	TC	Jeff Campagnola	NA	NA	3		NA
+Stresseurs	Navigation	NA	Systéme de surveillance des navires national (VMS)	MPO	NA	NA	NA	1		NA
+Stresseurs	Navigation	NA	Voir commentaire	Innovation maritime	NA	NA	www.statsmaritimes.com	2		Nous avons fait plusieurs analyses (par zones) touchant le trafic. Voir www.statsmaritimes.com pour certaines données historiques. Capacité à faire des analyses pointues du trafic à partir des bases de données INNAV et AIS. Diposons des données INNAV depuis 2002 et AIS depuis 2013. Possibilité de faire des analyses sur mesure selon vos besoins (types de navires, dimensions, vitesse, zones de passage, variations mensuelles et annuelles, analyse par points origine et destination)
+Stresseurs	Navigation	NA	Voyages entre ports	Desgagnés	NA	NA	NA	1		NA
+Stresseurs	Navigation	NA	NA	UQO	Clément Chion	NA	NA	2		NA
+Stresseurs	Navigation	NA	Observateurs terrestres pour compter plaisanciers dans estuaire été 2020	MPO	Samuel Turgeon	NA	NA	1	NA	NA
+Stresseurs	Pêches	NA	Journaux de bord + VMS	MPO	Hugues Benoît	NA	NA	2	NA	NA
+Stresseurs	Pêches	NA	Journaux de bord + VMS	MPO	Julie Aucoin	NA	NA	1	NA	NA
+Stresseurs	Rejets opérationels	NA	NA	BCU	NA	NA	NA	0	NA	NA
+Stresseurs	Rejets opérationels	NA	NA	GCC	NA	NA	NA	1	NA	NA
+Stresseurs	Rejets opérationels	NA	NA	CEGRIM	Joannie Ferland	NA	NA	1	NA	NA
+Stresseurs	Rejets opérationels	NA	NA	NA	NA	NA	NA	0	NA	registre des eaux huileuses (3 ans) et eau grises, portrait des eaux de ballast, industrie (voir Caroline et Daniel)
+CV	Qualité de l'eau	Turbidité	Concentrations de matières particulaires en suspension (MPS) du Saint-Laurent	ECCC	Myriame Lafrance	NA	https://ouvert.canada.ca/data/fr/dataset/520422db-8d68-40df-b7b4-5982cd448869	2	NA	Discussion à enclancher avec les représentants du MELCC en vue d'établir les données disponibles caractérisant les données caractérisant la région d'étude sur le portail sur l'eau. Nous avons des données de turbidité et matières en suspension pour nos 9 stations dans l'Opendata, les données avant 2012 potentiellement disponibles.
+CV	Qualité de l'eau	Turbidité	Saint Lawrence River Basin Long-term Water Quality Monitoring Data	ECCC	Myriame Lafrance	NA	https://open.canada.ca/data/en/dataset/10cf9528-6761-4ece-ad63-f60698ff9d51	2	NA	Discussion à enclancher avec les représentants du MELCC en vue d'établir les données disponibles caractérisant les données caractérisant la région d'étude sur le portail sur l'eau Nous avons des données de turbidité et matières en suspension pour nos 9 stations dans l'Opendata, les données avant 2012 potentiellement disponibles
+CV	Qualité de l'eau	Matière inorganique	Oxygène dissous en eaux profondes dans l'estuaire et le golfe du St-Laurent	MPO	Marjolaine Blais	NA	https://ouvert.canada.ca/data/fr/dataset/fb362c48-fe21-4e4d-abee-cf7ef92b475d	2	NA	NA
+CV	Qualité de l'eau	Matière inorganique	Oxygène dissous au fond aux stations du programme de monitorage de la zone atlantique (PMZA)-Québec.	MPO	Marjolaine Blais	NA	https://ouvert.canada.ca/data/fr/dataset/59bbb435-9516-4c64-a8ea-d5f0b7b1aee8	2	NA	NA
+CV	Qualité de l'eau	Matière inorganique	Saint Lawrence River Basin Long-term Water Quality Monitoring Data	ECCC	Myriame Lafrance	NA	https://open.canada.ca/data/en/dataset/10cf9528-6761-4ece-ad63-f60698ff9d51	2	NA	Oxygène dissous disponible dans l'OpenData (2012 à aujourd'hui), les données avant 2012 potentiellement disponibles
+CV	Qualité de l'eau	Température	Température et salinité au fond dans l'estuaire et le golfe du St-Laurent	MPO	Peter Galbraith	NA	https://ouvert.canada.ca/data/fr/dataset/10987662-c496-4ba8-a6b9-21cb5a134da2	2	NA	NA
+CV	Qualité de l'eau	Température	Saint Lawrence River Basin Long-term Water Quality Monitoring Data	ECCC	Myriame Lafrance	NA	https://open.canada.ca/data/en/dataset/10cf9528-6761-4ece-ad63-f60698ff9d51	2	NA	Disponible dans l'Opendata (2012 à aujourd'hui), les données avant 2012 potentiellement disponibles
+CV	Qualité de l'eau	Nutriments	Salinité au fond aux stations du programme de monitorage de la zone atlantique (PMZA)-Québec.	MPO	Peter Galbraith	NA	https://ouvert.canada.ca/data/fr/dataset/9571b5fa-3311-44c8-a565-d5694f34afac	2	NA	NA
+CV	Qualité de l'eau	Nutriments	Concentration de chlorophylle-a aux stations du programme de monitorage de la zone atlantique (PMZA)-Québec.	MPO	Peter Galbraith	NA	https://ouvert.canada.ca/data/fr/dataset/d155effe-048d-45cf-8683-d827dadc428b	2	NA	NA
+CV	Qualité de l'eau	Nutriments	Éléments nutritifs dans le fleuve Saint-Laurent – Diagrammes en boîte des concentrations annuelles de phosphore total à neuf stations de suivi de la qualité de l'eau le long du fleuve Saint-Laurent	ECCC	Myriame Lafrance	NA	https://ouvert.canada.ca/data/fr/dataset/c49e94df-fe66-4431-965a-81468f89fa4b	2	NA	Phosphore et azote disponibles dans l'Opendata (2012 à aujourd'hui) pour les 9 stations du fleuve, les données avant 2012 potentiellement disponibles
+CV	Qualité de l'eau	Nutriments	Saint Lawrence River Basin Long-term Water Quality Monitoring Data	ECCC	Myriame Lafrance	NA	https://open.canada.ca/data/en/dataset/10cf9528-6761-4ece-ad63-f60698ff9d51	2	NA	Phosphore et azote disponibles dans l'Opendata (2012 à aujourd'hui) pour les 9 stations du fleuve, les données avant 2012 potentiellement disponibles
+CV	Qualité de l'eau	Éléments toxiques	Saint Lawrence River Basin Long-term Water Quality Monitoring Data	ECCC	Simon Blais	NA	https://open.canada.ca/data/en/dataset/10cf9528-6761-4ece-ad63-f60698ff9d51	2	NA	données sur la qualité chimique des sédiments de surface de quelques endroits entre Valleyfield et Québec environ. données échelonnées de 2009 à 2019. documentation de sites aquatiques contaminés connus Nous avons des données de différents métaux pour 6 stations dans l'Opendata, les données avant 2012 potentiellement disponibles
+CV	Qualité de l'eau	NA	Enjeux de la disponibilité de l'eau pour le fleuve Saint-Laurent : synthèse environnementale	EC	André Talbot	NA	http://belsp.uqtr.ca/id/eprint/532/ 	1	NA	rapport pour la Comission Mixte Internationale fait par Environnement Canada en 2006. Il s'intitule Enjeux de la disponibilité de l'eau pour le fleuve Saint-Laurent. http://belsp.uqtr.ca/id/eprint/532/
+CV	Qualité de l'eau	NA	Archive environnementales – OGSL	OGSL	NA	NA	https://ogsl.ca/archive/?lg=fr	1	NA	NA
+CV	Qualité de l'eau	NA	NA	RQM	NA	NA	NA	1	NA	NA
+CV	Habitats floristiques et fauniques	NA	Description des habitats zone fluviale	MFFP	Marc Mingelbier	NA	NA	3	NA	Communications déjà établie avec Marc, en attente d'une réponse de sa part
+CV	Habitats floristiques et fauniques	Zostères	NA	UQAR	Pascal Bernatchez	NA	NA	2	NA	NA
+CV	Habitats floristiques et fauniques	Zostères	NA	UQAR	Simon Bélanger	NA	NA	2	NA	NA
+CV	Habitats floristiques et fauniques	Zostères	NA	UQAC	Mathieu Cusson	NA	NA	2	NA	NA
+CV	Habitats floristiques et fauniques	Zostères	NA	MPO	Christine Desjardins	NA	NA	2	NA	NA
+CV	Habitats floristiques et fauniques	Zostères	Inventaire de la zostère marine dans la Baie James, la Baie des Chaleurs, l'estuaire et le golfe du Saint-Laurent	MPO	NA	NA	https://ouvert.canada.ca/data/fr/dataset/c9ab948f-5009-4dbc-9129-2f6e373f17f6	1	NA	NA
+CV	Habitats floristiques et fauniques	Milieux humides	NA	MELCC	DCE	Joannie Ferland	NA	2	NA	Contact via Joannie Ferland (CEGRIM)
+CV	Habitats floristiques et fauniques	Milieux humides	Milieux humides potentiels	MELCC	DCE	NA	https://www.donneesquebec.ca/recherche/fr/dataset/milieux-humides-potentiels	2	NA	NA
+CV	Habitats floristiques et fauniques	Milieux humides	Inventaire des marais dans la Baie des Chaleurs, l'estuaire et le golfe du Saint-Laurent	MPO	NA	NA	https://ouvert.canada.ca/data/fr/dataset/49d8622c-e42b-4d8a-840d-c50b10e710c6	2	NA	NA
+CV	Habitats floristiques et fauniques	Côte rocheuse	NA	UQAR	Pascal Bernatchez	NA	NA	2	NA	NA
+CV	Habitats floristiques et fauniques	Côte rocheuse	NA	MELCC	CDCE	Joannie Ferland	NA	2	NA	Contact via Joannie Ferland (CEGRIM)
+CV	Habitats floristiques et fauniques	Herbiers aquatiques eau douce 	NA	MFFP	Rémy Pouliot	Joannie Ferland	NA	2	NA	Contact via Joannie Ferland (CEGRIM)
+CV	Habitats floristiques et fauniques	Herbiers aquatiques eau douce 	NA	ECCC	Martin Jean	Joannie Ferland	NA	2	NA	Contact via Joannie Ferland (CEGRIM)
+CV	Habitats floristiques et fauniques	Herbiers aquatiques eau douce 	NA	MELCC	NA	Joannie Ferland	NA	2	NA	Contact via Joannie Ferland (CEGRIM)
+CV	Habitats floristiques et fauniques	Banc laminaire	NA	MPO	Christine Desjardins	NA	NA	2	NA	NA
+CV	Habitats floristiques et fauniques	NA	Habitats côtiers et épipélagiques de l'estuaire et du golfe du St-Laurent - Base de données	MPO	Jean-Denis Dutil	NA	https://ouvert.canada.ca/data/fr/dataset/5edf2b99-1058-438a-a450-155e888a5390	3	NA	Données en main
+CV	Habitats floristiques et fauniques	Habitats benthiques	Habitats benthiques	MPO	Jean-Denis Dutil	NA	NA	3	NA	Données en main
+CV	Habitats floristiques et fauniques	NA	Indice de dégradation de l'habitat du poisson	MPO	NA	NA	NA	1	NA	Pas de données clairement énoncées, à rechercher.
+CV	Habitats floristiques et fauniques	NA	NA	MPO	Olivier Parent	NA	NA	2	NA	Pas de données clairement énoncées, à rechercher.
+CV	Habitats floristiques et fauniques	NA	Habitats de reproduction des poissons	AGHAMM	NA	NA	NA	1	NA	NA
+CV	Habitats floristiques et fauniques	Zone inondable	NA	MELCC	NA	Joannie Ferland	NA	1	NA	Contact via Joannie Ferland (CEGRIM)
+CV	Habitats floristiques et fauniques	NA	NA	ECCC	Isabelle Matteau	NA	NA	1	NA	Pas de données clairement énoncées, à rechercher.
+CV	Habitats floristiques et fauniques	NA	NA	NA	NA	NA	NA	1	NA	PIL: cartographié les zones sensibles entre Montréal et Anticosti.
+CV	Habitats floristiques et fauniques	NA	NA	MPO	NA	NA	NA	1	NA	MPO - Atlas du Programme de Protection du Poisson et de son Habitat. et aussi il y a toute l'information géoréférencée sur les projets soumis à la LP dans leur système de suivi des activités du programme de l'habitat (SAPH).
+CV	Habitats floristiques et fauniques	Infralittoral	NA	MPO	Christine Desjardins	NA	NA	1	NA	Cartographie très détaillée du littoral maritime du Québec où seront décrites notamment les zones d'abondance de plantes et d'algues marines qui constituent des habitats très importants pour de nombreuses espèces.
+CV	Habitats floristiques et fauniques	NA	NA	Kahnawake	NA	NA	NA	1	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites d'importance culturelle autochtones	NA	Nation Waban Aki	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites d'importance culturelle autochtones	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites d'importance culturelle autochtones	NA	Kahnawake	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques autochtones	NA	Nation Waban Aki	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques autochtones	NA	Nation huron wendat	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques autochtones	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques autochtones	NA	MCC	NA	NA	NA	1	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites patrimoniaux autochtones	NA	Nation Waban Aki	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites patrimoniaux autochtones	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites patrimoniaux autochtones	NA	Kahnawake	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites d'importance culturelle communautés locales	NA	NA	NA	NA	NA	1	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques communautés locales	NA	NA	NA	NA	NA	1	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites patrimoniaux communautés locales	NA	NA	NA	NA	NA	1	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Activités traditionnelles, spirituelles et culturelles	NA	Nation Waban Aki	NA	NA	NA	2	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Activités traditionnelles, spirituelles et culturelles	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Intégrité des berges	Exposition	NA	MELCC	NA	NA	NA	1	NA	NA
+CV	Intégrité des berges	Exposition	NA	MSP	NA	NA	NA	1	NA	NA
+CV	Intégrité des berges	Exposition	NA	UQAR	Pascal Bernatchez	Joannie Ferland	NA	2	NA	Avec les travaux du CEGRIM, nous travaillerons avec l'UQAR (P. Bernatchez) pour l'acquisition de ces données déjà collectées pour le suivi de l'érosion/submersion (Joannie Ferland)
+CV	Intégrité des berges	Taux d'érosion côtière	Cartographie de la plaine inondable sur 100 ans a été réalisée pour étudier l'érodabilité des berges	Kahnawake	NA	NA		2	NA	NA
+CV	Intégrité des berges	Taux d'érosion côtière	NA	Nation huron wendat	NA	NA		1	NA	NA
+CV	Intégrité des berges	Taux d'érosion côtière	Observations des membres de la Nation	GCNWA	NA	NA		1	NA	NA
+CV	Intégrité des berges	Taux d'érosion côtière	Étude provinciale sur l'érosion/inondations dans le tronçon fluvial 	Ouranos	Anne Blondlot	NA		2	NA	NA
+CV	Intégrité des berges	Taux d'érosion côtière	Projet Emphase	INRS	Damien Pham Van Bang	NA	http://lhe.ete.inrs.ca/en/emphase-project/	2	NA	NA
+CV	Intégrité des berges	Taux d'érosion côtière	NA	MELCC-UQAR-UL	Sarah Aubé-Michaud | Elisabeth Bussières	Joannie Ferland	NA	2	NA	Projet avec Patrick Lajeunesse et Pascal Bernatchez. Voir avec Joannie Ferland
+CV	Intégrité des berges	Apport sédimentaire	NA	MELCC-UQAR-UL	Sarah Aubé-Michaud | Elisabeth Bussières	Joannie Ferland	NA	2	NA	Projet avec Patrick Lajeunesse et Pascal Bernatchez. Voir avec Joannie Ferland
+CV	Intégrité des berges	Artificialisation côtière	NA	MELCC-UQAR-UL	Sarah Aubé-Michaud | Elisabeth Bussières	Joannie Ferland	NA	2	NA	Projet avec Patrick Lajeunesse et Pascal Bernatchez. Voir avec Joannie Ferland
+CV	Utilisation du territoire	Pêches traditionnelles	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Utilisation du territoire	Pêches traditionnelles	NA	GCNWA	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Pêches traditionnelles	NA	Kahnawake	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Pêches commerciales autochtones	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Utilisation du territoire	Chasse traditionnelle	NA	GCNWA	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Sites aquicoles	NA	MAPAQ	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Sites aquicoles	NA	AGHAMM	NA	NA	NA	2	NA	Atlas
+CV	Utilisation du territoire	Sites aquicoles	NA	SODIM	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Sites aquicoles	NA	Fermes marines du Québec	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Sites cueillette récréative mollusque	Ouvertures et fermetures de zones de cueillette de mollusques	MPO	NA	NA	https://www.dfo-mpo.gc.ca/shellfish-mollusques/closures-fermetures-fra.htm	2	NA	NA
+CV	Utilisation du territoire	Sites cueillette commerciale mollusque	NA	MPO	NA	NA	NA	2	NA	NA
+CV	Utilisation du territoire	Autres activités traditionnelles	NA	GCNWA	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	NA	ROMM	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	NA	GREMM	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	NA	MICS	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	Portrait de la navigation 2017 au parc marin (excursions, plaisance, transport maritime, kayak,...)	Parc Marin Saguenay Saint-Laurent	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	NA	MPO	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	NA	OGSL	NA	NA	https://ogsl.ca/bio/?lg=fr	2	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	Summary_incident_reports_marine_mammals_collision_entaglement.docx	NA	NA	NA	NA	1	NA	NA
+CV	Mammifères marins	Distribution ou occurrence	Rapport_AOM_1994_2015_Martins_2016.pdf	NA	NA	NA	NA	1	NA	NA
+CV	Mammifères marins	Habitats essentiels	NA	MPO	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Habitats essentiels	NA	MFFP	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Zones d'alimentation	NA	MPO	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Zones d'alimentation	NA	MFFP	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Rorqual bleu	Observations de rorqual bleu dans l'estuaire et le golfe du Saint-Laurent	MPO	NA	NA	https://ouvert.canada.ca/data/fr/dataset/d29def12-36f2-4518-8758-896d9fb1f40d	2	NA	NA
+CV	Mammifères marins	Rorqual bleu	Aires importantes d'alimentation, de recherche de nourriture et de migration des baleines bleues dans l'est du Canada	MPO	NA	NA	https://ouvert.canada.ca/data/fr/dataset/8fafd919-fcbe-43a3-a911-3d9461273441	2	NA	NA
+CV	Mammifères marins	Rorqual à bosse	Distribution générale des rorquals à bosse dans l'estuaire et le golfe du Saint-Laurent	MPO	NA	NA	https://ouvert.canada.ca/data/fr/dataset/8cf43e2b-f276-4fb7-8d3a-e20fecc618b4	2	NA	NA
+CV	Mammifères marins	Béluga	Habitat essentiel du béluga dans le Saguenay et l'estuaire du Saint-Laurent	MPO	NA	NA	https://ouvert.canada.ca/data/fr/dataset/fdfef550-b94c-466c-9dcb-24c297c00e3e	2	NA	NA
+CV	Mammifères marins	Béluga	La protection des habitats de la population de bélugas (Delphinapterus leucas) du Saint-Laurent : bilan et considérations sur les besoins de conservation	Parcs Canada	Nadia Ménard	NA	https://www.erudit.org/en/journals/natcan/1900-v1-n1-natcan03735/1047151ar/abstract/	2	NA	NA
+CV	Mammifères marins	Béluga	Documentation of Maritime Traffic and Navigational Interactions with St. Lawrence Estuary Beluga (Delphinaterus leucas) in Calving Areas Between 2003 and 2012	MPO	Nadia Ménard	NA	https://ponttadoussac.ca/wp-content/uploads/2015/03/belugastudy.pdf	2	NA	NA
+CV	Mammifères marins	Béluga	Caractérisation de l'utilisation de l'embouchure du Saguenay et de la baie Sainte-Marguerite par le béluga du Saint-Laurent et par le trafic maritime entre 2003 et 2016	Parcs Canada	NA	NA	http://pcacdn.azureedge.net/-/media/amnc-nmca/qc/saguenay/WET4/Publications-scientific/Conversano-et-al-2017Caractrisation-de-lutilisation-EMB-et-BSM.pdf	2	NA	NA
+CV	Mammifères marins	Phoque gris	NA	MPO	NA	NA	NA	2	NA	NA
+CV	Mammifères marins	Phoque commun	NA	MPO	NA	NA	NA	2	NA	NA

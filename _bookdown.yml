@@ -5,6 +5,8 @@ rmd_subdir:
   - "Contenu/Intro"
   - "Contenu/Portrait"
   - "Contenu/Stresseurs"
+  - "Contenu/ComposantesValorisees"
+  - "Contenu/Contacts"
   - "Contenu/Analyse"
   - "Contenu/Accronymes"
   - "Contenu/References"

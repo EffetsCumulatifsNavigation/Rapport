@@ -1,13 +1,8 @@
 ## Dragage
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime     | Sous-catégorie   | Description            | Unités |
-| :-------------------- | :--------------- | :--------------------- | :----- |
-| Dragage               | Zones de dragage | Localisation des sites de dragage | $m^3$ |
-|                       | Zones de dépôt   | et quantité de sédiments dragués  | |
+```{r}
+RenderData(type = 'Dragages')
+```
 
 
 ### Ressources identifiées

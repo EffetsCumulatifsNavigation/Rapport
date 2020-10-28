@@ -1,12 +1,8 @@
 ## Naufrages
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime       | Sous-catégorie   | Description            | Unités |
-| :---------------------- | :--------------- | :--------------------- | :----- |
-| Naufrages / Échouements | - | Localisation des évènements  | - |
+```{r}
+RenderData(type = 'Naufrages et échouements')
+```
 
 ### Ressources identifiées
 

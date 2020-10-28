@@ -1,12 +1,8 @@
 ## Pêches
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime     | Sous-catégorie   | Description            | Unités |
-| :-------------------- | :--------------- | :--------------------- | :----- |
-| Pêches  | Engins    | Journaux de bord + VMS | - |
+```{r}
+RenderData(type = 'Pêches')
+```
 
 ### Ressources identifiées
 

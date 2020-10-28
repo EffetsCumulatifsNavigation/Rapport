@@ -1,12 +1,8 @@
 ## Navigation
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime     | Sous-catégorie   | Description            | Unités |
-| :-------------------- | :--------------- | :--------------------- | :----- |
-| Navigation  | Types et tailles?    | Tracé des déplacements en navire et type de navire | Nombre de bateaux et volume |
+```{r}
+RenderData(type = 'Navigation')
+```
 
 
 ### Ressources identifiées

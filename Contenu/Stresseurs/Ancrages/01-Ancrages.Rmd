@@ -1,12 +1,8 @@
 ## Ancrages
 
-<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
-<img src="https://img.shields.io/badge/Zone-Marin-blue">
-
-
-| Activité maritime     | Sous-catégorie   | Description            | Unités |
-| :-------------------- | :--------------- | :--------------------- | :----- |
-| Ancrages              | - | Localisation des sites d'ancrage | - |
+```{r}
+RenderData(type = 'Ancrages')
+```
 
 ### Ressources identifiées
 

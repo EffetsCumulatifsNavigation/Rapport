@@ -1,0 +1,5 @@
+## Habitats floristiques et fauniques
+
+```{r}
+RenderData(type = 'Habitats floristiques et fauniques')
+```

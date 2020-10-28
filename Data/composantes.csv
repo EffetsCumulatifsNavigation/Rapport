@@ -1,0 +1,56 @@
+Composante	Categorie	SousCategorie	Zone	Description	Units	Commentaire
+Stresseurs	Ancrages	NA	3	Localisation des sites d'ancrage	NA	NA
+Stresseurs	Déversements accidentels	NA	3	Localisation et quantité	NA	NA
+Stresseurs	Dragages	Zones de dragage	3	Localisation et quantité	$m^3$	NA
+Stresseurs	Dragages	Zone de dépôt	3	Localisation et quantité	$m^3$	NA
+Stresseurs	Naufrages et échouements	NA	3	Localisation des évènements	NA	NA
+Stresseurs	Navigation	Types de bateaux et volumes	3	Intensité de la navigation par type de bateaux	NA	NA
+Stresseurs	Pêches	Types engins	3	Intensité des activités de pêche	NA	NA
+Stresseurs	Rejets opérationels	NA	3	Localisation et quantité	NA	NA
+CV	Qualité de l’eau	Turbidité	3	NA	NA	NA
+CV	Qualité de l’eau	Matière inorganique	3	NA	NA	NA
+CV	Qualité de l’eau	Température	3	NA	NA	NA
+CV	Qualité de l’eau	Nutriments	3	NA	NA	NA
+CV	Qualité de l’eau	Éléments toxiques	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Herbiers aquatiques eau douce	3	NA	NA	Émergeants et submergés
+CV	Habitats floristiques et fauniques	Zostères	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Milieux humides	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Côte rocheuse	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Banc laminaire	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Habitats benthiques	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Zone inondable	3	NA	NA	NA
+CV	Habitats floristiques et fauniques	Infralittoral	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites d’importance culturelle autochtones	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques autochtones	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites patrimoniaux autochtones	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites d’importance culturelle communautés locales	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites archéologiques communautés locales	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Sites patrimoniaux communautés locales	3	NA	NA	NA
+CV	Sites d'intérêt culturels, patrimoniaux et archéologiques	Activités traditionnelles, spirituelles et culturelles	3	NA	NA	NA
+CV	Intégrité des berges	Exposition	1	NA	NA	NA
+CV	Intégrité des berges	Taux d’érosion côtière	1	NA	NA	NA
+CV	Intégrité des berges	Apport sédimentaire	1	NA	NA	NA
+CV	Intégrité des berges	Artificialisation côtière	1	NA	NA	NA
+CV	Utilisation du territoire	Pêches sportives	3	NA	NA	NA
+CV	Utilisation du territoire	Pêches traditionnelles	3	NA	NA	NA
+CV	Utilisation du territoire	Pêches commerciales autochtones	3	NA	NA	NA
+CV	Utilisation du territoire	Accès publiques au plan d’eau	3	NA	NA	NA
+CV	Utilisation du territoire	Accès privés au plan d’eau	3	NA	NA	résidents et entreprises
+CV	Utilisation du territoire	Chasse sportive	3	NA	NA	chasse oiseaux, trappage rat musqué, etc
+CV	Utilisation du territoire	Chasse traditionnelle	3	NA	NA	chasse oiseaux, trappage rat musqué, etc
+CV	Utilisation du territoire	Sites aquicoles	3	NA	NA	NA
+CV	Utilisation du territoire	Sites cueillette récréative mollusque	3	NA	NA	mye, mactre, moule, couteau de l’Atlantique
+CV	Utilisation du territoire	Sites cueillette commerciale mollusque	3	NA	NA	mye, mactre, couteau de l’Atlantique
+CV	Utilisation du territoire	Activités touristiques	3	NA	NA	Zones d'observations des mammifères marins, circuit route bleu kayak, école voile, etc
+CV	Utilisation du territoire	Autres activités traditionnelles	3	NA	NA	déplacement, baignade, cueillette, etc
+CV	Mammifères marins	Distribution ou occurrence	2	NA	NA	NA
+CV	Mammifères marins	Habitats essentiels	2	NA	NA	NA
+CV	Mammifères marins	Zones d'alimentation	2	NA	NA	NA
+CV	Mammifères marins	Rorqual bleu	2	NA	NA	NA
+CV	Mammifères marins	Rorqual commun	2	NA	NA	NA
+CV	Mammifères marins	Rorqual à bosse	2	NA	NA	NA
+CV	Mammifères marins	Petit rorqual	2	NA	NA	NA
+CV	Mammifères marins	Béluga	2	NA	NA	NA
+CV	Mammifères marins	Marsouin commun	2	NA	NA	NA
+CV	Mammifères marins	Phoque gris	2	NA	NA	NA
+CV	Mammifères marins	Phoque commun	2	NA	NA	NA

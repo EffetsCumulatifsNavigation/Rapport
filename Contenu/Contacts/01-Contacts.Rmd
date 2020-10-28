@@ -1,0 +1,14 @@
+# Contacts
+
+## Liste de contacts
+
+```{r}
+RenderContacts()
+```
+
+
+## Liste de données par contacts
+
+```{r}
+RenderContactsData()
+```

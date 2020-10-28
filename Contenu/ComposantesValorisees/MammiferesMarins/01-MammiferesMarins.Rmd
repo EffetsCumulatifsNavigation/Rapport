@@ -1,0 +1,5 @@
+## Mammifères marins
+
+```{r}
+RenderData(type = 'Mammifères marins')
+```
