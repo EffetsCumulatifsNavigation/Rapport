@@ -3,11 +3,3 @@
 ```{r}
 RenderData(type = 'Naufrages et échouements')
 ```
-
-### Ressources identifiées
-
-- Bureau de la sécurité des transports du Canada (Incident; BST)
-  - *OP: Le BST recence tous les évènements maritime depuis 1995, incluant les échouements. Le tout est accessible en ligne.*
-  - [Données et statistiques sur les événements de transport maritime](https://www.tsb.gc.ca/fra/stats/marine/index.html)
-- Ministère de la Culture et des Communications (MCC)
-  - *Le MCC peut être une bonne source d'intervention au niveau de l'emplacement des épaves considérées comme sites archéologiques.*

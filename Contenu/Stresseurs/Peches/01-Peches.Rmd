@@ -3,9 +3,3 @@
 ```{r}
 RenderData(type = 'Pêches')
 ```
-
-### Ressources identifiées
-
-- MPO
-  - Julie Aucoin?
-  - Voir travaux de thèse

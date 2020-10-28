@@ -3,11 +3,3 @@
 ```{r}
 RenderData(type = 'Ancrages')
 ```
-
-### Ressources identifiées
-
-- Transport Canada (TC)
-  - Jeff Campagnola
-- Service hydrographique du Canada (SHC)
-- [Innovation maritime](https://www.innovationmaritime.ca/fr)
-  - Commentaire: *Nous pourrions fournir un portrait complet de l'utilisation des maillages (types de navire, temps de présence, période d'utilisation, évolution mensuelle/annuelle, etc.).*

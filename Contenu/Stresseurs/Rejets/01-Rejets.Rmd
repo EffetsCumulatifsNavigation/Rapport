@@ -3,14 +3,3 @@
 ```{r}
 RenderData(type = 'Rejets opérationels')
 ```
-
-
-### Ressources identifiées
-
-- GCC
-- BCU (?)
-- CEGRIM
-- Autre:
-  - registre des eaux huileuses --3 ans -- et eau grises
-  - portrait des eaux de ballast
-  - industrie (Caroline, Daniel et
