@@ -1,5 +1,5 @@
 book_filename: bookdown
-repo: https://github.com/EffetsCumulatifsNavigation/Methode
+repo: https://github.com/david-beauchesne/rapport
 output_dir: docs
 rmd_subdir:
   - "Contenu/Intro"
