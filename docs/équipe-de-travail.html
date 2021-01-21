@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>3 Équipe de travail | Effets cumulatifs des activités maritimes sur le Saint-Laurent et la rivière Saguenay – projet pilote</title>
   <meta name="description" content="3 Équipe de travail | Effets cumulatifs des activités maritimes sur le Saint-Laurent et la rivière Saguenay – projet pilote" />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
 
   <meta property="og:title" content="3 Équipe de travail | Effets cumulatifs des activités maritimes sur le Saint-Laurent et la rivière Saguenay – projet pilote" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="David Beauchesne, Cindy Grant, Philippe Archambault" />
 
 
-<meta name="date" content="2020-10-28" />
+<meta name="date" content="2021-01-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,6 +33,7 @@
   
 <link rel="prev" href="mandat.html"/>
 <link rel="next" href="démarche.html"/>
+<script src="libs/header-attrs-2.6.4/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -50,10 +51,51 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<script src="libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="libs/leaflet-providers-plugin-2.0.3/leaflet-providers-plugin.js"></script>
+<link href="libs/HomeButton-0.0.1/home-button.css" rel="stylesheet" />
+<script src="libs/HomeButton-0.0.1/home-button.js"></script>
+<script src="libs/HomeButton-0.0.1/easy-button-src.min.js"></script>
+<script src="libs/clipboard-0.0.1/setClipboardText.js"></script>
+<link href="libs/mapviewCSS-0.0.1/mapview-popup.css" rel="stylesheet" />
+<link href="libs/mapviewCSS-0.0.1/mapview.css" rel="stylesheet" />
 <script src="libs/kePrint-0.0.1/kePrint.js"></script>
 <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
@@ -72,7 +114,8 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Contexte</a></li>
-<li class="chapter" data-level="2" data-path="mandat.html"><a href="mandat.html"><i class="fa fa-check"></i><b>2</b> Mandat</a><ul>
+<li class="chapter" data-level="2" data-path="mandat.html"><a href="mandat.html"><i class="fa fa-check"></i><b>2</b> Mandat</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="mandat.html"><a href="mandat.html#description-des-besoins"><i class="fa fa-check"></i><b>2.1</b> Description des besoins</a></li>
 <li class="chapter" data-level="2.2" data-path="mandat.html"><a href="mandat.html#développement-de-la-méthodologie"><i class="fa fa-check"></i><b>2.2</b> Développement de la méthodologie</a></li>
 </ul></li>
@@ -81,13 +124,16 @@
 <li class="chapter" data-level="5" data-path="portee.html"><a href="portee.html"><i class="fa fa-check"></i><b>5</b> Portée</a></li>
 <li class="chapter" data-level="6" data-path="collecte-et-gestion-de-données.html"><a href="collecte-et-gestion-de-données.html"><i class="fa fa-check"></i><b>6</b> Collecte et gestion de données</a></li>
 <li class="chapter" data-level="7" data-path="calendrier.html"><a href="calendrier.html"><i class="fa fa-check"></i><b>7</b> Calendrier</a></li>
-<li class="chapter" data-level="8" data-path="portrait.html"><a href="portrait.html"><i class="fa fa-check"></i><b>8</b> Portrait de la zone d’étude</a><ul>
+<li class="chapter" data-level="8" data-path="portrait.html"><a href="portrait.html"><i class="fa fa-check"></i><b>8</b> Portrait de la zone d’étude</a>
+<ul>
 <li class="chapter" data-level="8.1" data-path="portrait.html"><a href="portrait.html#zone-détude"><i class="fa fa-check"></i><b>8.1</b> Zone d’étude</a></li>
 <li class="chapter" data-level="8.2" data-path="portrait.html"><a href="portrait.html#stress"><i class="fa fa-check"></i><b>8.2</b> Activités et facteurs de stress</a></li>
 <li class="chapter" data-level="8.3" data-path="portrait.html"><a href="portrait.html#cv"><i class="fa fa-check"></i><b>8.3</b> Composantes valorisées</a></li>
 <li class="chapter" data-level="8.4" data-path="portrait.html"><a href="portrait.html#vulnerabilite"><i class="fa fa-check"></i><b>8.4</b> Vulnérabilité</a></li>
+<li class="chapter" data-level="8.5" data-path="portrait.html"><a href="portrait.html#projets-connexes"><i class="fa fa-check"></i><b>8.5</b> Projets connexes</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html"><i class="fa fa-check"></i><b>9</b> Stresseurs environnementaux</a><ul>
+<li class="chapter" data-level="9" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html"><i class="fa fa-check"></i><b>9</b> Stresseurs environnementaux</a>
+<ul>
 <li class="chapter" data-level="9.1" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html#ancrages"><i class="fa fa-check"></i><b>9.1</b> Ancrages</a></li>
 <li class="chapter" data-level="9.2" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html#déversements-accidentels"><i class="fa fa-check"></i><b>9.2</b> Déversements accidentels</a></li>
 <li class="chapter" data-level="9.3" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html#dragage"><i class="fa fa-check"></i><b>9.3</b> Dragage</a></li>
@@ -96,7 +142,8 @@
 <li class="chapter" data-level="9.6" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html#pêches"><i class="fa fa-check"></i><b>9.6</b> Pêches</a></li>
 <li class="chapter" data-level="9.7" data-path="stresseurs-environnementaux.html"><a href="stresseurs-environnementaux.html#rejets-opérationels"><i class="fa fa-check"></i><b>9.7</b> Rejets opérationels</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html"><i class="fa fa-check"></i><b>10</b> Composantes valorisées</a><ul>
+<li class="chapter" data-level="10" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html"><i class="fa fa-check"></i><b>10</b> Composantes valorisées</a>
+<ul>
 <li class="chapter" data-level="10.1" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html#habitats-floristiques-et-fauniques"><i class="fa fa-check"></i><b>10.1</b> Habitats floristiques et fauniques</a></li>
 <li class="chapter" data-level="10.2" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html#intégrité-des-berges"><i class="fa fa-check"></i><b>10.2</b> Intégrité des berges</a></li>
 <li class="chapter" data-level="10.3" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html#mammifères-marins"><i class="fa fa-check"></i><b>10.3</b> Mammifères marins</a></li>
@@ -104,11 +151,13 @@
 <li class="chapter" data-level="10.5" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html#sites-dintérêt-culturels-patrimoniaux-et-archéologiques"><i class="fa fa-check"></i><b>10.5</b> Sites d’intérêt culturels, patrimoniaux et archéologiques</a></li>
 <li class="chapter" data-level="10.6" data-path="composantes-valorisées.html"><a href="composantes-valorisées.html#utilisation-du-territoire"><i class="fa fa-check"></i><b>10.6</b> Utilisation du territoire</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="contacts.html"><a href="contacts.html"><i class="fa fa-check"></i><b>11</b> Contacts</a><ul>
+<li class="chapter" data-level="11" data-path="contacts.html"><a href="contacts.html"><i class="fa fa-check"></i><b>11</b> Contacts</a>
+<ul>
 <li class="chapter" data-level="11.1" data-path="contacts.html"><a href="contacts.html#liste-de-contacts"><i class="fa fa-check"></i><b>11.1</b> Liste de contacts</a></li>
 <li class="chapter" data-level="11.2" data-path="contacts.html"><a href="contacts.html#liste-de-données-par-contacts"><i class="fa fa-check"></i><b>11.2</b> Liste de données par contacts</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="analyse.html"><a href="analyse.html"><i class="fa fa-check"></i><b>12</b> Analyse</a><ul>
+<li class="chapter" data-level="12" data-path="analyse.html"><a href="analyse.html"><i class="fa fa-check"></i><b>12</b> Analyse</a>
+<ul>
 <li class="chapter" data-level="12.1" data-path="analyse.html"><a href="analyse.html#ic"><i class="fa fa-check"></i><b>12.1</b> Méthode</a></li>
 <li class="chapter" data-level="12.2" data-path="analyse.html"><a href="analyse.html#répartition-spatiale-des-effets-cumulatifs"><i class="fa fa-check"></i><b>12.2</b> Répartition spatiale des effets cumulatifs</a></li>
 <li class="chapter" data-level="12.3" data-path="analyse.html"><a href="analyse.html#résultats-détaillés"><i class="fa fa-check"></i><b>12.3</b> Résultats détaillés</a></li>
@@ -135,7 +184,7 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="équipe-de-travail" class="section level1">
+<div id="équipe-de-travail" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Équipe de travail</h1>
 <p><a href="https://www.bio.ulaval.ca/departement-et-professeurs/professeurs-et-personnel/professeurs/fiche/show/archambault-philippe/" target="_blank">Philippe Archambault</a>
 agira à titre de gestionnaire de projet. Détenteur d’un doctorat en biologie (1998), il a d’abord été chercheur à Pêches et Océans Canada (2000-2007) puis professeur à l’Institut des sciences de la mer de l’Université du Québec à Rimouski (2007-2017). Depuis 2017, il est professeur à l’Université Laval. Alliant recherche fondamentale et théorique, Philippe étudie les effets de perturbations diverses (d’origine naturelle et anthropique) sur les écosystèmes depuis plus de 20 ans. Il a co-dirigé ou participé à de nombreux programmes de recherche axés sur la biodiversité benthique autant au niveau canadien qu’à l’international. Les résultats de ses travaux ont été utilisés, entre autres, pour le développement d’aires marines protégées et il est l’auteur/coauteur de &gt; 120 articles scientifiques revus par les pairs.</p>

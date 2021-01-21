@@ -3,3 +3,17 @@
 ```{r}
 RenderData(type = 'Mammifères marins')
 ```
+
+### Statut de la caractérisation
+
+Travail avec le ROMM pour obtenir une caractérisation de la distribution des mammifères marins dans la zone d'étude.
+
+Plan pour cette couche de données :
+
+- Plan A : Données issues du guide qui sera publié le 31 mars 2021
+  - Communications avec ROMM pour partage des données
+- Plan B : Données opportunistes du ROMM pour créer cartes de distributions des mammifères marins
+
+#### Mise à jour 2020-12-15 :
+
+Nous aurons accès aux données du Mariner's guide en février. Ce guide sera publié en mars, mais nous aurons accès aux données en février de notre côté. 

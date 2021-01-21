@@ -3,3 +3,8 @@
 ## Zone d'étude
 
 Description et figure de la zone d'étude
+
+```{r StudyArea}
+sa <- st_read('./Data/StudyArea/StudyArea.shp', quiet = TRUE)
+mapview(sa)
+```

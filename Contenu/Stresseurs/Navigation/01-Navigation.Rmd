@@ -1,5 +1,5 @@
 ## Navigation
 
-```{r}
+```{r navigation}
 RenderData(type = 'Navigation')
 ```

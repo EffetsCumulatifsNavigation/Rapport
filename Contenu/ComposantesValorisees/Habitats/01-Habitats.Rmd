@@ -3,3 +3,8 @@
 ```{r}
 RenderData(type = 'Habitats floristiques et fauniques')
 ```
+
+### Statut de la caractérisation
+
+- Données transférées par Marc Mingelbier
+- Discussions de laboratoire à prévoir début janvier

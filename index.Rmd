@@ -30,13 +30,27 @@ suppressWarnings(bookdown::render_book("index.Rmd", "bookdown::gitbook"))
 <img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
 -->
 
-```{r, setup, include=FALSE}
+
+```{r setup, include = FALSE, purl = FALSE}
 knitr::opts_chunk$set(
-  comment = '',
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE,
+  echo = FALSE,
   message = FALSE,
-  echo = FALSE
+  dev = "png",
+  dpi = 108,
+  fig.width = 8,
+  fig.height = 6,
+  fig.align = 'center',
+  width = 120
 )
 
+# Libraries
+library(sf)
+library(mapview)
+
+# Functions
 source('./Code/Functions/RenderTables.R')
 ```
 

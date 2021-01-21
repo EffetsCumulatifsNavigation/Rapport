@@ -66,7 +66,7 @@ RenderContactsData <- function() {
   library(tidyverse)
   library(kableExtra)
   dat <- read.table('./Data/data.csv', sep = '\t', header = TRUE, stringsAsFactors = FALSE, quote = "\"")
-  contact <- read.table('./Data/contacts.csv', sep = '\t', header = TRUE, stringsAsFactors = FALSE, quote = "\"")
+  contact <- read.table('./Data/contacts.csv', sep = ',', header = TRUE, stringsAsFactors = FALSE, quote = "\"")
   options(knitr.kable.NA = '')
 
 
@@ -85,7 +85,7 @@ RenderContacts <- function() {
   library(tidyverse)
   library(kableExtra)
   dat <- read.table('./Data/data.csv', sep = '\t', header = TRUE, stringsAsFactors = FALSE, quote = "\"")
-  contact <- read.table('./Data/contacts.csv', sep = '\t', header = TRUE, stringsAsFactors = FALSE, quote = "\"")
+  contact <- read.table('./Data/contacts.csv', sep = ',', header = TRUE, stringsAsFactors = FALSE, quote = "\"")
   options(knitr.kable.NA = '')
 
 

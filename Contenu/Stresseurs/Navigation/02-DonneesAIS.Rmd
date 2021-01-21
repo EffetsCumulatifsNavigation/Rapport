@@ -1,1 +1,10 @@
 ### Données AIS
+
+Ressources pertinentes:
+
+- [AIS MESSAGES](https://www.navcen.uscg.gov/?pageName=AISMessages)
+- [Marine cadastre](https://www.marinecadastre.gov/tools/)
+- [Track builder tutorial](https://coast.noaa.gov/data/digitalcoast/pdf/track-builder-tutorial.pdf)
+- [Marine regions](https://www.marineregions.org/gazetteer.php?p=details&id=62961)
+- [Diva-GIS](https://www.diva-gis.org/gdata)
+- [Marine Cadastre Track Builder](https://coast.noaa.gov/digitalcoast/tools/track-builder.html)
