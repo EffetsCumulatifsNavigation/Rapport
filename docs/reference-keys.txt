@@ -41,6 +41,7 @@ dragage
 naufrages
 navigation
 données-ais
+types-de-navires-disponibles
 pêches
 rejets-opérationels
 composantes-valorisées

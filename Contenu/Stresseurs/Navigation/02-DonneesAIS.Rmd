@@ -1,5 +1,23 @@
 ### Données AIS
 
+#### Types de navires disponibles
+
+| Types de navires         | Vessel types          |
+| :----------------------- | :-------------------- |
+| Cargo                    | Cargo                 |
+| Porte-conteneurs         | Containers            |
+| Cargaison sèche          | Dry bulk              |
+| Traversier / roulier     | Ferry / ro-ro         |
+| Pêche                    | Fishing               |
+| Gouvernement / recherche | Government / research |
+| Autres                   | Others                |
+| Passager                 | Passenger             |
+| Navires de plaisance     | Pleasure vessels      |
+| Navires spéciaux         | Special ships         |
+| Pétrolier                | Tanker                |
+| Remorqueur / port        | Tugboat / port        |
+
+
 Ressources pertinentes:
 
 - [AIS MESSAGES](https://www.navcen.uscg.gov/?pageName=AISMessages)
