@@ -26,3 +26,14 @@ Ressources pertinentes:
 - [Marine regions](https://www.marineregions.org/gazetteer.php?p=details&id=62961)
 - [Diva-GIS](https://www.diva-gis.org/gdata)
 - [Marine Cadastre Track Builder](https://coast.noaa.gov/digitalcoast/tools/track-builder.html)
+
+
+
+#### Data formatting
+
+Vessel tracks are built for each vessel with the following parameters:
+
+- Maximum distance between points: 50 miles
+- Maximum time between points: 300 minutes
+
+There are also messages (field = `Message_Type`) that are used to characterize vessel points in AIS data. See [here](https://www.navcen.uscg.gov/?pageName=AISMessages) for message description
