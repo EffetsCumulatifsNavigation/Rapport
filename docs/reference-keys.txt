@@ -127,6 +127,7 @@ fig:cumExpmammiferesmarins
 fig:cumExpsite
 fig:cumEffects
 fig:ceakm
+fig:metanetwork
 tab:stresscomp
 tab:cvcomp
 contexte
@@ -185,7 +186,6 @@ exposition-cumulée
 effets-cumulatifs
 distribution-spatiale
 contribution-régionale
-chemins-dexposition
 chemins-deffet
 discussion-générale
 limites-et-lacunes
