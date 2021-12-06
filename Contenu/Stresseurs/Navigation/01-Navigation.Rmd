@@ -1,5 +1,0 @@
-## Navigation
-
-```{r navigation}
-RenderData(type = 'Navigation')
-```

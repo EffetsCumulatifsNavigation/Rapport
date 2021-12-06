@@ -1,5 +1,0 @@
-## Pêches
-
-```{r}
-RenderData(type = 'Pêches')
-```

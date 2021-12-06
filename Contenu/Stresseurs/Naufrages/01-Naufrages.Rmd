@@ -1,5 +1,0 @@
-## Naufrages
-
-```{r}
-RenderData(type = 'Naufrages et échouements')
-```

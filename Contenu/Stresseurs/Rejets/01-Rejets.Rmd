@@ -1,5 +1,0 @@
-## Rejets opérationels
-
-```{r}
-RenderData(type = 'Rejets opérationels')
-```

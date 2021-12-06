@@ -1,5 +1,0 @@
-## Dragage
-
-```{r}
-RenderData(type = 'Dragages')
-```

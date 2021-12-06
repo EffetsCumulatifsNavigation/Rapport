@@ -1,5 +1,0 @@
-## Ancrages
-
-```{r}
-RenderData(type = 'Ancrages')
-```

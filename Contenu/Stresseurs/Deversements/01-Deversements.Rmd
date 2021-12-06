@@ -1,5 +1,0 @@
-## Déversements accidentels
-
-```{r}
-RenderData(type = 'Déversements accidentels')
-```

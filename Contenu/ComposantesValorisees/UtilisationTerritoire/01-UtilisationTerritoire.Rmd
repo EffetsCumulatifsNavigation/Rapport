@@ -1,5 +1,0 @@
-## Utilisation du territoire
-
-```{r}
-RenderData(type = "Utilisation du territoire")
-```
