@@ -117,6 +117,7 @@ fig:cumExpNorm
 fig:cumExpberge
 fig:cumEffects
 fig:ceakm
+fig:regionadmin
 fig:metanetwork
 tab:stresscomp
 tab:cvcomp
@@ -176,6 +177,7 @@ exposition-cumulée
 effets-cumulatifs
 distribution-spatiale
 contribution-régionale
+régions-administratives
 chemins-deffet
 discussion-générale
 limites-et-lacunes
