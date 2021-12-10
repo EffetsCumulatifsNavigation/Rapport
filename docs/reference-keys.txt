@@ -84,6 +84,17 @@ fig:essipitculturepatrimoine
 fig:essipitpechecommerciale
 fig:essipitpechetraditionnelle
 fig:essipittourisme
+fig:gcnwaanimauxfourrure
+fig:gcnwacueillettecollecte
+fig:gcnwagibier
+fig:gcnwaoiseauxmigrateurs
+fig:gcnwaproblemesterritoire
+fig:gcnwasitesarcheologiques
+fig:gcnwasitescoucher
+fig:gcnwasitesculturels
+fig:gcnwasitesessentiels
+fig:gcnwasitespotentielarcheologique
+fig:gcnwazonesactivites
 fig:huronnewendatactiviterecreative
 fig:huronnewendatarcheologie
 fig:huronnewendatchasse
@@ -160,6 +171,7 @@ qualité-de-leau
 sites-dintérêt-culturels-patrimoniaux-et-archéologiques
 aghamm
 essipit
+gcnwa
 kahnawake
 public
 wolastoqiyik-wahsipekuk---pêche-traditionnelle
