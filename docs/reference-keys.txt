@@ -183,6 +183,7 @@ sites-dimportance-pour-les-espèces-fauniques-et-floristiques
 mammifères-marins-1
 sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1
 résultats
+transformation-et-normalisation-des-stresseurs-environnementaux
 stresseurs-cumulés
 composantes-valorisées-cumulées
 exposition-cumulée
