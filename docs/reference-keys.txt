@@ -127,8 +127,10 @@ fig:cumExp
 fig:cumExpNorm
 fig:cumExpberge
 fig:cumEffects
-fig:ceakm
+fig:cumEffectsPanel
 fig:regionadmin
+fig:regionadminpanel
+fig:ceakm
 fig:metanetwork
 tab:stresscomp
 tab:cvcomp
@@ -189,8 +191,8 @@ composantes-valorisées-cumulées
 exposition-cumulée
 effets-cumulatifs
 distribution-spatiale
-contribution-régionale
 régions-administratives
+contribution-régionale
 chemins-deffet
 discussion-générale
 limites-et-lacunes
