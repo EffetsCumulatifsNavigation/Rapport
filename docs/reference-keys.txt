@@ -187,9 +187,11 @@ sites-dimportance-pour-les-espèces-fauniques-et-floristiques
 mammifères-marins-1
 sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1
 évaluation-des-effets-cumulatifs
+effets-cumulatifs
 méthode
-résultats
 transformation-et-normalisation-des-stresseurs-environnementaux
+diagnostic
+résultats
 stresseurs-cumulés
 composantes-valorisées-cumulées
 exposition-cumulée
@@ -199,6 +201,5 @@ chemins-deffet
 contribution-régionale
 discussion-générale
 limites-et-lacunes
-perspectives-et-prochaines-étapes
-bruit-maritime
+perspectives
 annexes
