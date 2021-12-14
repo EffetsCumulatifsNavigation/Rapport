@@ -147,9 +147,8 @@ activités-maritimes-et-facteurs-de-stress
 composantes-valorisées
 portrait-de-la-zone-détude
 collecte-et-gestion-des-données
-collecte
+collecte-des-données
 gestion-des-données-et-reproductibilité
-gestion-des-données-et-reproductibilité-1
 stresseurs-environnementaux
 ancrages
 déversements-accidentels
