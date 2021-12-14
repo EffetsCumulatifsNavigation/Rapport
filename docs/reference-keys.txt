@@ -1,4 +1,7 @@
 fig:icfig
+fig:aoi
+tab:activitestress
+tab:composantevalorisees
 fig:ancrage
 tab:deversementGen
 tab:deversementlvl
@@ -137,13 +140,13 @@ tab:cvcomp
 contexte
 introduction
 démarche
-objectifs-de-létude
 évaluation-des-effets-cumulatifs
 méthode
 portee
-zone-détude
-stress
-cv
+objectifs
+limites-spatiales-et-temporelles
+activités-maritimes-et-facteurs-de-stress
+composantes-valorisées
 collecte-et-gestion-des-données
 collecte
 gestion-des-données-et-reproductibilité
@@ -157,7 +160,7 @@ navigation
 pêche-commerciale
 pollution-marine
 rejets-opérationels
-composantes-valorisées
+composantes-valorisées-1
 intégrité-des-berges
 habitats-floristiques-et-fauniques
 espèces-à-statut
