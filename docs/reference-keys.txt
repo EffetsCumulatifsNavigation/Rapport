@@ -37,6 +37,7 @@ fig:DNL
 fig:PHB
 fig:PLB
 fig:pollutionmaritime
+tab:cv
 tab:bergeCat
 fig:artificiellesemivegetalisee
 fig:artificiellevive
