@@ -1,6 +1,7 @@
 fig:aoi
 tab:activitestress
 tab:composantevalorisees
+tab:stress
 fig:ancrage
 tab:deversementGen
 tab:deversementlvl

@@ -217,7 +217,7 @@ div.csl-indent {
 <div id="gestion-des-données-et-reproductibilité" class="section level3" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> Gestion des données et reproductibilité</h3>
 <p>La gestion des bases de données visait à assurer la transparence et la reproductibilité de l’évaluation des effets cumualtifs. Nous basons notre approche sur les principes <a href="https://ogsl.ca/fr/principes-fair" target="_blank"><i>FAIR</i></a> (Findable, Accessible, Interoperable, Reusable), qui visent à s’assurer que les données utilisées soient découvrables, accessibles, interopérables et réutilisables. Nous utilisons ainsi des outils de programmations, notamment le langage <a href="https://www.r-project.org/" target="_blank"><i>R</i></a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. L’utilisation d’outils de programmation, à l’instar de logiciels comme <a href="https://www.arcgis.com/index.html" target="_blank"><i>ArcGIS</i></a><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, offre plusieurs avantages. Ils offrent une grande souplesse permettant l’intégration de changements ou de nouvelles considérations très rapidement sans devoir refaire plusieurs étapes d’un processus complexe. Cette souplesse ne se limite pas aux analyses, puisque l’ensemble des étapes d’un projet, de l’intégration des données brutes à la production de rapports, peuvent être intégrées et ainsi facilement modifiées. Il devient alors aisé d’intégrer des commentaires ou de nouvelles recommandations suite à des processus de mobilisation, par exemple.</p>
-<p>Nous utiliserons également <a href="https://github.com/" target="_blank"><i>GitHub</i></a><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, un outil de contrôle de version qui permettra la documentation, le contrôle de la qualité et l’historique du développements et des modifications des éléments de programmation pertinents à l’ensemble du projet. Nous avons créé une organisation nommée <a href="https://github.com/EffetsCumulatifsNavigation" target="_blank"><i>EffetsCumulatifsNavigation</i></a>. L’ensemble des rapports rédigés et des séminaires offerts pendant le projet pilote y sont disponibles. Un dépôt intitulé <a href="https://github.com/EffetsCumulatifsNavigation/ceanav" target="_blank"><i>ceanav</i></a> constitue le coeur de l’évaluation; ce dernier contient l’ensemble des ressources permettant d’accéder aux données brutes et de les transformer. Il contient également le code permettant de caractériser les stresseurs environnementaux et les composantes valorisées, d’effectuer les analyses, les figures, les tableaux et le rapport final.</p>
+<p>Nous avons également utilisé <a href="https://github.com/" target="_blank"><i>GitHub</i></a><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, un outil de contrôle de version qui permettra la documentation, le contrôle de la qualité et l’historique du développements et des modifications des éléments de programmation pertinents à l’ensemble du projet. Nous avons créé une organisation nommée <a href="https://github.com/EffetsCumulatifsNavigation" target="_blank"><i>EffetsCumulatifsNavigation</i></a>. L’ensemble des rapports rédigés et des séminaires offerts pendant le projet pilote y sont disponibles. Un dépôt intitulé <a href="https://github.com/EffetsCumulatifsNavigation/ceanav" target="_blank"><i>ceanav</i></a> constitue le coeur de l’évaluation; ce dernier contient l’ensemble des ressources permettant d’accéder aux données brutes et de les transformer. Il contient également le code permettant de caractériser les stresseurs environnementaux et les composantes valorisées, d’effectuer les analyses, les figures, les tableaux et le rapport final.</p>
 <p>Seules les données à nature sensibles pour lesquelles des ententes de confidentialité ont été signées demeurent inaccessibles; ces dernières sont toutefois cataloguées au sein du rapport et des documents accompagnateurs afin qu’un utilisateur ou un lecteur puisse connaître le type et la provenance des données utilisées au sein des analyses, ainsi que les personnes ressources à contacter en vue d’obtenir davantage d’informations sur les données utilisées. À cet égard, le portrait identifie explicitement l’ensemble des données brutes ayant été utilisées pour effectuer le portrait des stresseurs environnementaux et des composantes valorisées. Un identifiant unique attribué à chaque base de données peut également être retrouvé sur chaque figures du portrait au coin inférieur droit. Cet identifiant unique peut être retrouvé au sein de l’Annexe 2, qui présente l’ensemble des données qui ont été considérées pour ce projet pilote.</p>
 <p>Les données intégrées au sein de la grille d’étude et permettant d’effectuer l’évaluation des effets cumulatifs sont quant à elles ouvertement disponibles à travers le dépôt principal du projet pilote <a href="https://github.com/EffetsCumulatifsNavigation/ceanav" target="_blank"><i>ceanav</i></a>; nous travaillons également avec l’OGSL afin de les rendre disponibles sur leur portail.</p>
 
@@ -225,8 +225,216 @@ div.csl-indent {
 </div>
 <div id="stresseurs-environnementaux" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> Stresseurs environnementaux</h2>
-<p>La répartition spatiale et l’intensité de chaque facteur de stress seront caractérisées individuellement. Par exemple, les déplacements des embarcations pourraient être caractérisés en utilisant les tracés de navigation et les types de navires; les activités de dragage pourraient être caractérisées selon la quantité totale de sédiments dragués (c.-à-d. enlevés d’un site ou déposés dans un autre). En fait, les données et approches spécifiques utilisées dépendront de la qualité et de la disponibilité des données existantes. Au terme de la caractérisation individuelle des facteurs de stress, ils seront colligés au sein d’une base de données pouvant être croisée à la <a href="#cv">caractérisation des composantes valorisées</a>. Ces deux bases de données permettront l’analyse des effets cumulatifs des facteurs de stress sur les composantes valorisées dans la zone d’étude.</p>
-<p>Les stresseurs environnementaux issus d’activités humaines sont typiquement caractérisés en utilisant l’empreinte des activités elles-mêmes comme indice d’intensité des stresseurs <span class="citation">(<em>e.g.</em> <a href="#ref-halpern2019" role="doc-biblioref"><strong>halpern2019?</strong></a>; <a href="#ref-beauchesne2020" role="doc-biblioref"><strong>beauchesne2020?</strong></a>)</span>. En tant que tel, le travail de caractérisation des stresseurs environnementaux dans la zone d’étude visaient une caractérisation directe des activités maritimes.</p>
+<p>Dans le cadre d’évaluation d’effets cumulatifs, les stresseurs environnementaux issus d’activités humaines sont typiquement caractérisés en utilisant l’empreinte des activités elles-mêmes comme indice d’intensité des stresseurs <span class="citation">(<em>e.g.</em> <a href="#ref-halpern2019" role="doc-biblioref"><strong>halpern2019?</strong></a>; <a href="#ref-beauchesne2020" role="doc-biblioref"><strong>beauchesne2020?</strong></a>)</span>. En tant que tel, le travail de caractérisation des stresseurs environnementaux dans la zone d’étude visait une caractérisation directe des activités maritimes. De plus, chaque activité maritime est caractérisée par une empreinte unique et nécessite une approche appropriée afin de convenablement en capturer l’intensité et la distribution. Par exemple, une méthode pour caractériser la navigation ne serait pas appropriée pour caractériser les activités de dragage. Des approches individuelles ont ainsi été utilisées afin de caractériser les différents stresseurs environnementaux convenablement.</p>
+<p>De plus, certains stresseurs environnementaux peuvent être divisés en sous-catégories ayant une empreinte spatiale différente ou des effets différents sur les composantes valorisées. Par exemple, les traversiers n’utilisent pas les mêmes routes de navigation que les pétroliers, et la pêche au chalut n’affecte pas les écosystèmes de la même façon que la pêche au filet maillant. Nous avons ainsi divisé certains stresseurs en sous-catégories. Il en résulte un total de 26 catégories de stresseurs parmi les 7 stresseurs environnementaux considérés pour l’évaluation des effets cumulatis (Tableau <a href="portrait-de-la-zone-détude.html#tab:stress">4.1</a>). Les sections suivantes présentent les données, les méthodes et les résultats de l’intégration des données ayant permi la caractérisation des stresseurs environnementaux dans la zone d’étude.</p>
+<p><br/></p>
+<table>
+<caption>
+<span id="tab:stress">Tableau 4.1: </span>Liste des sous-catégoriess de stresseurs environnementaux considérés pour l’évaluation des effets cumulatifs de la navigation dans le Saint-Laurent et le Saguenay.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Stresseurs environnementaux
+</th>
+<th style="text-align:left;">
+Sous-catégories
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;border-bottom: 2px solid">
+Ancrage
+</td>
+<td style="text-align:left;border-bottom: 2px solid">
+Sites d’ancrage de navires
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Déversements accidentels
+</td>
+<td style="text-align:left;">
+Hydrocarbures
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Autres
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-bottom: 2px solid">
+</td>
+<td style="text-align:left;border-bottom: 2px solid">
+Contenu inconnu
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Dragage
+</td>
+<td style="text-align:left;">
+Sites de dragage
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Sites de dépôts
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-bottom: 2px solid">
+</td>
+<td style="text-align:left;border-bottom: 2px solid">
+Dragages de capitalisation prévus
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-bottom: 2px solid">
+Naufrage
+</td>
+<td style="text-align:left;border-bottom: 2px solid">
+Sites de naufrages répertoriés
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Navigation
+</td>
+<td style="text-align:left;">
+Cargo
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Porte-conteneurs
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Cargaison sèche
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Traversier / roulier
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Gouvernement / recherche
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Observation mammifères marins
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Passager
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Navires de plaisance
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Navires spéciaux
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Pétrolier
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Remorqueur / port
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-bottom: 2px solid">
+</td>
+<td style="text-align:left;border-bottom: 2px solid">
+Navigation portuaire
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pêche commerciale
+</td>
+<td style="text-align:left;">
+Démersale destructive
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Démersale non-destructive, prises accessoires faibles
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Démersale non-destructive, prises accessoires élevées
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Pélagique prises accessoires faibles
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-bottom: 2px solid">
+</td>
+<td style="text-align:left;border-bottom: 2px solid">
+Pélagique prises accessoires élevées
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pollution maritime
+</td>
+<td style="text-align:left;">
+Pollution maritime
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
 
 <div id="ancrages" class="section level3" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> Ancrages</h3>
@@ -246,11 +454,11 @@ Figure 4.1: Distribution des sites d’ancrage de navires dans le Saint-Laurent 
 <div id="déversements-accidentels" class="section level3" number="4.2.2">
 <h3><span class="header-section-number">4.2.2</span> Déversements accidentels</h3>
 <p>Les déversements accidentels ont été caractérisés à l’aide d’un inventaire des incidents de déversements maritimes provenant de la Garde Côtière Canadienne <span class="citation">(<a href="#ref-gcc2020" role="doc-biblioref"><strong>gcc2020?</strong></a>)</span>. Cet inventaire fournit la localisation de déversements accidentels en milieu maritime pour la période de 2016 à 2020. Un total de 185 déversements accidentels y sont répertoriés pour la zone d’étude.</p>
-<p>Chaque déversement est caractérisé selon son contenu et regroupé en trois groupes distincts : hydrocarbures (<em>e.g.</em> essence, diésel, propane), autres (<em>e.g.</em> eau de ballast, eaux usées, matière organique) et les déversements dont le contenu est inconnu (Tableau <a href="portrait-de-la-zone-détude.html#tab:deversementGen">4.1</a>). Les déversements sont également catégorisés selon le volume de contaminant déversé en litres (Tableau <a href="portrait-de-la-zone-détude.html#tab:deversementlvl">4.2</a>).</p>
+<p>Chaque déversement est caractérisé selon son contenu et regroupé en trois groupes distincts : hydrocarbures (<em>e.g.</em> essence, diésel, propane), autres (<em>e.g.</em> eau de ballast, eaux usées, matière organique) et les déversements dont le contenu est inconnu (Tableau <a href="portrait-de-la-zone-détude.html#tab:deversementGen">4.2</a>). Les déversements sont également catégorisés selon le volume de contaminant déversé en litres (Tableau <a href="portrait-de-la-zone-détude.html#tab:deversementlvl">4.3</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:deversementGen">Tableau 4.1: </span>Catégories et nombre de déversements accidentels répertoriés dans le Saint-Laurent et le Saguenay entre 2016 et 2020 <span class="citation">(<a href="#ref-gcc2020" role="doc-biblioref"><strong>gcc2020?</strong></a>)</span>.
+<span id="tab:deversementGen">Tableau 4.2: </span>Catégories et nombre de déversements accidentels répertoriés dans le Saint-Laurent et le Saguenay entre 2016 et 2020 <span class="citation">(<a href="#ref-gcc2020" role="doc-biblioref"><strong>gcc2020?</strong></a>)</span>.
 </caption>
 <thead>
 <tr>
@@ -305,7 +513,7 @@ Contenu inconnu
 <p><br/></p>
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
 <caption>
-<span id="tab:deversementlvl">Tableau 4.2: </span>Catégories de volumes déversés et nombre de déversements accidentels répertoriés dans le Saint-Laurent et le Saguenay entre 2016 et 2020 <span class="citation">(<a href="#ref-gcc2020" role="doc-biblioref"><strong>gcc2020?</strong></a>)</span>.
+<span id="tab:deversementlvl">Tableau 4.3: </span>Catégories de volumes déversés et nombre de déversements accidentels répertoriés dans le Saint-Laurent et le Saguenay entre 2016 et 2020 <span class="citation">(<a href="#ref-gcc2020" role="doc-biblioref"><strong>gcc2020?</strong></a>)</span>.
 </caption>
 <thead>
 <tr>
@@ -374,7 +582,7 @@ S6: J. Xu, R. Lathrop, International Journal of Geographic Information Science 9
 153 (1995).
 -->
 <p>Puisque les déversements accidentels ont un effet qui va au-delà de la localisation immédiate des incidents dû à la diffusion du déversement dans l’environnement, la première étape de caractérisation de l’intensité des déversements accidentels était d’établir une zone d’influence potentielle pour chaque incident. Nous avons opté pour un modèle diffusif passif pour établir la zone d’influence et l’intensité relative des déversements accidentels dans la zone d’étude <span class="citation">(voir <a href="#ref-halpern2008" role="doc-biblioref"><strong>halpern2008?</strong></a>)</span>.</p>
-<p>Le modèle de diffusion établi la zone d’influence des déversements en construisant des anneaux concentriques d’un rayon de 10 <span class="math inline">\(m\)</span> centrés sur le site de l’incident. Une valeur initiale égale à la catégorie du volume rapporté de l’incident est assignée à l’anneau central et représente l’intensité relative de l’incident sur le milieu. Par exemple, une valeur initiale de 2 était assignée à un déversement de 0 à 100 litres (Tableau <a href="portrait-de-la-zone-détude.html#tab:deversementlvl">4.2</a>). Par principe de précaution, une valeur initiale de 2 a également été attribuée aux 63 incidents dont le volumes était inconnu. Une valeur est ensuite assignée successivement aux anneaux adjacents selon une fonction de décroissance de 2% de la valeur de l’anneau précédent, jusqu’à ce qu’un seul minimal de 0.05% du maximum global – 3 dans notre cas – soit atteint. Cette approche assume ainsi une diminution linéaire de l’influence des incidents sur le milieu jusqu’à un rayon maximal d’influence d’environ 3 <span class="math inline">\(km\)</span> selon la sévérité du déversement.</p>
+<p>Le modèle de diffusion établi la zone d’influence des déversements en construisant des anneaux concentriques d’un rayon de 10 <span class="math inline">\(m\)</span> centrés sur le site de l’incident. Une valeur initiale égale à la catégorie du volume rapporté de l’incident est assignée à l’anneau central et représente l’intensité relative de l’incident sur le milieu. Par exemple, une valeur initiale de 2 était assignée à un déversement de 0 à 100 litres (Tableau <a href="portrait-de-la-zone-détude.html#tab:deversementlvl">4.3</a>). Par principe de précaution, une valeur initiale de 2 a également été attribuée aux 63 incidents dont le volumes était inconnu. Une valeur est ensuite assignée successivement aux anneaux adjacents selon une fonction de décroissance de 2% de la valeur de l’anneau précédent, jusqu’à ce qu’un seul minimal de 0.05% du maximum global – 3 dans notre cas – soit atteint. Cette approche assume ainsi une diminution linéaire de l’influence des incidents sur le milieu jusqu’à un rayon maximal d’influence d’environ 3 <span class="math inline">\(km\)</span> selon la sévérité du déversement.</p>
 <p>L’intensité et la distribution spatiale des déversements accidentels dans la zone d’étude a été évaluée en distribuant les valeurs d’intensités relative modélisées par le modèle diffusif au sein de la grille d’étude de 1 <span class="math inline">\(km^2\)</span>. Pour chaque anneau concentrique modélisé, nous avons multiplié la valeur d’intensité au sein de chaque cellule <span class="math inline">\(j\)</span> de la grille d’étude par la proportion de la superficie de l’anneau qui intersectait une cellule <span class="math inline">\(j\)</span>:</p>
 <p><span class="math display">\[I_{déversement,j} = \sum_{k=1}^{n_j} I_{tot, k} * \frac{A_{j,k}}{A_{tot,k}}\]</span></p>
 <p>où <span class="math inline">\(j\)</span> est une cellule de la grille d’étude, <span class="math inline">\(k\)</span> est un anneau concentrique modélisé, <span class="math inline">\(I_{tot}\)</span> est l’intensité relative prédite au sein de l’anneau <span class="math inline">\(k\)</span>, <span class="math inline">\(A\)</span> est la superficie de l’anneau concentrique <span class="math inline">\(k\)</span> qui intersecte une cellule <span class="math inline">\(j\)</span> et <span class="math inline">\(A_{tot}\)</span> est la superficie totale de l’anneau concentrique <span class="math inline">\(k\)</span>. Puisque les valeurs d’intensité correspondent à des catégories de volumes plutôt qu’à une quantité continue, les résultats de ce modèle diffusif sont relatifs et sans unités.</p>
@@ -420,12 +628,12 @@ Figure 4.4: Distribution et intensité des déversement accidentels dans le Sain
 <p>La voie navigable du Saint-Laurent a historiquement été draguée partout où la profondeur naturelle ne permettrait pas le passage sécuritaire des bateaux. Entre Montréal et Cap Gribane, la voie navigable est d’une longueur totale d’environ 340 km et elle a été artificialisée sur une longueur d’environ 210 km afin d’y assurer une navigation sécuriaire <span class="citation">(<a href="#ref-ghb2019" role="doc-biblioref"><strong>ghb2019?</strong></a>)</span>. La voie navigable a été appronfondie et élargie à travers le temps, principalement en raison de l’accroissement de la taille des navires et de l’augmentation du trafic maritime. Une caractérisation historique des activités de dragage de capitalisation – <em>i.e.</em> dragage visant à approfondir et élargir la voie de navigation – de la voie navigable du Saint-Laurent est décrite par <span class="citation">(<a href="#ref-cote2007" role="doc-biblioref"><strong>cote2007?</strong></a>)</span>. Certaines portions de la voie navigable doivent également être draguées à intervalles réguliers – <em>i.e.</em> dragages d’entretien – dû à la dynamique sédimentaire des milieux. Il en est de même pour certaines installations portuaires bordant le Saint-Laurent et le Saguenay, qui doivent s’assurer de la sécurité de leurs installations pour les navires.</p>
 <p>Dans le cadre de cette étude, les activités de dragage contemporaines pour la période de 2001 à 2020 ont été caractérisées. La majorité des données de volumes dragués et déposés provient d’un exercice de compilation des activités de dragages dans l’ensemble du Saint-Laurent <span class="citation">(<a href="#ref-mtq2016" role="doc-biblioref"><strong>mtq2016?</strong></a>; <a href="#ref-mtq2017" role="doc-biblioref"><strong>mtq2017?</strong></a>; <a href="#ref-eccc2020" role="doc-biblioref"><strong>eccc2020?</strong></a>)</span>. Ces données ont été complémentées par des données de dragage disponibles au sein d’un rapport d’évaluation des effets environnementaux du dragage pour la voie navigable du Saint-Laurent <span class="citation">(<a href="references.html#ref-ghd2019" role="doc-biblioref">GHD 2019</a>)</span>. Les activités de dragage pour le Port de Québec ont quant à elle été caractérisés grâce à des échanges avec une représentante du Port de Québec (Marie-Ève Lemieux, communications personnelles). Finalement, divers rapports on été utilisés afin de caractériser les activités de dragages d’entretien du Port Alfred <span class="citation">(<a href="#ref-englobe2016" role="doc-biblioref"><strong>englobe2016?</strong></a>; <a href="#ref-englobw2017" role="doc-biblioref"><strong>englobw2017?</strong></a>; <a href="#ref-melcc2019" role="doc-biblioref"><strong>melcc2019?</strong></a>)</span>, et les activités de dragages de capitalisation prévues pour le Port de Montréal à Contrecoeur <span class="citation">(<a href="#ref-snclavalin2017a" role="doc-biblioref"><strong>snclavalin2017a?</strong></a>; <a href="#ref-snclavalin2017b" role="doc-biblioref"><strong>snclavalin2017b?</strong></a>; <a href="#ref-iaac2021" role="doc-biblioref"><strong>iaac2021?</strong></a>)</span> et pour le Port de Trois-Rivière <span class="citation">(<a href="#ref-stantec2015" role="doc-biblioref"><strong>stantec2015?</strong></a>)</span>.</p>
 <p>Les volumes relevés ont ensuite été rapportés sur les sites de dragage et de dépôt. Lorsque fournies au sein des rapports, les coordonnées délimitant les sites visés ont été utilisés. Lorsqu’une coordonnée unique représentant le centroïde des sites visés était disponible sans information supplémentaire sur la localisation exacte de l’activité, une zone d’un rayon de 100 <span class="math inline">\(m\)</span> a été tracée afin de représenter la zone de dragage ou de dépôt. Lorsque la localisation était décrite, ou qu’une figure était disponible au sein de rapports détaillés, les zones de dragage et de dépôt ont été géoréférencées manuellement. La localisation des sites de dragages et de dépôts utilisées pour le dragage de la voie navigable du Saint-Laurent proviennent d’une base de données fournie par la Garde Côtière Canadienne <span class="citation">(<a href="#ref-gcc2021" role="doc-biblioref"><strong>gcc2021?</strong></a>)</span>.</p>
-<p>Les sites de dragage et les sites de dépôts de sédiments dragués ont été caractérisés en fonction du volume total dragué en <span class="math inline">\(m^3\)</span> pendant la période visée (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageGen">4.3</a>). Un total de 36 sites de dragage (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageSite">4.4</a>) et 27 sites de dépôt (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageDepot">4.5</a>) ont été caractérisés au sein de la zone d’étude. Il faut noter que les volumes totaux dragués ne correspondent pas aux volumes totaux déposés puisque certains sites de dépôt se retrouvent en milieu terrestres; ces derniers n’ont ainsi pas été comptabilisés pour la présente étude.</p>
-<p>Des projets d’expansions portuaire pour le Port de Montréal à Contrecoeur <span class="citation">(<a href="#ref-snclavalin2017a" role="doc-biblioref"><strong>snclavalin2017a?</strong></a>; <a href="#ref-snclavalin2017b" role="doc-biblioref"><strong>snclavalin2017b?</strong></a>; <a href="#ref-iaac2021" role="doc-biblioref"><strong>iaac2021?</strong></a>)</span> et pour le Port de Trois-Rivière <span class="citation">(<a href="#ref-stantec2015" role="doc-biblioref"><strong>stantec2015?</strong></a>)</span> fournissent des plans de dragages de capitalisation prévus dans les prochaines années. Ces derniers ont donc été répertoriés (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageGen">4.3</a>; Tableau <a href="portrait-de-la-zone-détude.html#tab:dragagePrevu">4.6</a>).</p>
+<p>Les sites de dragage et les sites de dépôts de sédiments dragués ont été caractérisés en fonction du volume total dragué en <span class="math inline">\(m^3\)</span> pendant la période visée (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageGen">4.4</a>). Un total de 36 sites de dragage (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageSite">4.5</a>) et 27 sites de dépôt (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageDepot">4.6</a>) ont été caractérisés au sein de la zone d’étude. Il faut noter que les volumes totaux dragués ne correspondent pas aux volumes totaux déposés puisque certains sites de dépôt se retrouvent en milieu terrestres; ces derniers n’ont ainsi pas été comptabilisés pour la présente étude.</p>
+<p>Des projets d’expansions portuaire pour le Port de Montréal à Contrecoeur <span class="citation">(<a href="#ref-snclavalin2017a" role="doc-biblioref"><strong>snclavalin2017a?</strong></a>; <a href="#ref-snclavalin2017b" role="doc-biblioref"><strong>snclavalin2017b?</strong></a>; <a href="#ref-iaac2021" role="doc-biblioref"><strong>iaac2021?</strong></a>)</span> et pour le Port de Trois-Rivière <span class="citation">(<a href="#ref-stantec2015" role="doc-biblioref"><strong>stantec2015?</strong></a>)</span> fournissent des plans de dragages de capitalisation prévus dans les prochaines années. Ces derniers ont donc été répertoriés (Tableau <a href="portrait-de-la-zone-détude.html#tab:dragageGen">4.4</a>; Tableau <a href="portrait-de-la-zone-détude.html#tab:dragagePrevu">4.7</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:dragageGen">Tableau 4.3: </span>Catégories et description activités de dragage répertoriées entre 2001 et 2020 dans le Saint-Laurent et le Saguenay. Les volumes sont présentés en <span class="math inline">\(m^3\)</span>.
+<span id="tab:dragageGen">Tableau 4.4: </span>Catégories et description activités de dragage répertoriées entre 2001 et 2020 dans le Saint-Laurent et le Saguenay. Les volumes sont présentés en <span class="math inline">\(m^3\)</span>.
 </caption>
 <thead>
 <tr>
@@ -502,7 +710,7 @@ Dragages de capitalisation prévus
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:dragageSite">Tableau 4.4: </span>Sites de dragage et volumes totaux dragués en <span class="math inline">\(m^3\)</span> entre 2001 et 2020 dans le Saint-Laurent et le Saguenay.
+<span id="tab:dragageSite">Tableau 4.5: </span>Sites de dragage et volumes totaux dragués en <span class="math inline">\(m^3\)</span> entre 2001 et 2020 dans le Saint-Laurent et le Saguenay.
 </caption>
 <thead>
 <tr>
@@ -919,7 +1127,7 @@ Marina de Tadoussac
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:dragageDepot">Tableau 4.5: </span>Sites de dépôt et volumes totaux déposés en <span class="math inline">\(m^3\)</span> entre 2001 et 2020 dans le Saint-Laurent et le Saguenay.
+<span id="tab:dragageDepot">Tableau 4.6: </span>Sites de dépôt et volumes totaux déposés en <span class="math inline">\(m^3\)</span> entre 2001 et 2020 dans le Saint-Laurent et le Saguenay.
 </caption>
 <thead>
 <tr>
@@ -1237,7 +1445,7 @@ Marina de Tadoussac
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:dragagePrevu">Tableau 4.6: </span>Sites de dragage de capitalisation et volumes totaux prévus en <span class="math inline">\(m^3\)</span> dans le Saint-Laurent et le Saguenay.
+<span id="tab:dragagePrevu">Tableau 4.7: </span>Sites de dragage de capitalisation et volumes totaux prévus en <span class="math inline">\(m^3\)</span> dans le Saint-Laurent et le Saguenay.
 </caption>
 <thead>
 <tr>
@@ -1363,10 +1571,10 @@ tout en conservant les segments décrivant de la navigation côtière ou des nav
 fréquentant des installations portuaires.
 Cette segmentation a résultée en 93056 segments
 linéaires de navigation. Puisque plusieurs types de navires naviguent sur les eaux du Saint-Laurent et du Saguenay, nous avons considéré 10 catégories de navires différents pour compléter le portrait
-de l’intensité de la navigation au sein de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:navCat">4.7</a>).</p>
+de l’intensité de la navigation au sein de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:navCat">4.8</a>).</p>
 <table>
 <caption>
-<span id="tab:navCat">Tableau 4.7: </span>Description des types de navires considérés pour l’analyse d’évaluation des effets cumulatifs et leur représentation au sein des données du Système d’Identification Automatique utilisées <span class="citation">(<a href="#ref-transportscanada2020a" role="doc-biblioref"><strong>transportscanada2020a?</strong></a>; <a href="#ref-transportscanada2020b" role="doc-biblioref"><strong>transportscanada2020b?</strong></a>)</span>.
+<span id="tab:navCat">Tableau 4.8: </span>Description des types de navires considérés pour l’analyse d’évaluation des effets cumulatifs et leur représentation au sein des données du Système d’Identification Automatique utilisées <span class="citation">(<a href="#ref-transportscanada2020a" role="doc-biblioref"><strong>transportscanada2020a?</strong></a>; <a href="#ref-transportscanada2020b" role="doc-biblioref"><strong>transportscanada2020b?</strong></a>)</span>.
 </caption>
 <thead>
 <tr>
@@ -1731,11 +1939,11 @@ activités de pêche (2499 <span class="math inline">\(\pm\)</span> 336 observat
 par année). Pendant cette période, un total de 14
 espèces étaient ciblées pour la pêche commerciale et un total de
 20 espèces différentes ont été capturées
-(Tableau <a href="portrait-de-la-zone-détude.html#tab:pecheEspece">4.8</a>).</p>
+(Tableau <a href="portrait-de-la-zone-détude.html#tab:pecheEspece">4.9</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:pecheEspece">Tableau 4.8: </span>Espèces capturées par la pêche commerciale dans la zone d’étude <span class="citation">(<a href="#ref-dfo2021" role="doc-biblioref"><strong>dfo2021?</strong></a>)</span>. Les espèces identifiées en gras sont les espèces ciblées par les activités de pêche. Les identifiants uniques proviennent d’une base de données fournissant un index des espèces pour la pêche commerciale conjointe à la base de données des journaux de bord <span class="citation">(<a href="#ref-dfo2021c" role="doc-biblioref"><strong>dfo2021c?</strong></a>)</span>
+<span id="tab:pecheEspece">Tableau 4.9: </span>Espèces capturées par la pêche commerciale dans la zone d’étude <span class="citation">(<a href="#ref-dfo2021" role="doc-biblioref"><strong>dfo2021?</strong></a>)</span>. Les espèces identifiées en gras sont les espèces ciblées par les activités de pêche. Les identifiants uniques proviennent d’une base de données fournissant un index des espèces pour la pêche commerciale conjointe à la base de données des journaux de bord <span class="citation">(<a href="#ref-dfo2021c" role="doc-biblioref"><strong>dfo2021c?</strong></a>)</span>
 </caption>
 <thead>
 <tr>
@@ -2044,7 +2252,7 @@ et des palangres. Chaque engin de pêche peut engendrer des effets différents s
 de casiers a des effets très différents que la pêche au chalut. Nous avons ainsi
 divisé les activités de pêche en fonction de leurs effets environnementaux selon
 les catégories proposées par <span class="citation">(<a href="#ref-halpern2008a" role="doc-biblioref"><strong>halpern2008a?</strong></a>)</span> et reprises par <span class="citation">(<a href="#ref-beauchesne2020" role="doc-biblioref"><strong>beauchesne2020?</strong></a>)</span> pour
-l’estuaire et le golfe du Saint-Laurent (Tableau <a href="portrait-de-la-zone-détude.html#tab:pecheEngin">4.9</a>):
+l’estuaire et le golfe du Saint-Laurent (Tableau <a href="portrait-de-la-zone-détude.html#tab:pecheEngin">4.10</a>):
 démersales, destructives, prises accessoires élevées (DD),
 démersales, non-destructives, prises accessoires élevées (DNH),
 démersales, non-destructives, prises accessoires faibles (DNL),
@@ -2066,7 +2274,7 @@ de données des journaux de bord <span class="citation">(<a href="#ref-dfo2021c"
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:pecheEngin">Tableau 4.9: </span>Classification des types d’engins selon leur effets environnementaux et leur mobilité. DD: démersales, destructives, prises accessoires élevées; DNH: démersales, non-destructives, prises accessoires élevées; DNL: démersales, non-destructives, prises accessoires faibles; PHB: pélagiques, prises accessoires élevées; PLB: pélagiques, prises accessoires faibles. Adapté de <span class="citation">(<a href="#ref-beauchesne2020" role="doc-biblioref"><strong>beauchesne2020?</strong></a>)</span>
+<span id="tab:pecheEngin">Tableau 4.10: </span>Classification des types d’engins selon leur effets environnementaux et leur mobilité. DD: démersales, destructives, prises accessoires élevées; DNH: démersales, non-destructives, prises accessoires élevées; DNL: démersales, non-destructives, prises accessoires faibles; PHB: pélagiques, prises accessoires élevées; PLB: pélagiques, prises accessoires faibles. Adapté de <span class="citation">(<a href="#ref-beauchesne2020" role="doc-biblioref"><strong>beauchesne2020?</strong></a>)</span>
 </caption>
 <thead>
 <tr>
@@ -2327,11 +2535,11 @@ Figure 4.26: Intensité de la pollution maritime dans le Saint-Laurent et le Sag
 <li>Semi-végétalisée (IE = 1) : Érosion apparente ou couvert végétal de 25 à 75%</li>
 <li>Stable ou végétalisé (IE = 0) : Aucun signe d’érosion pparent, et couvert végétal &gt; 75% ou présence d’une structure de protection</li>
 </ul>
-<p>Pour notre étude, nous considérons uniquement les berges qui ont des signes apparents d’érosion, soit les berges avec un IE &gt; 0. Nous distinguons également les berges naturelles des berges artificielles; cette séparation est faite afin de distinguer les effets de la navigation sur des berges naturelles ayant une valeur écologique supérieure aux berges artificialisées. La combinaison de l’état des berges telle que décrite dans <span class="citation"><a href="references.html#ref-bernier2020" role="doc-biblioref">Bernier et al.</a> (<a href="references.html#ref-bernier2020" role="doc-biblioref">2020</a>)</span> et <span class="citation"><a href="references.html#ref-bernier2021" role="doc-biblioref">Bernier, Chassiot, and Lajeunesse</a> (<a href="references.html#ref-bernier2021" role="doc-biblioref">2021</a>)</span> et de l’état de dégradation des artificialités résulte ainsi en quatre catégories de berges susceptibles aux effets de l’érosion (Tableau <a href="portrait-de-la-zone-détude.html#tab:bergeCat">4.10</a>).</p>
+<p>Pour notre étude, nous considérons uniquement les berges qui ont des signes apparents d’érosion, soit les berges avec un IE &gt; 0. Nous distinguons également les berges naturelles des berges artificielles; cette séparation est faite afin de distinguer les effets de la navigation sur des berges naturelles ayant une valeur écologique supérieure aux berges artificialisées. La combinaison de l’état des berges telle que décrite dans <span class="citation"><a href="references.html#ref-bernier2020" role="doc-biblioref">Bernier et al.</a> (<a href="references.html#ref-bernier2020" role="doc-biblioref">2020</a>)</span> et <span class="citation"><a href="references.html#ref-bernier2021" role="doc-biblioref">Bernier, Chassiot, and Lajeunesse</a> (<a href="references.html#ref-bernier2021" role="doc-biblioref">2021</a>)</span> et de l’état de dégradation des artificialités résulte ainsi en quatre catégories de berges susceptibles aux effets de l’érosion (Tableau <a href="portrait-de-la-zone-détude.html#tab:bergeCat">4.11</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:bergeCat">Tableau 4.10: </span>Catégories de segments de berge sensibles à l’érosion selon leur artificialité et leur indice d’érosion (IE) considérés pour l’analyse d’évaluation des effets cumulatifs et leur longueur totale en <span class="math inline">\(km\)</span> au sein des données de caractérisation des berges de la partie fluviale du Saint-Laurent <span class="citation">(<a href="references.html#ref-bernier2020" role="doc-biblioref">Bernier et al. 2020</a>; <a href="references.html#ref-bernier2021" role="doc-biblioref">Bernier, Chassiot, and Lajeunesse 2021</a>)</span>
+<span id="tab:bergeCat">Tableau 4.11: </span>Catégories de segments de berge sensibles à l’érosion selon leur artificialité et leur indice d’érosion (IE) considérés pour l’analyse d’évaluation des effets cumulatifs et leur longueur totale en <span class="math inline">\(km\)</span> au sein des données de caractérisation des berges de la partie fluviale du Saint-Laurent <span class="citation">(<a href="references.html#ref-bernier2020" role="doc-biblioref">Bernier et al. 2020</a>; <a href="references.html#ref-bernier2021" role="doc-biblioref">Bernier, Chassiot, and Lajeunesse 2021</a>)</span>
 </caption>
 <thead>
 <tr>
@@ -2425,11 +2633,11 @@ Figure 4.30: Distribution des segments de berge sensibles à l’érosion dans l
 </div>
 <div id="habitats-floristiques-et-fauniques" class="section level3" number="4.3.2">
 <h3><span class="header-section-number">4.3.2</span> Habitats floristiques et fauniques</h3>
-<p>Une recherche de données a été effectuée afin de caractériser différents types d’habitats caractéristiques du Saint-Laurent et du Saguenay et pouvant être affectés par les activités maritimes. Les habitats considérés sont ceux pour lesquels des données ont été accessibles ouvertement sur des plateforme comme la plateforme fédérale <a href="https://open.canada.ca/fr">Gouvernement ouvert</a>, la plateforme provinciale <a href="https://www.donneesquebec.ca/">Données Québec</a> et l’<a href="https://ogsl.ca/">Observatoire Global du Saint-Laurent</a>, ou partagées par divers ministères et collaborateurs. Cette recherche de données nous a permi de caractériser 21 types d’habitats au sein de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:habitatCat">4.11</a>). Les habitats ont été caractérisés en présence-absence au sein de la grille d’étude. Les sections suivantes fournissent davantage d’informations sur la caractérisation des différents types d’habitats.</p>
+<p>Une recherche de données a été effectuée afin de caractériser différents types d’habitats caractéristiques du Saint-Laurent et du Saguenay et pouvant être affectés par les activités maritimes. Les habitats considérés sont ceux pour lesquels des données ont été accessibles ouvertement sur des plateforme comme la plateforme fédérale <a href="https://open.canada.ca/fr">Gouvernement ouvert</a>, la plateforme provinciale <a href="https://www.donneesquebec.ca/">Données Québec</a> et l’<a href="https://ogsl.ca/">Observatoire Global du Saint-Laurent</a>, ou partagées par divers ministères et collaborateurs. Cette recherche de données nous a permi de caractériser 21 types d’habitats au sein de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:habitatCat">4.12</a>). Les habitats ont été caractérisés en présence-absence au sein de la grille d’étude. Les sections suivantes fournissent davantage d’informations sur la caractérisation des différents types d’habitats.</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:habitatCat">Tableau 4.11: </span>Catégories d’habitats considérés pour l’analyse des effets cumulatifs de la navigation dans le Saint-Laurent et le Saguenay et leur superficie totale dans la zone d’étude. <span class="math inline">\(^*\)</span>Consultez les annexes 3 et 4 pour plus de détails sur les données utilisées.
+<span id="tab:habitatCat">Tableau 4.12: </span>Catégories d’habitats considérés pour l’analyse des effets cumulatifs de la navigation dans le Saint-Laurent et le Saguenay et leur superficie totale dans la zone d’étude. <span class="math inline">\(^*\)</span>Consultez les annexes 3 et 4 pour plus de détails sur les données utilisées.
 </caption>
 <thead>
 <tr>
@@ -2926,11 +3134,11 @@ Figure 4.39: Distribution des habitats dans le Saint-Laurent et le Saguenay - Es
 <div id="frayères-et-aires-dalevinage" class="section level5" number="4.3.2.1.1">
 <h5><span class="header-section-number">4.3.2.1.1</span> Frayères et aires d’alevinage</h5>
 <p>Les frayères sont des milieux essentiels au maintien de populations de poissons; en effet, des perturbations à ces sites, ou au comportement des espèces pendant la période de fraie, peuvent avoir des impacts majeurs sur la dynamique des populations de poissons. Similairement, les sites d’alimentation et de protection pour les stades de vie initiaux des poissons (<em>e.g.</em> larves, alevins, juvéniles), qui sont beaucoup plus susceptibles aux effets de perturbations à leur habitat. Ces sites, nommés aires d’alevinage, sont ainsi essentiels à leur survie. La protection des frayères et des aires d’alevinage est ainsi d’une importance majeure puisqu’ils constituent un goulot d’étranglement pour la dynamique des populations de poissons.</p>
-<p>Les données utilisées pour caractériser les frayères et les aires d’alevinage proviennent d’un exercice d’intégration de données d’observation <em>in situ</em> couvrant la période de 1974 à 2019 (Tableau <a href="portrait-de-la-zone-détude.html#tab:frayerealevinage">4.12</a>). Les frayères et aires d’alevinage identifiées regroupent des données pour 71 et 49 espèces de poissons et couvrent une superficie d’environ 275 et 230 <span class="math inline">\(km^2\)</span> au sein de la zone d’étude, respectivement. Les données regroupent des frayères et des aires d’alevinage confirmées ou potentielles lorsque les habitats étaient jugés propices à la fraie ou l’alevinage des poissons. Il est donc probable que ces données soient partielles et ne devraient être considérées comme un portrait exhaustif des frayères et des aires d’alevinage dans la zone d’étude. Les données sont composées de points et de polygones. Nous avons ajouté une zone tampon de 100 <span class="math inline">\(m\)</span> autour des points, puis avons intégré la présence de frayères au sein de notre grille d’étude de 1 <span class="math inline">\(km^2\)</span>.</p>
+<p>Les données utilisées pour caractériser les frayères et les aires d’alevinage proviennent d’un exercice d’intégration de données d’observation <em>in situ</em> couvrant la période de 1974 à 2019 (Tableau <a href="portrait-de-la-zone-détude.html#tab:frayerealevinage">4.13</a>). Les frayères et aires d’alevinage identifiées regroupent des données pour 71 et 49 espèces de poissons et couvrent une superficie d’environ 275 et 230 <span class="math inline">\(km^2\)</span> au sein de la zone d’étude, respectivement. Les données regroupent des frayères et des aires d’alevinage confirmées ou potentielles lorsque les habitats étaient jugés propices à la fraie ou l’alevinage des poissons. Il est donc probable que ces données soient partielles et ne devraient être considérées comme un portrait exhaustif des frayères et des aires d’alevinage dans la zone d’étude. Les données sont composées de points et de polygones. Nous avons ajouté une zone tampon de 100 <span class="math inline">\(m\)</span> autour des points, puis avons intégré la présence de frayères au sein de notre grille d’étude de 1 <span class="math inline">\(km^2\)</span>.</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:frayerealevinage">Tableau 4.12: </span>Sources utilisées pour caractériser les frayères et les aires d’alevinage dans la zone d’étude.
+<span id="tab:frayerealevinage">Tableau 4.13: </span>Sources utilisées pour caractériser les frayères et les aires d’alevinage dans la zone d’étude.
 </caption>
 <thead>
 <tr>
@@ -3305,11 +3513,11 @@ VALIQUETTE, E., M. LEGAULT et V. HARVEY. 2016. État référence de la faune aqu
 <div id="milieux-humides" class="section level4" number="4.3.2.2">
 <h4><span class="header-section-number">4.3.2.2</span> Milieux humides</h4>
 <p>Les milieux humides constituent un lien entre les milieux aquatiques et terrestres; ils abritent une forte richesse faunique et floristique, fournissent un habitat crucial au cours du cycle de vie de multiples espèces, et sont des habitats essentiels pour plusieurs espèces en péril. Les milieux humides fournissent des services écosystémiques essentiels tels la protection du rivage contre l’érosion, l’amélioration de la qualité de l’eau, et le stockage de carbone; ils sont également largement utilisés pour des activités culturelles et récréatives tel la chasse et le tourisme <span class="citation">(<a href="references.html#ref-clarkson2013" role="doc-biblioref">Clarkson, Ausseil, and Gerbeaux 2013</a>)</span>. Les milieux humides regroupent une diversité importante de types d’habitats qui se succèdent, allant des eaux peu profondes aux marécages, affichant une proportion croissante de plantes arbustives <span class="citation">(<a href="#ref-cegrim2020" role="doc-biblioref"><strong>cegrim2020?</strong></a>)</span>.</p>
-<p>Les milieux humides ont été caractérisés grâce à une cartographie des milieux humides potentiels du Québec <span class="citation">(<a href="#ref-melcc2019" role="doc-biblioref"><strong>melcc2019?</strong></a>)</span>. Cette base de données fournit une cartographie des milieux humides pour l’ensemble du Québec, classés en grands types : eau peu profonde, marais, marécage et tourbière (Tableau <a href="portrait-de-la-zone-détude.html#tab:milhumcat">4.13</a>). Une catégorie générale pour les milieux humides non catégorisés est également disponible. Les milieux humides occupent une superficie totale de 0 <span class="math inline">\(km^2\)</span> au sein de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:milhumcat">4.13</a>).</p>
+<p>Les milieux humides ont été caractérisés grâce à une cartographie des milieux humides potentiels du Québec <span class="citation">(<a href="#ref-melcc2019" role="doc-biblioref"><strong>melcc2019?</strong></a>)</span>. Cette base de données fournit une cartographie des milieux humides pour l’ensemble du Québec, classés en grands types : eau peu profonde, marais, marécage et tourbière (Tableau <a href="portrait-de-la-zone-détude.html#tab:milhumcat">4.14</a>). Une catégorie générale pour les milieux humides non catégorisés est également disponible. Les milieux humides occupent une superficie totale de 0 <span class="math inline">\(km^2\)</span> au sein de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:milhumcat">4.14</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:milhumcat">Tableau 4.13: </span>Description des types de milieux humides potentiels <span class="citation">(<a href="#ref-melcc2019" role="doc-biblioref"><strong>melcc2019?</strong></a>)</span> au sein de la zone d’étude.
+<span id="tab:milhumcat">Tableau 4.14: </span>Description des types de milieux humides potentiels <span class="citation">(<a href="#ref-melcc2019" role="doc-biblioref"><strong>melcc2019?</strong></a>)</span> au sein de la zone d’étude.
 </caption>
 <thead>
 <tr>
@@ -3471,7 +3679,7 @@ Figure 4.51: Distribution des habitats dans le Saint-Laurent et le Saguenay - Zo
 Citation: Le WWF-Canada et le Réseau d’observation de mammifères marins. Données cartographiques : Navires et baleines de l’Atlantique Nord-Ouest : Guide à l’intention de l’industrie maritime, 2e édition. 2021. Données disponibles sur le site https://www.navigationbaleines.ca/fr/accueil/
 --->
 <p>La caractérisation de la distribution des mammifères marins dans la zone d’étude provient de la deuxième édition d’un guide publié à l’intention des navigateurs qui fréquentent l’Atlantique Nord-Ouest <span class="citation">(<a href="#ref-wwfromm2021" role="doc-biblioref"><strong>wwfromm2021?</strong></a>)</span>. Ce guide vise à informer les navigateurs sur la problématique de collisions entre navires et baleines et des mesures permettant de minimiser les incidents, sur les différentes espèces de baleines et de la tortue luth sur le territoire et de leur présence potentielle, et sur des zones où une vigilance accrue est de mise. Ce guide présente des cartes de distribution pour neuf espèces de mammifères marins qui fréquentent l’Atlantique Nord-Ouest <span class="citation">(<a href="#ref-wwfromm2021" role="doc-biblioref"><strong>wwfromm2021?</strong></a>; <a href="#ref-wwfromm2021b" role="doc-biblioref"><strong>wwfromm2021b?</strong></a>)</span>. Ces espèces ont été sélectionnées dû à leur statut de conservation et à leur risque connu de collision avec des navires.</p>
-<p>Les cartes de distributions ont été évaluées grâce à l’intégration de 14 ensembles de données distincts provenant d’observations scientifiques et opportunistes (Tableau <a href="portrait-de-la-zone-détude.html#tab:datamm">4.14</a>; <span class="citation">(<a href="#ref-wwfromm2021c" role="doc-biblioref"><strong>wwfromm2021c?</strong></a>)</span>). Les données d’observations convrant la période de 2010 à 2015 et les limites géographiques de 40<span class="math inline">\(^o\)</span> à 55<span class="math inline">\(^o\)</span> N et de -72<span class="math inline">\(^o\)</span> à -48<span class="math inline">\(^o\)</span> O ont été sélectionnés pour créer les cartes partagées dans le guide. L’aire d’étude a été divisée en une grille régulière de 0.05<span class="math inline">\(^o\)</span> x 0.05<span class="math inline">\(^o\)</span>. Pour chaque espèce, le nombre d’observations relevés au sein de 14 bases de données disponibles a été évalué pour chaque cellule de la grille d’étude. Un lissage gaussien de 0.2<span class="math inline">\(^o\)</span> a ensuite été appliqué sur la grille. Les valeurs obtenues dans chaque cellule ont été normalisées par le nombre total d’observations pour une espèce; la valeur d’une cellule représente ainsi la proportion du nombre total d’observations par espèce au sein de l’aire d’étude. Finalement, une transformation logarithmique a ensuite été appliquées afin de minimiser l’effet des valeurs extrêmes sur les cartes résultantes.</p>
+<p>Les cartes de distributions ont été évaluées grâce à l’intégration de 14 ensembles de données distincts provenant d’observations scientifiques et opportunistes (Tableau <a href="portrait-de-la-zone-détude.html#tab:datamm">4.15</a>; <span class="citation">(<a href="#ref-wwfromm2021c" role="doc-biblioref"><strong>wwfromm2021c?</strong></a>)</span>). Les données d’observations convrant la période de 2010 à 2015 et les limites géographiques de 40<span class="math inline">\(^o\)</span> à 55<span class="math inline">\(^o\)</span> N et de -72<span class="math inline">\(^o\)</span> à -48<span class="math inline">\(^o\)</span> O ont été sélectionnés pour créer les cartes partagées dans le guide. L’aire d’étude a été divisée en une grille régulière de 0.05<span class="math inline">\(^o\)</span> x 0.05<span class="math inline">\(^o\)</span>. Pour chaque espèce, le nombre d’observations relevés au sein de 14 bases de données disponibles a été évalué pour chaque cellule de la grille d’étude. Un lissage gaussien de 0.2<span class="math inline">\(^o\)</span> a ensuite été appliqué sur la grille. Les valeurs obtenues dans chaque cellule ont été normalisées par le nombre total d’observations pour une espèce; la valeur d’une cellule représente ainsi la proportion du nombre total d’observations par espèce au sein de l’aire d’étude. Finalement, une transformation logarithmique a ensuite été appliquées afin de minimiser l’effet des valeurs extrêmes sur les cartes résultantes.</p>
 <p>Des mises en gardes accompagnent ces cartes et sont rapportées <em>verbatim</em> à ce rapport:</p>
 <blockquote>
 <ul>
@@ -3486,7 +3694,7 @@ Citation: Le WWF-Canada et le Réseau d’observation de mammifères marins. Don
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:datamm">Tableau 4.14: </span>Liste des ensembles de données scientifiques et opportunistes utilisés pour créer les cartes, y compris des renseignements sur la période couverte par l’ensemble de données, le nombre d’espèces et le nombre d’observations d’un ou de plusieurs individus disponibles pour l’analyse, et le propriétaire de l’ensemble de données. Tableau tiré de : <span class="citation">(<a href="#ref-wwfromm2021c" role="doc-biblioref"><strong>wwfromm2021c?</strong></a>)</span>.
+<span id="tab:datamm">Tableau 4.15: </span>Liste des ensembles de données scientifiques et opportunistes utilisés pour créer les cartes, y compris des renseignements sur la période couverte par l’ensemble de données, le nombre d’espèces et le nombre d’observations d’un ou de plusieurs individus disponibles pour l’analyse, et le propriétaire de l’ensemble de données. Tableau tiré de : <span class="citation">(<a href="#ref-wwfromm2021c" role="doc-biblioref"><strong>wwfromm2021c?</strong></a>)</span>.
 </caption>
 <thead>
 <tr>
@@ -3794,9 +4002,9 @@ O
 </tbody>
 </table>
 <p><br/></p>
-<p>Sur les neuf espèces dont une cartographie est disponible, cinq fréquentent l’estuaire du Saint-Laurent et le Saguenay : le béluga du Saint-Laurent (<em>Delphinapterus leucas</em>), le petit rorqual (<em>Balaenoptera acutorostrata</em>), le rorqual à bosse (<em>Megaptera novaeangliae</em>), le rorqual bleu (<em>Balaenoptera musculus</em>) et le rorqual commun (<em>Balaenoptera physalus</em>; Tableau <a href="portrait-de-la-zone-détude.html#tab:mmSp">4.15</a>). Pour notre étude, nous avons rééchantillonné les cartes de distribution produites <span class="citation">(<a href="#ref-wwfromm2021b" role="doc-biblioref"><strong>wwfromm2021b?</strong></a>)</span> afin de les intégrer à notre grille d’étude de 1 <span class="math inline">\(km^2\)</span> en utilisant la valeur moyenne des celllules de la grille du guide qui intersecte chaque cellule de notre grille. Les valeurs ont ensuite été normalisées entre 0 et 1 en divisant chaque valeur par la valeur maximale observée au sein de la grille pour chaque espèce. Les valeurs résultantes peuvent être interprétées en tant que densité relative des observations de mammifères marins, avec des valeurs de 0 représentant une densité relative faible et une valeur de 1 une densité relative élevée.</p>
+<p>Sur les neuf espèces dont une cartographie est disponible, cinq fréquentent l’estuaire du Saint-Laurent et le Saguenay : le béluga du Saint-Laurent (<em>Delphinapterus leucas</em>), le petit rorqual (<em>Balaenoptera acutorostrata</em>), le rorqual à bosse (<em>Megaptera novaeangliae</em>), le rorqual bleu (<em>Balaenoptera musculus</em>) et le rorqual commun (<em>Balaenoptera physalus</em>; Tableau <a href="portrait-de-la-zone-détude.html#tab:mmSp">4.16</a>). Pour notre étude, nous avons rééchantillonné les cartes de distribution produites <span class="citation">(<a href="#ref-wwfromm2021b" role="doc-biblioref"><strong>wwfromm2021b?</strong></a>)</span> afin de les intégrer à notre grille d’étude de 1 <span class="math inline">\(km^2\)</span> en utilisant la valeur moyenne des celllules de la grille du guide qui intersecte chaque cellule de notre grille. Les valeurs ont ensuite été normalisées entre 0 et 1 en divisant chaque valeur par la valeur maximale observée au sein de la grille pour chaque espèce. Les valeurs résultantes peuvent être interprétées en tant que densité relative des observations de mammifères marins, avec des valeurs de 0 représentant une densité relative faible et une valeur de 1 une densité relative élevée.</p>
 <p>Afin de complémenter ce portrait des mammifères marins, nous avons utilisé des données provenant du Réseau d’observation de mammifères marins [ROMM; <span class="citation">(<a href="#ref-romm2021" role="doc-biblioref"><strong>romm2021?</strong></a>)</span>] et disponibles sur le site de l’Observation Global du Saint-Laurent (<a href="https://ogsl.ca/bio/?lg=fr">https://ogsl.ca/bio/?lg=fr</a>). Cette base de données est constituées d’observations de mammifères marins relevées par des observateurs membres ayant suivi une formation offerte par le ROMM, récoltées systématiquement par l’équipe du ROMM, et rapportées par des citoyens puis validées par l’équipe du ROMM. Plus d’informations sur le programme sont disponibles sur une <a href="https://ogsl.ca/fr/biodiversite-mammiferes-marins-romm-information-sur-les-donnees/">page dédiée</a> le site de l’OGSL.</p>
-<p>Cette base de données contient près de 50000 observations de mammifères marins entre 1996 et 2021 sur 21 espèces différentes <span class="citation">(<a href="#ref-romm2021" role="doc-biblioref"><strong>romm2021?</strong></a>)</span>. De ce nombre, nous avons sélectionné les données pour la période allant de 2000 à 2021 pour les espèces non décrites au sein du guide et ayant plus de 50 observations uniques. Nous avons appliquer la même méthodologie décrite pour le guide afin de caractériser la distribution de quatre espèces supplémentaires fréquantant le Saint-Laurent et le Saguenay : le marsouin commun (<em>Phocoena phocoena</em>), le phoque commun (<em>Phoca vitulina</em>), le phoque du Groenland (<em>Phoca groenlandica</em>) et le phoque gris (<em>Halichoerus grypus</em>; Tableau <a href="portrait-de-la-zone-détude.html#tab:mmSp">4.15</a>).</p>
+<p>Cette base de données contient près de 50000 observations de mammifères marins entre 1996 et 2021 sur 21 espèces différentes <span class="citation">(<a href="#ref-romm2021" role="doc-biblioref"><strong>romm2021?</strong></a>)</span>. De ce nombre, nous avons sélectionné les données pour la période allant de 2000 à 2021 pour les espèces non décrites au sein du guide et ayant plus de 50 observations uniques. Nous avons appliquer la même méthodologie décrite pour le guide afin de caractériser la distribution de quatre espèces supplémentaires fréquantant le Saint-Laurent et le Saguenay : le marsouin commun (<em>Phocoena phocoena</em>), le phoque commun (<em>Phoca vitulina</em>), le phoque du Groenland (<em>Phoca groenlandica</em>) et le phoque gris (<em>Halichoerus grypus</em>; Tableau <a href="portrait-de-la-zone-détude.html#tab:mmSp">4.16</a>).</p>
 <p>Il est important de noter que les cartes de distribution issues pour ces espèces n’est pas informée par un processus et une quantité de données semblable à ce qui a été utilisé pour créer le guide à l’intention de l’industrie maritime <span class="citation">(<a href="#ref-wwfromm2021" role="doc-biblioref"><strong>wwfromm2021?</strong></a>)</span>. Toute comme pour les cartes issues des données du Guide, les valeurs résultantes peuvent être interprétées en tant que densité relative des observations de mammifères marins, avec des valeurs de 0 représentant une densité relative faible et une valeur de 1 une densité relative élevée. Une mise en garde supplémentaire doit également accompagner ces données :</p>
 <blockquote>
 <ul>
@@ -3806,7 +4014,7 @@ O
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:mmSp">Tableau 4.15: </span>Espèces de mammifères marins dont la distribution dans l’estuaire du Saint-Laurent et le Saguenay est disponible dans <span class="citation">(<a href="#ref-wwfromm2021" role="doc-biblioref"><strong>wwfromm2021?</strong></a>)</span> et <span class="citation">(<a href="#ref-romm2021" role="doc-biblioref"><strong>romm2021?</strong></a>)</span>.
+<span id="tab:mmSp">Tableau 4.16: </span>Espèces de mammifères marins dont la distribution dans l’estuaire du Saint-Laurent et le Saguenay est disponible dans <span class="citation">(<a href="#ref-wwfromm2021" role="doc-biblioref"><strong>wwfromm2021?</strong></a>)</span> et <span class="citation">(<a href="#ref-romm2021" role="doc-biblioref"><strong>romm2021?</strong></a>)</span>.
 </caption>
 <thead>
 <tr>
@@ -4022,7 +4230,7 @@ Figure 4.60: Distribution des mammifères marins dans le Saint-Laurent et le Sag
 <li>Sites archéologiques</li>
 <li>Tourisme</li>
 </ul>
-<p>La catégorisation offerte par les communautés a toutefois été conservée intacte et intégrée en tant que catégories distinctes de sites d’intérêt pour l’évaluation des effets cumulatifs. Les sites d’intérêt identifiés par différentes communautés ont également été conservés distincts même si des catégories similaires ont été identifiées par les différentes communautés participantes (Tableau <a href="portrait-de-la-zone-détude.html#tab:siteCat">4.16</a>). Par exemple, bien que la majorité des communautés aient identifié des sites d’intérêt pour la chasse, les sites identifiés demeurent distincts au sein de l’analyse. Cette approche a pour but de respecter l’indépendance de chaque communauté. De plus, cette approche permet également d’attribuer une importance supérieure à un milieu si plusieurs communautés s’identifient en tant que site d’intérêt. C’est le cas, entre autres, du Lac Saint-Pierre, qui est identifié en tant que site d’intérêt par plus d’une communauté participante.</p>
+<p>La catégorisation offerte par les communautés a toutefois été conservée intacte et intégrée en tant que catégories distinctes de sites d’intérêt pour l’évaluation des effets cumulatifs. Les sites d’intérêt identifiés par différentes communautés ont également été conservés distincts même si des catégories similaires ont été identifiées par les différentes communautés participantes (Tableau <a href="portrait-de-la-zone-détude.html#tab:siteCat">4.17</a>). Par exemple, bien que la majorité des communautés aient identifié des sites d’intérêt pour la chasse, les sites identifiés demeurent distincts au sein de l’analyse. Cette approche a pour but de respecter l’indépendance de chaque communauté. De plus, cette approche permet également d’attribuer une importance supérieure à un milieu si plusieurs communautés s’identifient en tant que site d’intérêt. C’est le cas, entre autres, du Lac Saint-Pierre, qui est identifié en tant que site d’intérêt par plus d’une communauté participante.</p>
 <p>Il demeure important de noter que, pour l’ensemble des communautés participantes, les informations rapportées ne peuvent être considérées comme un portrait exhaustif des sites d’intérêt pour l’ensemble des membres des communautés; en effet, les informations résultent d’un processus de consultation limité des membres de la communauté, pour le projet spécifique d’évaluation des effets cumulatifs des activités maritimes. Pour plusieurs communautés, les sites identifiés proviennent d’autres exercices dont une intégration a été faite afin de répondre aux objectifs de la présente étude. De plus, la participation des Premières Nations à cette étude est faite sans préjudice à l’exercice de leurs droits juridiques sur leur territoire traditionnel respectif pour lesquels s’appliquent leurs droits et responsabilités d’intendance et qui se basent sur l’application d’une approche écosystémique plus large. Les sites d’intérêt identifiés doivent ainsi être interprétés dans le contexte élargi de ces droits et responsabilités.</p>
 <!-- TODO: Discuter des limites temporelles ici, et du fait que les communautés ont clairement indiqué qu'il s'agit d'une limite de l'étude, et c'est aussi rapporté dans le document du GCNWA
 
@@ -4038,7 +4246,7 @@ Pour la vulnérabilité : De plus, il est impossible de cartographier adéquatem
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:siteCat">Tableau 4.16: </span>Catégories de sites d’intérêt culturels, patrimoniaux et archéologiques identifiés pour le Saint-Laurent et le Saguenay.
+<span id="tab:siteCat">Tableau 4.17: </span>Catégories de sites d’intérêt culturels, patrimoniaux et archéologiques identifiés pour le Saint-Laurent et le Saguenay.
 </caption>
 <thead>
 <tr>
@@ -4712,11 +4920,11 @@ Du côté des pressions anthropiques, les facteurs exerçant une influence parti
 <h3><span class="header-section-number">4.4.2</span> Habitats floristiques et fauniques</h3>
 <div id="habitats" class="section level4" number="4.4.2.1">
 <h4><span class="header-section-number">4.4.2.1</span> Habitats</h4>
-<p>Plusieurs exercices d’évaluation de la vulnérabilité de différents types d’habitats à diverses sources de stress environnementales ont déjà été publiés au Canada <span class="citation">(e.g. <a href="#ref-ban2010" role="doc-biblioref"><strong>ban2010?</strong></a>; <a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al. 2015</a>; <a href="#ref-clarkemurray2015b" role="doc-biblioref"><strong>clarkemurray2015b?</strong></a>)</span> et ailleurs dans le monde <span class="citation">(<a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>; <a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al. 2012</a>)</span>. Un processus similaire mené par Pêches et Océans Canada est actuellement en cours afin de caractériser la vulnérabilité des habitats de l’Atlantique Ouest à une cinquantaine de sources de stress. Originellement développée par <span class="citation">(<a href="#ref-halpern2007" role="doc-biblioref"><strong>halpern2007?</strong></a>)</span> afin de caractériser la vulnérabilité des habitats à l’échelle globale, cette appoche utilise des métriques d’exposition et de sensibilité afin de d’évaluer cinq critères de vulnérabilité des écosystèmes : l’échelle spatiale, la fréquence, l’impact fonctionnel, la résistance et la résilience (Tableau <a href="portrait-de-la-zone-détude.html#tab:critereTeck">4.17</a>).</p>
+<p>Plusieurs exercices d’évaluation de la vulnérabilité de différents types d’habitats à diverses sources de stress environnementales ont déjà été publiés au Canada <span class="citation">(e.g. <a href="#ref-ban2010" role="doc-biblioref"><strong>ban2010?</strong></a>; <a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al. 2015</a>; <a href="#ref-clarkemurray2015b" role="doc-biblioref"><strong>clarkemurray2015b?</strong></a>)</span> et ailleurs dans le monde <span class="citation">(<a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>; <a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al. 2012</a>)</span>. Un processus similaire mené par Pêches et Océans Canada est actuellement en cours afin de caractériser la vulnérabilité des habitats de l’Atlantique Ouest à une cinquantaine de sources de stress. Originellement développée par <span class="citation">(<a href="#ref-halpern2007" role="doc-biblioref"><strong>halpern2007?</strong></a>)</span> afin de caractériser la vulnérabilité des habitats à l’échelle globale, cette appoche utilise des métriques d’exposition et de sensibilité afin de d’évaluer cinq critères de vulnérabilité des écosystèmes : l’échelle spatiale, la fréquence, l’impact fonctionnel, la résistance et la résilience (Tableau <a href="portrait-de-la-zone-détude.html#tab:critereTeck">4.18</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:critereTeck">Tableau 4.17: </span>Description des cinq critères de vulnérabilité utilisés pour évaluer la vulnérabilité relative des habitats à chaque stresseur <span class="citation">(adapté de <a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>)</span>
+<span id="tab:critereTeck">Tableau 4.18: </span>Description des cinq critères de vulnérabilité utilisés pour évaluer la vulnérabilité relative des habitats à chaque stresseur <span class="citation">(adapté de <a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>)</span>
 </caption>
 <thead>
 <tr>
@@ -4806,11 +5014,11 @@ Le temps moyen (années) requis pour que l’espèce, le niveau trophique, ou la
 <div id="mammifères-marins-1" class="section level3" number="4.4.3">
 <h3><span class="header-section-number">4.4.3</span> Mammifères marins</h3>
 <p>Les exercices d’évaluation de la vulnérabilité d’espèces aux effets de stresseurs se font plus rares dans le cadre d’évaluation d’effets cumulatifs, bien que certains processus d’évaluation existent tout de même <span class="citation">(e.g. <a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al. 2013</a>; <a href="references.html#ref-trew2019" role="doc-biblioref">Trew et al. 2019</a>; <a href="references.html#ref-ohara2021" role="doc-biblioref">O’Hara, Frazier, and Halpern 2021</a>)</span>. Ces évaluation touchaient principalement des espèces de mégafaune marine (e.g. baleines et requins) et des espèces en péril. Ces publications ne couvrent toutefois pas l’entièreté des espèces et des stresseurs visés par la présente évaluation. Elles fournissent tout de même une série de critères visant à évaluer la vulnérabilité des espèces aux stresseurs. Nous avons ainsi utilisé un processus similaire au leur afin de déterminer la vulnérabilité des mammifères marins dans le Saint-Laurent et le Saguenay aux activités maritimes.</p>
-<p>Les critères utilisés afin d’évaluer la vulnérabilité des mammifères marins aux effets des activités maritimes proviennent de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>: 1) la fréquence des sources de stress, 2) si l’effet de la source de stress est directe ou indirecte, 3) la résistance de l’espèce aux effets de la source de stress, 4) le temps de rétablissement de l’espèce, 5) l’effet relatif sur la reproduction, et 6) l’effet relatif sur la population (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilityMM">4.18</a>). Nous avons ajouté deux critères à cette liste afin de considérer des particularités régionales propres au Saint-Laurent et au Saguenay, soit 7) le statut de l’espèce et 8) si l’espèce est résidente (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilityMM">4.18</a>).</p>
+<p>Les critères utilisés afin d’évaluer la vulnérabilité des mammifères marins aux effets des activités maritimes proviennent de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>: 1) la fréquence des sources de stress, 2) si l’effet de la source de stress est directe ou indirecte, 3) la résistance de l’espèce aux effets de la source de stress, 4) le temps de rétablissement de l’espèce, 5) l’effet relatif sur la reproduction, et 6) l’effet relatif sur la population (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilityMM">4.19</a>). Nous avons ajouté deux critères à cette liste afin de considérer des particularités régionales propres au Saint-Laurent et au Saguenay, soit 7) le statut de l’espèce et 8) si l’espèce est résidente (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilityMM">4.19</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:vulnerabilityMM">Tableau 4.18: </span>Critères utilisés pour évaluer la vulnérabilité des mammifères marins aux sources de stress considérées pour l’évaluation des effets cumulatifs des activités maritimes dans le Saint-Laurent et le Saguenay. Les critères ont été adaptés de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>, auxquels ont été ajouté les critères de statut et de résidence des espèces afin de des particularités régionales propres au Saint-Laurent et au Saguenay.
+<span id="tab:vulnerabilityMM">Tableau 4.19: </span>Critères utilisés pour évaluer la vulnérabilité des mammifères marins aux sources de stress considérées pour l’évaluation des effets cumulatifs des activités maritimes dans le Saint-Laurent et le Saguenay. Les critères ont été adaptés de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>, auxquels ont été ajouté les critères de statut et de résidence des espèces afin de des particularités régionales propres au Saint-Laurent et au Saguenay.
 </caption>
 <thead>
 <tr>
