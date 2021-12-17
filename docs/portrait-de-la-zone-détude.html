@@ -6140,7 +6140,7 @@ pollution_maritime
 <h3><span class="header-section-number">4.4.2</span> Habitats floristiques et fauniques</h3>
 <div id="habitats" class="section level4" number="4.4.2.1">
 <h4><span class="header-section-number">4.4.2.1</span> Habitats</h4>
-<p>Plusieurs exercices d’évaluation de la vulnérabilité de différents types d’habitats à diverses sources de stress environnementales ont déjà été publiés au Canada <span class="citation">(e.g. <a href="#ref-ban2010" role="doc-biblioref"><strong>ban2010?</strong></a>; <a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al. 2015</a>; <a href="#ref-clarkemurray2015b" role="doc-biblioref"><strong>clarkemurray2015b?</strong></a>)</span> et ailleurs dans le monde <span class="citation">(<a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>; <a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al. 2012</a>)</span>. Un processus similaire mené par Pêches et Océans Canada est actuellement en cours afin de caractériser la vulnérabilité des habitats de l’Atlantique Ouest à une cinquantaine de sources de stress. Originellement développée par <span class="citation">(<a href="#ref-halpern2007" role="doc-biblioref"><strong>halpern2007?</strong></a>)</span> afin de caractériser la vulnérabilité des habitats à l’échelle globale, cette appoche utilise des métriques d’exposition et de sensibilité afin de d’évaluer cinq critères de vulnérabilité des écosystèmes : l’échelle spatiale, la fréquence, l’impact fonctionnel, la résistance et la résilience (Tableau <a href="portrait-de-la-zone-détude.html#tab:critereTeck">4.21</a>).</p>
+<p>Plusieurs exercices d’évaluation de la vulnérabilité de différents types d’habitats à diverses sources de stress environnementales ont été publiés au Canada <span class="citation">(e.g. <a href="#ref-ban2010" role="doc-biblioref"><strong>ban2010?</strong></a>; <a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al. 2015</a>; <a href="#ref-clarkemurray2015b" role="doc-biblioref"><strong>clarkemurray2015b?</strong></a>)</span> et ailleurs dans le monde <span class="citation">(<a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>; <a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al. 2012</a>)</span>. Un processus similaire mené par Pêches et Océans Canada est actuellement en cours afin de caractériser la vulnérabilité des habitats de l’Atlantique Ouest à une cinquantaine de sources de stress. Originellement développée par <span class="citation">(<a href="#ref-halpern2007" role="doc-biblioref"><strong>halpern2007?</strong></a>)</span> afin de caractériser la vulnérabilité des habitats à l’échelle globale, cette appoche utilise des métriques d’exposition et de sensibilité afin d’évaluer cinq critères de vulnérabilité des écosystèmes : l’échelle spatiale, la fréquence, l’impact fonctionnel, la résistance et la résilience (Tableau <a href="portrait-de-la-zone-détude.html#tab:critereTeck">4.21</a>).</p>
 <p><br/></p>
 <table>
 <caption>
@@ -6200,13 +6200,15 @@ Le temps moyen (années) requis pour que l’espèce, le niveau trophique, ou la
 </tbody>
 </table>
 <p><br/></p>
-<p>Ces derniers permettent l’utilisation de facteurs quantitatifs conférant une transparence supérieure à l’approche qualitative (Teck et al., 2010; Kappel et al., 2012). Les scores de vulnérabilité <span class="math inline">\(\mu\)</span> correspondent à la somme pondérée des cinq critères de vulnérabilité :</p>
+<p>Ces derniers permettent l’utilisation de facteurs quantitatifs conférant une transparence supérieure à l’approche qualitative <span class="citation">(<a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al. 2010</a>; <a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al. 2012</a>)</span>. Les scores de vulnérabilité <span class="math inline">\(\mu\)</span> correspondent à la somme pondérée des cinq critères de vulnérabilité :</p>
 <p><span class="math display">\[\mu_{D_i,E_j} = \sum_{k = 1,...,5} W_k * D^j_{i,k}\]</span></p>
 <p>où <span class="math inline">\(D^j_{i,k}\)</span> est la valeur du stresseur <span class="math inline">\(i\)</span> pour le critère <span class="math inline">\(k\)</span> au sein de l’écosystème <span class="math inline">\(j\)</span> et <span class="math inline">\(W_k\)</span> est le poids associé au critère <span class="math inline">\(k\)</span>, avec la somme de tous les poids égal à 1. Le poids <span class="math inline">\(W_k\)</span> permet ainsi de pondérer la valeur attribuée aux critères individuels selon leur importance individuelle. Ce modèle additif et linéaire assume que la vulnérabilité est monotone pour l’ensemble des critères de vulnérabilité, c.-à-d. que la vulnérabilité augmente avec une augmentation de la valeur de chaque critère. Une transformation des valeurs de <span class="math inline">\(W_k\)</span> est nécessaire afin d’assurer que l’étendue des valeurs est comparable pour les différents critères. Cette équation permet ultimement de générer une matrice de scores de vulnérabilité pour l’ensemble des combinaisons stresseur-écosystème.</p>
-<p><span class="citation"><a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al.</a> (<a href="references.html#ref-teck2010" role="doc-biblioref">2010</a>)</span> et <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> ont fait appel à des sondages d’experts afin d’évaluer, pour chaque combinaison stresseurs-habitats, les valeurs et le poids associé à chaque critère de vulnérabilité. Au total, 107 experts on permis d’évaluer la vulnérabilité relative de 19 types d’habitats à 53 stresseurs environnementaux. Les matrices de vulnérabilité résultantes ont été réutilisée et adaptée à de mainte reprises depuis <span class="citation">(e.g. <a href="#ref-ban2010" role="doc-biblioref"><strong>ban2010?</strong></a>; <a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al. 2015</a>)</span>. Ces matrices de vulnérabilité offrent également un point de départ à notre évaluation; en effet, l’entièreté des sources de stress, et une portion importante des habitats considérés pour notre évaluation se retrouvent dans la liste présentée par <span class="citation"><a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al.</a> (<a href="references.html#ref-teck2010" role="doc-biblioref">2010</a>)</span>, <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> et <span class="citation"><a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al.</a> (<a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">2015</a>)</span> (voir Annexes <span class="citation">(<a href="#ref-ref" role="doc-biblioref"><strong>ref?</strong></a>)</span> et <span class="citation">(<a href="#ref-ref" role="doc-biblioref"><strong>ref?</strong></a>)</span> pour les correspondances utilisées). Plus particulièrement, nous avons utilisé la matrice de vulnérabilité issue de <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> afin d’informer l’évaluation de la vulnérabilité des habitats pour lesquels une correspondance claire pouvait être établie, c.-à-d. les milieux côtiers, les milieux humides et les milieux aquatiques (Annexe <span class="citation">(<a href="#ref-ref" role="doc-biblioref"><strong>ref?</strong></a>)</span>).
-<!-- Sélectionner la bonne référence pour ce travail -->
-<!-- TODO: Faire vérifier la correspondance des habitats --></p>
-<p>Des modifications mineures ont cependant été apportées aux valeurs de vulnérabilité relevées par <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>. Premièrement, les valeurs de vulnérabilité attribuées aux milieux humides ont été modifiées afin de capturer convenablement la finesse du jeu de données disponible pour notre étude. En effet, les milieux humides caractérisés témoignent de la nature étagée des milieux humides, avec les milieux humides en eau peu profonde, suivie des marais, puis des marécages, diminuant ainsi progressivement l’exposition potentielle de ces milieux aux sources de stress d’origine marine. Nous avons ainsi diminué la vulnérabilité des milieux humides proportionnellement par un facteur de 5% pour les marais et de 10% pour les marécages face à l’ensemble des sources de stress. Nous avons conservé l’évaluation de <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> pour la catégorie d’habitat <em>milieu humide</em> contenant des milieux humides dont le type est inconnu par principe de précaution. Deuxièmement, les déversements accidentels ont été catégorisés afin de différencier les déversements d’hydrocarbures des autres types de déversements. Nous diminuons ainsi les valeurs de vulnérabilité aux déversements par un facteur de 10% pour les déversements de type <em>autres</em>. Tout comme pour les milieux humides, nous avons conservé la valeur de vulnérabilité intacte pour les déversements dont le contenu est inconnu par principe de précaution. La matrice de vulnérabilité résultante peut être consultée au Tableau <a href="portrait-de-la-zone-détude.html#tab:habitatvuln">4.22</a>.</p>
+<p><span class="citation"><a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al.</a> (<a href="references.html#ref-teck2010" role="doc-biblioref">2010</a>)</span> et <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> ont fait appel à des sondages d’experts afin d’évaluer, pour chaque combinaison stresseurs-habitats, les valeurs et le poids associé à chaque critère de vulnérabilité. Au total, 107 experts ont évalué la vulnérabilité relative de 19 types d’habitats à 53 stresseurs environnementaux. Les matrices de vulnérabilité résultantes ont été réutilisée et adaptée à de maintes reprises depuis <span class="citation">(e.g. <a href="#ref-ban2010" role="doc-biblioref"><strong>ban2010?</strong></a>; <a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al. 2015</a>)</span>. Ces matrices de vulnérabilité offrent également un point de départ à notre évaluation; en effet, l’entièreté des stresseurs environnementaux, et une portion importante des habitats considérés pour notre évaluation se retrouvent dans la liste présentée par <span class="citation"><a href="references.html#ref-teck2010" role="doc-biblioref">Teck et al.</a> (<a href="references.html#ref-teck2010" role="doc-biblioref">2010</a>)</span>, <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> et <span class="citation"><a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">Clarke Murray et al.</a> (<a href="references.html#ref-clarkemurray2015a" role="doc-biblioref">2015</a>)</span> (voir Annexes 5 et 6 pour les correspondances utilisées). Plus particulièrement, nous avons utilisé la matrice de vulnérabilité issue de <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> afin d’informer l’évaluation de la vulnérabilité des habitats pour lesquels une correspondance claire pouvait être établie, c.-à-d. les milieux naturels (Annexe 6).</p>
+<!-- TODO: Faire vérifier la correspondance des habitats -->
+<!-- TODO: Vérifier numéros des annexes -->
+<!-- TODO: Validation par des experts -->
+<!-- Il demeure toutefois important de mentionner que les valeurs de vulnérabilité constituant ces matrices diffèrent généralement d'une région à l'autre. À cet égard, nous avons fait réviser les valeurs de vulnérabilités utilisées par des experts. -->
+<p>Certaines modifications ont été apportées aux scores de vulnérabilité rapportées par <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>. Premièrement, les valeurs de vulnérabilité attribuées aux milieux humides ont été modifiées afin de capturer convenablement la finesse du jeu de données disponible pour notre étude. En effet, les milieux humides caractérisés témoignent de la nature étagée des milieux humides, avec les milieux humides en eau peu profonde, suivie des marais, puis des marécages, diminuant ainsi progressivement l’exposition potentielle de ces milieux aux sources de stress d’origine marine. Nous avons ainsi diminué la vulnérabilité des milieux humides proportionnellement par un facteur de 5% pour les marais et de 10% pour les marécages face à l’ensemble des sources de stress. Nous avons conservé l’évaluation de <span class="citation"><a href="references.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="references.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> pour la catégorie d’habitat <em>milieu humide</em> contenant des milieux humides dont le type est inconnu par principe de précaution. Deuxièmement, les déversements accidentels ont été catégorisés afin de différencier les déversements d’hydrocarbures des autres types de déversements. Nous diminuons ainsi les valeurs de vulnérabilité aux déversements par un facteur de 10% pour les déversements de type <em>autres</em>. Tout comme pour les milieux humides, nous avons conservé la valeur de vulnérabilité intacte pour les déversements dont le contenu est inconnu par principe de précaution. La matrice de vulnérabilité résultante peut être consultée au Tableau <a href="portrait-de-la-zone-détude.html#tab:habitatvuln">4.22</a>.</p>
 <p><br/></p>
 <table class="table" style="font-size: 11px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -7325,37 +7327,16 @@ pollution_maritime
 </tbody>
 </table>
 <p><br/></p>
-<!-- Il demeure toutefois important de mentionner que les valeurs de vulnérabilité constituant ces matrices diffèrent généralement d'une région à l'autre. À cet égard, nous avons fait réviser les valeurs de vulnérabilités utilisées par des experts. -->
-<!-- TODO: Validation par des experts -->
-<!-- NOTE: explication voir working paper -->
 </div>
-<div id="sites-dimportance-pour-les-espèces-fauniques-et-floristiques" class="section level4" number="4.4.2.2">
-<h4><span class="header-section-number">4.4.2.2</span> Sites d’importance pour les espèces fauniques et floristiques</h4>
-<p>Une série de sites d’importance pour des espèces fauniques et floristiques ont été identifiés pour inclusion au sein de l’évaluation des effets cumulatifs. Ces sites diffèrent des habitats présentés précédemment puisqu’ils représentent des milieux dont les caractéristiques peuvent varier, mais qui remplissent des fonctions essentielles pour le maintien de certaines espèces, ou qui sont jugés importants pour la conservation de certaines espèces à statut. En tant que tel, la vulnérabilité de ces sites ne peut être évaluée de façon analogue à l’évaluation présentée à la section précédente. Une approche</p>
-<p>De par leur nature et leur importance pour les espèces, ces sites sont considéré comme vulnérables aux effets de sources de stress.</p>
-<p>Il est toutefois difficile de déterminer leur vulnérabilité spécifique à chaque source de stress.</p>
-<p>Nous avons ainsi utilisé les règles suivantes :</p>
-<p>Distinguer les sites d’espèces à statut et sites d’importance pour les cycles de vie des espèces.</p>
-<p>Considérer la fréquence uniquement pour les espèces en péril, plus leur statut</p>
-<p>Considérer la fréquence et les effets sur la reproduction et sur la population pour les sites d’importance pour les cycles de vie.</p>
-<p>Les habitats sélectionnés pour la présente analyse diffèrent toutefois des classifications d’habitats habituellement utilisés pour ce type d’analyse. Les processus de consultations ont menés à l’inclusion de plusieurs types d’habitats définis par leur importance pour des espèces ou des commnunautés, comme les frayères et les milieux où des espèces en péril ont été observées. La vulnérabilité de ces habitats ne pouvant être déterminée par le même processus, une approche alternative a été utilisée afin d’obtenir une évaluation de leur vulnérabilité relative aux effets des sources de stress considérées.</p>
-<p>La vulnérabilité de ces habitats a ainsi été évaluée à partir de critères ciblant davantage les espèces (voir section suivante sur les mammifères marins).</p>
-<!-- TODO: Voir avec les mammifères marins -->
-<p>Tairova, Z., Frantzen, M., Mosbech, A., Arukwe, A., and Gustavson, K. 2019. Effects of water accommodated fraction of physically and chemically dispersed heavy fuel oil on beach spawning capelin (Mallotus villosus). Mar. Environ. Res. 147: 62-71.</p>
-<p>Fish were considered aggregated if they were a schooling species (e.g. Silversides [Atherinopsidae]); a shoaling species (e.g. Cod [Gadidae]); formed feeding aggregations (e.g. Hagfish [Myxinidae]); exhibited mass spawning (e.g. Capelin [Osmeridae]; or congregate for seasonal spawning migrations (e.g. American eel [Anguillidae]).</p>
-<p>Ça veut dire que la vulnérabilité augmente dans les endroits où il y a une aggrégation des individus d’une population pour des activités comme la reproduction et l’alimentation.</p>
-<p>Les espèces à statut sont présent parce qu’elles sont vulnérables dûs aux problématiques populationnelles. On assume donc qu’elle seront très vulnérables et on les départage selon le niveau de désignation</p>
-
-</div>
-</div>
-<div id="mammifères-marins-1" class="section level3" number="4.4.3">
-<h3><span class="header-section-number">4.4.3</span> Mammifères marins</h3>
-<p>Les exercices d’évaluation de la vulnérabilité d’espèces aux effets de stresseurs se font plus rares dans le cadre d’évaluation d’effets cumulatifs, bien que certains processus d’évaluation existent tout de même <span class="citation">(e.g. <a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al. 2013</a>; <a href="references.html#ref-trew2019" role="doc-biblioref">Trew et al. 2019</a>; <a href="references.html#ref-ohara2021" role="doc-biblioref">O’Hara, Frazier, and Halpern 2021</a>)</span>. Ces évaluation touchaient principalement des espèces de mégafaune marine (e.g. baleines et requins) et des espèces en péril. Ces publications ne couvrent toutefois pas l’entièreté des espèces et des stresseurs visés par la présente évaluation. Elles fournissent tout de même une série de critères visant à évaluer la vulnérabilité des espèces aux stresseurs. Nous avons ainsi utilisé un processus similaire au leur afin de déterminer la vulnérabilité des mammifères marins dans le Saint-Laurent et le Saguenay aux activités maritimes.</p>
-<p>Les critères utilisés afin d’évaluer la vulnérabilité des mammifères marins aux effets des activités maritimes proviennent de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>: 1) la fréquence des sources de stress, 2) si l’effet de la source de stress est directe ou indirecte, 3) la résistance de l’espèce aux effets de la source de stress, 4) le temps de rétablissement de l’espèce, 5) l’effet relatif sur la reproduction, et 6) l’effet relatif sur la population (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilityMM">4.23</a>). Nous avons ajouté deux critères à cette liste afin de considérer des particularités régionales propres au Saint-Laurent et au Saguenay, soit 7) le statut de l’espèce et 8) si l’espèce est résidente (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilityMM">4.23</a>).</p>
+<div id="habitats-dimportance-pour-les-espèces-fauniques-et-floristiques" class="section level4" number="4.4.2.2">
+<h4><span class="header-section-number">4.4.2.2</span> Habitats d’importance pour les espèces fauniques et floristiques</h4>
+<p>La vulnérabilité des habitats identifiés pour leur importances pour les cycles vitaux et les espèces à statut ne peuvent être évalués à partir de la même approche que celle utilisée pour les milieux naturels. Ces sites diffèrent des habitats présentés précédemment puisqu’ils représentent des milieux dont les caractéristiques peuvent varier, mais qui remplissent des fonctions essentielles pour le maintien de certaines espèces, ou qui sont jugés importants pour la conservation de certaines espèces à statut. En tant que tel, la vulnérabilité de ces sites ne peut être évaluée de façon analogue à l’évaluation présentée à la section précédente. Une approche alternative a été utilisée afin d’obtenir une évaluation de leur vulnérabilité relative aux effets des sources de stress considérées en s’appuyant sur des critères relatifs aux espèce plutôt qu’aux habitats.</p>
+<p>Les exercices d’évaluation de la vulnérabilité d’espèces aux effets de stresseurs se font plus rares dans le cadre d’évaluation d’effets cumulatifs, bien que certains processus d’évaluation existent tout de même <span class="citation">(e.g. <a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al. 2013</a>; <a href="references.html#ref-trew2019" role="doc-biblioref">Trew et al. 2019</a>; <a href="references.html#ref-ohara2021" role="doc-biblioref">O’Hara, Frazier, and Halpern 2021</a>)</span>. Ces évaluation touchaient principalement des espèces de mégafaune marine (e.g. baleines et requins) et des espèces en péril. Ces publications ne couvrent toutefois pas l’entièreté des espèces et des stresseurs visés par la présente évaluation. Elles fournissent tout de même une série de critères visant à évaluer la vulnérabilité des espèces aux stresseurs. Nous avons ainsi utilisé un processus similaire afin de déterminer la vulnérabilité des milieux d’importane pour les espèces dans le Saint-Laurent et le Saguenay aux activités maritimes.</p>
+<p>Les critères utilisés afin d’évaluer la vulnérabilité des espèces aux effets des activités maritimes proviennent de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>: 1) la fréquence des sources de stress, 2) si l’effet de la source de stress est directe ou indirecte, 3) la résistance de l’espèce aux effets de la source de stress, 4) le temps de rétablissement de l’espèce, 5) l’effet relatif sur la reproduction, et 6) l’effet relatif sur la population (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilitySpecies">4.23</a>). Nous avons ajouté deux critères à cette liste afin de considérer des particularités régionales propres au Saint-Laurent et au Saguenay, soit 7) le statut de l’espèce et 8) si l’espèce est résidente de la zone d’étude (Tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilitySpecies">4.23</a>).</p>
 <p><br/></p>
 <table>
 <caption>
-<span id="tab:vulnerabilityMM">Tableau 4.23: </span>Critères utilisés pour évaluer la vulnérabilité des mammifères marins aux sources de stress considérées pour l’évaluation des effets cumulatifs des activités maritimes dans le Saint-Laurent et le Saguenay. Les critères ont été adaptés de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>, auxquels ont été ajouté les critères de statut et de résidence des espèces afin de des particularités régionales propres au Saint-Laurent et au Saguenay.
+<span id="tab:vulnerabilitySpecies">Tableau 4.23: </span>Critères considérés pour évaluer la vulnérabilité des composantes valorisées relatives au espèces – <em>i.e.</em> milieux d’importance pour les cycles de vie, les espèces à statut et les mammifères marins – aux sources de stress considérées pour l’évaluation des effets cumulatifs des activités maritimes dans le Saint-Laurent et le Saguenay. Les critères ont été adaptés de <span class="citation"><a href="references.html#ref-maxwell2013" role="doc-biblioref">Maxwell et al.</a> (<a href="references.html#ref-maxwell2013" role="doc-biblioref">2013</a>)</span>, auxquels ont été ajouté les critères de statut et de résidence des espèces afin de des particularités régionales propres au Saint-Laurent et au Saguenay.
 </caption>
 <thead>
 <tr>
@@ -7892,8 +7873,1776 @@ Résidente
 </tbody>
 </table>
 <p><br/></p>
-<p>La caractérisation de la vulnérabilité des baleines, aidée par <a href="https://baleinesendirect.org/">Baleine en direct</a>.</p>
-<!-- Une justification référencée est fournie avec les scores de vulnérabilité pour les scores de vulnérabilité qui ne pas intuitifs à partir de connaissances écologiques générales (*e.g.* un bateau immobile n'entraînera pas la mort d'un mammifère marin, outside of a freak accident) -->
+<p>Les critères utilisés variaient selon les types d’habitats évalués. La fréquence des stresseurs environnementaux a été utilisée pour l’ensemble des habitats d’importance pour les espèces. La vulnérabilité des frayères et des sites d’alevinage a considéré les critères de fréquence des stresseurs environnementaux et d’effets sur la reproduction et sur la population. La vulnérabilité des habitats d’importance pour les oiseaux marins a quant à elle été évaluée en considérant les critères de fréquence des stresseurs et des effets sur les popupulations. Finalement, l’évaluation de la vulnérabilité des habitats d’importance pour les espèces à statut a été effectuée à partir des critères de fréquence des stresseurs environnementaux, des effets sur les populations et du statut des espèces. Le score de vulnérabilité final a été obtenu à partir de la somme des scores de chaque critère. Finalement, un score relatif a été évalué en normalisant les scores totaux par la valeur maximale de vulnérabilité observée par groupe d’habitat évaluée à partir de critères similaires. Les frayères et les sites d’alevinage constituaient le premier groupe, les oiseaux marins le second, et les espèces à statut le troisième. Les scores de vulnérabilité finaux sont disponibles au tableau <a href="portrait-de-la-zone-détude.html#tab:speciesvuln">4.24</a> et les tableaux d’évaluation des critères individuels par catégorie d’habitat sont disponibles à l’Annexe 7.</p>
+<p><br/></p>
+<table class="table" style="font-size: 11px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+<span id="tab:speciesvuln">Tableau 4.24: </span>Scores de vulnérablité relative des habitats d’importance pour les espèces face aux stresseurs environnementaux.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Stresseurs environnementaux
+</th>
+<th style="text-align:right;">
+1
+</th>
+<th style="text-align:right;">
+2
+</th>
+<th style="text-align:right;">
+3
+</th>
+<th style="text-align:right;">
+4
+</th>
+<th style="text-align:right;">
+5
+</th>
+<th style="text-align:right;">
+6
+</th>
+<th style="text-align:right;">
+7
+</th>
+<th style="text-align:right;">
+8
+</th>
+<th style="text-align:right;">
+9
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+ancrage
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #22A884 !important;">
+0.60
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hydrocarbures
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #22A884 !important;">
+0.60
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+autres
+</td>
+<td style="text-align:right;color: white !important;background-color: #68CC5B !important;">
+0.77
+</td>
+<td style="text-align:right;color: white !important;background-color: #68CC5B !important;">
+0.77
+</td>
+<td style="text-align:right;color: white !important;background-color: #1E998A !important;">
+0.54
+</td>
+<td style="text-align:right;color: white !important;background-color: #25838E !important;">
+0.45
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.56
+</td>
+<td style="text-align:right;color: white !important;background-color: #3ABA75 !important;">
+0.68
+</td>
+<td style="text-align:right;color: white !important;background-color: #25838E !important;">
+0.45
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.56
+</td>
+<td style="text-align:right;color: white !important;background-color: #3ABA75 !important;">
+0.68
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+inconnus
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #22A884 !important;">
+0.60
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+dragage
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #29778E !important;">
+0.40
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+depot
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #29778E !important;">
+0.40
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+dragage_prevu
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #404486 !important;">
+0.20
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CARGO
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CONTAINER
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DRY.BULK
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+FERRY.RO.RO
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GOVERNMENT.RESEARCH
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Observation
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PASSENGER
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PLEASURE.VESSELS
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SPECIAL.SHIPS
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TANKER
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TUGS.PORT
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+navigation_portuaire
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DD
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DNL
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DNH
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PLB
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PHB
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #79D151 !important;">
+0.80
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+naufrage
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #29778E !important;">
+0.40
+</td>
+<td style="text-align:right;color: white !important;background-color: #3B518B !important;">
+0.25
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+<td style="text-align:right;color: white !important;background-color: #3B518B !important;">
+0.25
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #20908C !important;">
+0.50
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pollution_maritime
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #5CC862 !important;">
+0.75
+</td>
+<td style="text-align:right;color: white !important;background-color: #ADDC2F !important;">
+0.88
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<!--
+Tairova, Z., Frantzen, M., Mosbech, A., Arukwe, A., and Gustavson, K. 2019. Effects of water accommodated fraction of physically and chemically dispersed heavy fuel oil on beach spawning capelin (Mallotus villosus). Mar. Environ. Res. 147: 62-71.
+
+Fish were considered aggregated if they were a schooling species (e.g. Silversides [Atherinopsidae]); a shoaling species (e.g. Cod [Gadidae]); formed feeding aggregations (e.g. Hagfish [Myxinidae]); exhibited mass spawning (e.g. Capelin [Osmeridae]; or congregate for seasonal spawning migrations (e.g. American eel [Anguillidae]).
+
+Ça veut dire que la vulnérabilité augmente dans les endroits où il y a une aggrégation des individus d'une population pour des activités comme la reproduction et l'alimentation.
+
+-->
+
+</div>
+</div>
+<div id="mammifères-marins-1" class="section level3" number="4.4.3">
+<h3><span class="header-section-number">4.4.3</span> Mammifères marins</h3>
+<p>La section précédente présente les différents critères utilisés afin de caractériser la vulnérabilité des espèces aux stresseurs environnementaux. La vulnérabilité des mammifères marins a été évaluée en utilisant l’ensemble des critères présentés au tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilitySpecies">4.23</a>. Les scores de vulnérabilité finaux sont disponibles au tableau <a href="portrait-de-la-zone-détude.html#tab:mmvuln">4.25</a> et les tableaux d’évaluation des critères individuels par espèce de mammifère marin sont disponibles à l’Annexe 8.</p>
+<p><br/></p>
+<table class="table" style="font-size: 11px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+<span id="tab:mmvuln">Tableau 4.25: </span>Scores de vulnérablité relative des habitats d’importance pour les espèces face aux stresseurs environnementaux.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Stresseurs environnementaux
+</th>
+<th style="text-align:right;">
+1
+</th>
+<th style="text-align:right;">
+2
+</th>
+<th style="text-align:right;">
+3
+</th>
+<th style="text-align:right;">
+4
+</th>
+<th style="text-align:right;">
+5
+</th>
+<th style="text-align:right;">
+6
+</th>
+<th style="text-align:right;">
+7
+</th>
+<th style="text-align:right;">
+8
+</th>
+<th style="text-align:right;">
+9
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+ancrage
+</td>
+<td style="text-align:right;color: white !important;background-color: #267F8E !important;">
+0.43
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F948B !important;">
+0.52
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hydrocarbures
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #BBDE27 !important;">
+0.90
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+autres
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.56
+</td>
+<td style="text-align:right;color: white !important;background-color: #3EBC73 !important;">
+0.69
+</td>
+<td style="text-align:right;color: white !important;background-color: #22A884 !important;">
+0.60
+</td>
+<td style="text-align:right;color: white !important;background-color: #80D34D !important;">
+0.81
+</td>
+<td style="text-align:right;color: white !important;background-color: #22A884 !important;">
+0.60
+</td>
+<td style="text-align:right;color: white !important;background-color: #22A884 !important;">
+0.60
+</td>
+<td style="text-align:right;color: white !important;background-color: #20928C !important;">
+0.51
+</td>
+<td style="text-align:right;color: white !important;background-color: #20928C !important;">
+0.51
+</td>
+<td style="text-align:right;color: white !important;background-color: #20928C !important;">
+0.51
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+inconnus
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #BBDE27 !important;">
+0.90
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+dragage
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #267F8E !important;">
+0.43
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+depot
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #267F8E !important;">
+0.43
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+dragage_prevu
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+<td style="text-align:right;color: white !important;background-color: #267F8E !important;">
+0.43
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CARGO
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CONTAINER
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DRY.BULK
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+FERRY.RO.RO
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+GOVERNMENT.RESEARCH
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F948B !important;">
+0.52
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F948B !important;">
+0.52
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Observation
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F948B !important;">
+0.52
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F948B !important;">
+0.52
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #228B8D !important;">
+0.48
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F948B !important;">
+0.52
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PASSENGER
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PLEASURE.VESSELS
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SPECIAL.SHIPS
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TANKER
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TUGS.PORT
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+navigation_portuaire
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DD
+</td>
+<td style="text-align:right;color: white !important;background-color: #482475 !important;">
+0.10
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DNL
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #80D34D !important;">
+0.81
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+DNH
+</td>
+<td style="text-align:right;color: white !important;background-color: #1F9E88 !important;">
+0.57
+</td>
+<td style="text-align:right;color: white !important;background-color: #48C06E !important;">
+0.71
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #80D34D !important;">
+0.81
+</td>
+<td style="text-align:right;color: white !important;background-color: #26AC81 !important;">
+0.62
+</td>
+<td style="text-align:right;color: white !important;background-color: #36B778 !important;">
+0.67
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PLB
+</td>
+<td style="text-align:right;color: white !important;background-color: #482475 !important;">
+0.10
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PHB
+</td>
+<td style="text-align:right;color: white !important;background-color: #482475 !important;">
+0.10
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #31678E !important;">
+0.33
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+naufrage
+</td>
+<td style="text-align:right;color: white !important;background-color: #46317D !important;">
+0.14
+</td>
+<td style="text-align:right;color: white !important;background-color: #375A8C !important;">
+0.29
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #2B728E !important;">
+0.38
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #3C4F8A !important;">
+0.24
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+<td style="text-align:right;color: white !important;background-color: #424085 !important;">
+0.19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+pollution_maritime
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+<td style="text-align:right;color: white !important;background-color: #BBDE27 !important;">
+0.90
+</td>
+<td style="text-align:right;color: white !important;background-color: #80D34D !important;">
+0.81
+</td>
+<td style="text-align:right;color: white !important;background-color: #FDE725 !important;">
+1.00
+</td>
+<td style="text-align:right;color: white !important;background-color: #80D34D !important;">
+0.81
+</td>
+<td style="text-align:right;color: white !important;background-color: #A0DA38 !important;">
+0.86
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+<td style="text-align:right;color: white !important;background-color: #62CA5F !important;">
+0.76
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<!--
+La  caractérisation de la vulnérabilité des baleines, aidée par [Baleine en direct](https://baleinesendirect.org/).
+
+Une justification référencée est fournie avec les scores de vulnérabilité pour les scores de vulnérabilité qui ne pas intuitifs à partir de connaissances écologiques générales (*e.g.* un bateau immobile n'entraînera pas la mort d'un mammifère marin, outside of a freak accident)
+-->
 
 </div>
 <div id="sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1" class="section level3" number="4.4.4">

@@ -124,7 +124,9 @@ fig:wolastoqiyikwahsipekukpechecommerciale
 tab:bergevuln
 tab:critereTeck
 tab:habitatvuln
-tab:vulnerabilityMM
+tab:vulnerabilitySpecies
+tab:speciesvuln
+tab:mmvuln
 fig:icfig
 fig:stCum
 fig:stCumNorm
@@ -189,7 +191,7 @@ vulnerabilite
 intégrité-des-berges-1
 habitats-floristiques-et-fauniques-1
 habitats
-sites-dimportance-pour-les-espèces-fauniques-et-floristiques
+habitats-dimportance-pour-les-espèces-fauniques-et-floristiques
 mammifères-marins-1
 sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1
 évaluation-des-effets-cumulatifs
