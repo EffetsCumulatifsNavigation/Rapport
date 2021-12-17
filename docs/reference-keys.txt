@@ -121,7 +121,9 @@ fig:kahnawakevegatation
 fig:publicmilieuprotege
 fig:publicsitespatrimoniaux
 fig:wolastoqiyikwahsipekukpechecommerciale
+tab:bergevuln
 tab:critereTeck
+tab:habitatvuln
 tab:vulnerabilityMM
 fig:icfig
 fig:stCum
