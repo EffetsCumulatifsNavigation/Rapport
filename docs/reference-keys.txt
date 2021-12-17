@@ -161,7 +161,6 @@ tab:rorqualabossecriteres
 tab:rorqualbleucriteres
 tab:rorqualcommuncriteres
 contexte
-introduction
 démarche
 portee
 objectifs
@@ -222,7 +221,7 @@ distribution-des-effets-cumulatifs
 régions-administratives
 chemins-deffet
 contribution-régionale
-discussion-générale
+constats-généraux
 limites-et-lacunes
 perspectives
 annexes
