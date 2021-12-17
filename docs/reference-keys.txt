@@ -49,6 +49,7 @@ tab:frayerealevinage
 fig:frayere
 fig:sitealevinage
 fig:oiseaux
+tab:statut
 fig:faunesusceptible
 fig:faunevulnerable
 fig:faunemenacee
@@ -165,8 +166,8 @@ intégrité-des-berges
 habitats-floristiques-et-fauniques
 habitats-dimportance-pour-les-cycles-de-vie
 frayères-et-sites-dalevinage
-oiseaux-marins-et-côtièrs
-habitats-dimportance-pour-les-espèces-à-statut
+oiseaux-marins
+espèces-fauniques-et-floristiques-à-statut
 milieux-naturels
 zostères
 zones-inondables
