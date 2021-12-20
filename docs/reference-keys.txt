@@ -133,10 +133,10 @@ fig:stCumNorm
 fig:stPanel
 fig:cvCum
 fig:cvCumNorm
-fig:cvberge
+fig:cvPanel
 fig:cumExp
 fig:cumExpNorm
-fig:cumExpberge
+fig:cumExpPanel
 fig:cumEffects
 fig:cumEffectsPanel
 fig:regionadmin
@@ -211,13 +211,12 @@ sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1
 évaluation-des-effets-cumulatifs
 effets-cumulatifs
 méthode
-transformation-et-normalisation-des-stresseurs-environnementaux
 diagnostic
 résultats
 stresseurs-cumulés
 composantes-valorisées-cumulées
 exposition-cumulée
-distribution-des-effets-cumulatifs
+effets-cumulatifs-1
 régions-administratives
 chemins-deffet
 contribution-régionale

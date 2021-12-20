@@ -24,7 +24,7 @@
 <meta name="author" content="David Beauchesne, Cindy Grant, Philippe Archambault" />
 
 
-<meta name="date" content="2021-12-17" />
+<meta name="date" content="2021-12-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -147,7 +147,6 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="3.1" data-path="évaluation-des-effets-cumulatifs.html"><a href="évaluation-des-effets-cumulatifs.html#effets-cumulatifs"><i class="fa fa-check"></i><b>3.1</b> Effets cumulatifs</a></li>
 <li class="chapter" data-level="3.2" data-path="évaluation-des-effets-cumulatifs.html"><a href="évaluation-des-effets-cumulatifs.html#méthode"><i class="fa fa-check"></i><b>3.2</b> Méthode</a></li>
-<li class="chapter" data-level="3.3" data-path="évaluation-des-effets-cumulatifs.html"><a href="évaluation-des-effets-cumulatifs.html#transformation-et-normalisation-des-stresseurs-environnementaux"><i class="fa fa-check"></i><b>3.3</b> Transformation et normalisation des stresseurs environnementaux</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="diagnostic.html"><a href="diagnostic.html"><i class="fa fa-check"></i><b>4</b> Diagnostic</a>
 <ul>
@@ -156,7 +155,7 @@ div.csl-indent {
 <li class="chapter" data-level="4.1.1" data-path="diagnostic.html"><a href="diagnostic.html#stresseurs-cumulés"><i class="fa fa-check"></i><b>4.1.1</b> Stresseurs cumulés</a></li>
 <li class="chapter" data-level="4.1.2" data-path="diagnostic.html"><a href="diagnostic.html#composantes-valorisées-cumulées"><i class="fa fa-check"></i><b>4.1.2</b> Composantes valorisées cumulées</a></li>
 <li class="chapter" data-level="4.1.3" data-path="diagnostic.html"><a href="diagnostic.html#exposition-cumulée"><i class="fa fa-check"></i><b>4.1.3</b> Exposition cumulée</a></li>
-<li class="chapter" data-level="4.1.4" data-path="diagnostic.html"><a href="diagnostic.html#distribution-des-effets-cumulatifs"><i class="fa fa-check"></i><b>4.1.4</b> Distribution des effets cumulatifs</a></li>
+<li class="chapter" data-level="4.1.4" data-path="diagnostic.html"><a href="diagnostic.html#effets-cumulatifs-1"><i class="fa fa-check"></i><b>4.1.4</b> Effets cumulatifs</a></li>
 <li class="chapter" data-level="4.1.5" data-path="diagnostic.html"><a href="diagnostic.html#régions-administratives"><i class="fa fa-check"></i><b>4.1.5</b> Régions administratives</a></li>
 <li class="chapter" data-level="4.1.6" data-path="diagnostic.html"><a href="diagnostic.html#chemins-deffet"><i class="fa fa-check"></i><b>4.1.6</b> Chemins d’effet</a></li>
 <li class="chapter" data-level="4.1.7" data-path="diagnostic.html"><a href="diagnostic.html#contribution-régionale"><i class="fa fa-check"></i><b>4.1.7</b> Contribution régionale</a></li>
@@ -203,16 +202,15 @@ div.csl-indent {
 
 <div id="résultats" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Résultats</h2>
+<p>Les sections suivantes présentent les principaux résultats de l’évaluation des effets cumulatifs. Nous commençons par présenter et discuter de métriques plus simples, <em>i.e.</em> les stresseurs cumulés, les composantes valorisées cumulées et l’exposition cumulée. Ces métriques correspondent en réalité en une décomposition de la méthode d’évaluation des effets cumulatifs présentée à la section précédente. Elles permettent ainsi d’amorcer l’interprétation des résultats de l’évaluation des effets cumulatifs en explorant des portions plus restreintes de l’évaluation complète. Nous présentons ensuite les résultats de l’évaluation des effets cumulatifs complète.</p>
 
 <div id="stresseurs-cumulés" class="section level3" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> Stresseurs cumulés</h3>
-<p>L’évaluation de l’empreinte cumulée permet d’identifier les sites qui sont
-le plus exposés aux effets potentiels des stresseurs environnementaux
-considérés pour l’évaluation des effets cumulatifs. Elle ne fournit pas
-d’évaluation des effets, puisqu’elle ne considère que les stresseurs,
-leur intensité et leur distribution. Elle permet toutefois d’obtenir une
-évaluation des milieux qui sont le plus propices d’être affectés par les
-stresseurs dans notre zone d’étude.</p>
+<p>Tous les stresseurs ont été normalisés entre 0 et 1 pour obtenir une valeur relative d’intensité et ainsi permettre une comparaison entre différents types de stresseurs. Le 99e quantile de la distribution d’intensité des stresseurs a été utilisé comme limite supérieure pour la normalisation des valeurs extrêmes <span class="citation">(<a href="#ref-halpern2019" role="doc-biblioref"><strong>halpern2019?</strong></a>)</span>. Les catégories de navigation ont été normalisées conjointement afin d’éviter d’attribuer des valeurs d’intensité relative supérieures à des types de navires pour lesquels le traffic est inférieur. Par exemple, une normalisation individuelle résulterait en une intensité maximale similaire pour une catégorie de navigation dont le traffic maximal est de 100 navires par <span class="math inline">\(km^2\)</span> et une autre dont le traffic maximal est de 1000 navires par <span class="math inline">\(km^2\)</span>. Une normalisation jointe permet ainsi de conserver ces différentes entre types de navires. Les autres stresseurs ont été normalisés individuellement. Une transformation logarithmique a également été appliquée aux données de stresseurs environnementaux afin d’éviter une sous-estimation de l’intensité des stresseurs à valeurs intermédiaires <span class="citation">(<a href="#ref-halpern2019" role="doc-biblioref"><strong>halpern2019?</strong></a>)</span>.</p>
+<p>Ce travail nous permet d’obtenir le premier résultat de l’évaluation des effets cumulatifs, <em>i.e.</em> l’empreinte cumulée des stresseurs environnementaux dans la zone d’étude (Figures <a href="diagnostic.html#fig:stCum">4.1</a>, <a href="diagnostic.html#fig:stCumNorm">4.2</a> et <a href="diagnostic.html#fig:stPanel">4.3</a>). L’empreinte cumulée, ou stresseurs cumulés <span class="math inline">\(E_{S,x}\)</span>, correspond au cumul de l’ensemble des stresseurs environnementaux <span class="math inline">\(S\)</span> au sein de chaque cellule <span class="math inline">\(x\)</span> considérés pour l’évaluation :</p>
+<p><span class="math display">\[E_{S_x} = \sum_{j=1}^m S_{j,x} \label{eq2}\]</span></p>
+<p>L’évaluation de l’empreinte cumulée des stresseurs environnementaux permet d’identifier les sites qui sont le plus exposés aux effets potentiels des stresseurs environnementaux considérés pour l’évaluation des effets cumulatifs. Elle ne fournit pas d’évaluation des effets, puisqu’elle ne considère que les stresseurs, leur intensité et leur distribution. Elle permet toutefois d’obtenir une évaluation des milieux qui sont le plus propices d’être affectés par les stresseurs dans notre zone d’étude. Nous avons également évalué l’empreinte cumulée des stresseurs en normalisant les valeurs d’intensité par le nombre de catégories de stresseurs afin d’éviter une sur-représentation de stresseurs composés de plusieurs catégories (Figure <a href="diagnostic.html#fig:stCumNorm">4.2</a>). Par exemple, la navigation est composée de 12 catégories, alors que les ancrages n’en renferment qu’une seule. Finalement, nous présentons également les résultats par type de stresseurs (Figure <a href="diagnostic.html#fig:stPanel">4.3</a>).</p>
+<p>L’ensemble de la zone d’étude est exposée aux stresseurs environnementaux reliés aux activités maritimes. Les grandes villes portuaires et la voie naviguable sont particulièrement exposées à plusieurs types de stresseurs. Dans le secteur fluvial, les régions de Québec, Trois-Rivières, Sorel-Tracy et Montréal sont des milieux qui sont à risque des effets des stresseurs; dans le secteur maritime, les régions plus à risques sont le sud de l’Île d’Orléans, l’embouchure de la rivière Saguenay, Rivière-du-Loup, Rimouski, Matane et Baie-Comeau. Puisque le secteur fluvial est beaucoup plus étroit que le secteur maritime, les stresseurs environnementaux y sont plus concentrés qu’au sein du secteur maritime, où les stresseurs sont largement répandus, mais diffus spatialement.</p>
 <p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:stCum"></span>
 <a href="./figures/figures-output/cumulative_st.png" target="_blank"><img src="figures/figures-output/cumulative_st.png" alt="Distribution des stresseurs cumulés au sein de la zone d'étude" width="100%" /></a>
@@ -234,16 +232,16 @@ Figure 4.2: Distribution des stresseurs cumulés normalisés au sein de la zone 
 Figure 4.3: Cumul des catégories des différents types de stresseurs au sein de la zone d’étude
 </p>
 </div>
+<p><br/></p>
 
 </div>
 <div id="composantes-valorisées-cumulées" class="section level3" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> Composantes valorisées cumulées</h3>
-<p>L’évaluation de l’empreinte cumulée permet d’identifier les sites qui sont
-le plus importants en terme de présentes de composantes valorisées. Elle ne
-fournit pas d’évaluation des effets, puisqu’elle ne considère que les
-composantes valorisées. Elle permet toutefois d’obtenir une évaluation des
-milieux qui sont les plus importants pour les composantes valorisées dans
-la zone d’étude.</p>
+<p>Le portrait des composantes valorisées au sein de la zone d’étude nous permet d’obtenir le second résultat de l’évaluation des effets cumulative, <em>i.e.</em> l’évaluation des composantes valorisées cumulées au sein de la zone d’étude (Figures <a href="diagnostic.html#fig:cvCum">4.4</a>, <a href="diagnostic.html#fig:cvCumNorm">4.5</a> et <a href="diagnostic.html#fig:cvPanel">4.6</a>). L’évaluation des composantes valorisées cumulées <span class="math inline">\(E_{CV,x}\)</span> correspond au cumul de l’ensemble des composantes valorisées <span class="math inline">\(CV\)</span> au sein de chaque cellule <span class="math inline">\(x\)</span> :</p>
+<p><span class="math display">\[E_{CV_x} = \sum_{i=1}^n CV_{i,x} \label{eq3}\]</span></p>
+<p>L’évaluation de l’empreinte cumulée permet d’identifier les sites qui sont les plus riches en composantes valorisées. Tout comme l’évaluation des stresseurs cumulés, elle ne fournit pas d’évaluation des effets, puisqu’elle ne considère que les composantes valorisées. Elle permet toutefois d’obtenir une évaluation des milieux qui sont les plus importants pour les composantes valorisées dans la zone d’étude. Nous avons également évalué les composantes valorisées en normalisant par le nombre de catégories de composantes valorisées afin d’éviter une sur-représentation de composantes valorisées composées de plusieurs catégories (Figure <a href="diagnostic.html#fig:cvCumNorm">4.5</a>). Par exemple, les sites d’intérêt culturels, patrimoniaux et archéologiques comprennent 40 catégories, alors que l’intégrité des berges est composée de quatre catégories. Finalement, les résultats par type de composantes valorisées sont également disponibles à la figure <a href="diagnostic.html#fig:cvPanel">4.6</a>.</p>
+<p>L’évaluation des composantes valorisées cumulées mettent en évidence que l’entièreté de la zone d’étude est couverte par au moins une composante valorisée. Les milieux côtiers sont toutefois généralement couverts par un plus grand nombre de composantes valorisées. Ce constat est principalement influcé par les composantes valorisées d’intégrité des berges et d’habitats, dont la description est davantage côtière dans le cadre de cette évaluation. Les sites d’intérêt sont églament largement distribués en milieux côtiers. L’ensemble des milieux côtiers du secteur fluvial est caractérisé par plusieurs composantes valorisées, mais la région du lac Saint-Pierre, incluant les secteurs en amont et en aval, semble particulièrement importante. Un examen plus détaillé permet d’observer que cette région est caractérisée par une diversité importante d’habitats et de sites d’intérêt, en plus de présenté plusieurs catégories de berges sensibles à l’érosion.</p>
+<p>D’ordre général, le secteur fluvial est caractérisé par davantage de composantes valorisées que le secteur maritime. La région du secteur maritime présentant le plus grand nombre de composantes valorisées est l’embouchure de la rivière Saguenay, qui couvre essentiellement le Parc marin du Saguenay-Saint-Laurent. Cette observation est reliée à la diversité importante de mammifères marins qui fréquentent cette région et à une quantité importante de sites d’intérêt. La rivière Saguenay présente quant à elle la quantité la moins important de composantes valorisées; il est toutefois important de mentionner que ce constat reflète davantage le manque de données caractérisant ce milieu plutôt qu’une évaluation réelle de son importance.</p>
 <p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:cvCum"></span>
 <a href="./figures/figures-output/cumulative_cv.png" target="_blank"><img src="figures/figures-output/cumulative_cv.png" alt="Distribution des composantes valorisées cumulées au sein de la zone d'étude" width="100%" /></a>
@@ -259,24 +257,21 @@ Figure 4.5: Distribution des composantes valorisées cumulées normalisés au se
 </p>
 </div>
 <p><br/></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cvberge"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cvPanel"></span>
 <a href="./figures/figures-output/cumulative_cv_panel.png" target="_blank"><img src="figures/figures-output/cumulative_cv_panel.png" alt="Cumul des catégories de composantes valorisées au sein de la zone d'étude" width="100%" /></a>
 <p class="caption">
 Figure 4.6: Cumul des catégories de composantes valorisées au sein de la zone d’étude
 </p>
 </div>
+<p><br/></p>
 
 </div>
 <div id="exposition-cumulée" class="section level3" number="4.1.3">
 <h3><span class="header-section-number">4.1.3</span> Exposition cumulée</h3>
-<p>L’évaluation de l’exposition cumulée fournit une évaluation des milieux
-où il y a un chevauchement plus important entre les composantes valorisées
-et les stresseurs environnementaux. Bien que cette étape n’établisse pas une
-prédiction de l’effets des stresseurs sur les composantes valorisées, qui
-qui nécessiterait une évaluation de la sensibilité des composantes valorisées
-aux stresseurs, elle permet tout de même d’identifier les milieux où les
-composantes valorisées sont le plus susceptibles d’être soumises aux effets
-des stresseurs environnementaux considérés.</p>
+<p>Le croisement de l’évaluation des stresseurs et des composantes valorisées cumulés fournissent le troisième résultat de l’évaluation, <em>i.e.</em> l’exposition cumulée (Figures <a href="diagnostic.html#fig:cumExp">4.7</a>, <a href="diagnostic.html#fig:cumExpNorm">4.8</a> et <a href="diagnostic.html#fig:cumExpPanel">4.9</a>). L’exposition cumulée <span class="math inline">\(E_{E,x}\)</span> correspond au produit de l’intensité des stresseurs environnementaux <span class="math inline">\(S_{j,x}\)</span> et de la présence des composantes valorisées <span class="math inline">\(CV_{i,x}\)</span> au sein de chaque cellule <span class="math inline">\(x\)</span> :</p>
+<p><span class="math display">\[E_{E_x} = \sum_{i=1}^n \sum_{j=1}^m CV_{i,x} * S_{j,x} \label{eq4}\]</span></p>
+<p>L’exposition cumulée fournit une évaluation des milieux où il y a un chevauchement plus important entre les composantes valorisées et les stresseurs environnementaux. Bien que cette métrique n’établisse pas une prédiction de l’effets des stresseurs sur les composantes valorisées elle permet d’identifier les milieux où les composantes valorisées sont le plus susceptibles d’être soumises aux effets des stresseurs environnementaux considérés. L’exposition cumulés permet également de délimiter l’ensemble des milieux où des effets pourraient survenir, puisqu’un chevauchement entre stresseurs et composantes valorisées est nécessaire pour détecter un effet; en tant que tel, cette métrique capture une partie importante des effets cumulatifs même si elle n’intègre pas la vulnérabilité des composantes valorisées aux stresseurs. Tout comme pour les stresseurs et composantes valorisées cumulés, nous avons évalué l’exposition cumulée en normalisant par le nombre de catégories de stresseurs et de composantes valorisées afin d’éviter une sur-représentation de composantes valorisées composées de plusieurs catégories (Figure <a href="diagnostic.html#fig:cumExpNorm">4.8</a>). Les résultats par type de composantes valorisées sont également disponibles à la figure <a href="diagnostic.html#fig:cumExpPanel">4.9</a>.</p>
+<p>Les composantes valorisées sont exposées aux stresseurs dans l’ensemble de la zone d’étude. Certains milieux semblent toutefois particulièrement exposées aux stresseurs. Dans le secteur fluvial, la région de Québec et le sud de l’Îles d’Orléans, ainsi que le chenal de navigation entre Trois-Rivières et Montréal, incluant le lac Saint-Pierre, sont particulièrement exposées aux stresseurs. Dans le secteur maritime, la région la plus exposée aux stresseurs est l’embouchure du Saguenay au sein du Parc Marin du Saguenay-Saint-Laurent, et ce particulièrement vers sur la rive nord du Saint-Laurent jusqu’à la portion du Saguenay qui couvre la traverse entre Tadoussac et Baie-Sainte-Catherine. Les milieux où l’exposition est importante sont caractérisés par une diversité importante de composantes valorisées et de stresseurs environnementaux. Par exemple, la région de Sorel-Tracy qui s’étend dans le lac Saint-Pierre présente plusieurs types d’habitats, de sites d’intérêt et de milieux sensibles à l’érosion; cette même région est caractérisée par une importance présence de la navigation commerciale, des sites d’ancrage, des déversements accidentels, des sites de naufrage, des opérations annuelles de dragage, et un risque plus important de pollution maritime. L’embouchure du Saguenay est quant à elle caractérisée principalement par une forte pression de la navigation qui chevauche la présente d’une diversité importante de mammifères marins; il s’ajoute à ces derniers plusieurs habitats et sites d’importances, ainsi que des stresseurs plus ponctuels comme des déversements, des sites d’ancrage et de la pêche commerciale.</p>
 <p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:cumExp"></span>
 <a href="./figures/figures-output/cumulative_exposure.png" target="_blank"><img src="figures/figures-output/cumulative_exposure.png" alt="Distribution de l'exposition cumulée des composantes valorisées aux stresseurs environnementaux au sein de la zone d'étude" width="100%" /></a>
@@ -292,16 +287,20 @@ Figure 4.8: Distribution de l’exposition cumulée des composantes valorisées 
 </p>
 </div>
 <p><br/></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cumExpberge"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cumExpPanel"></span>
 <a href="./figures/figures-output/cumulative_exposure_panel.png" target="_blank"><img src="figures/figures-output/cumulative_exposure_panel.png" alt="Distribution de l'exposition cumulée des différentes catégories de composantes valorisées aux stresseurs environnementaux au sein de la zone d'étude" width="100%" /></a>
 <p class="caption">
 Figure 4.9: Distribution de l’exposition cumulée des différentes catégories de composantes valorisées aux stresseurs environnementaux au sein de la zone d’étude
 </p>
 </div>
+<p><br/></p>
 
 </div>
-<div id="distribution-des-effets-cumulatifs" class="section level3" number="4.1.4">
-<h3><span class="header-section-number">4.1.4</span> Distribution des effets cumulatifs</h3>
+<div id="effets-cumulatifs-1" class="section level3" number="4.1.4">
+<h3><span class="header-section-number">4.1.4</span> Effets cumulatifs</h3>
+<p>Le résultat principal de l’évaluation applique l’entièreté de la méthode d’évaluation des effets cumulatifs en incluant la distribution et l’intensité des stresseurs environnementaux, la distribution des composantes valorisées, et la vulnérabilité des composantes valorisées aux stresseurs environnementaux (Figures <a href="diagnostic.html#fig:cumEffects">4.10</a> et <a href="diagnostic.html#fig:cumEffectsPanel">4.11</a>). Puisque l’évaluation des effets cumulatifs est contrainte par la distribution spatiale des stresseurs et des composantes valorisées, l’exploration des résultats de l’évaluation des effets a déjà été amorcée à partir de l’évaluation des stresseurs cumulés, des composantes valorisées cumulées et de l’exposition cumulée (voir sections précédentes). L’évaluation des effets cumulatifs permet ainsi de moduler l’intensité relative des effets en fonction de la vulnérabilité des composantes valorisées aux stresseurs, sans nécessairement altérer la distribution des effets.</p>
+<p>Les milieux les plus affectés par les stresseurs environnementaux sont essentiellement les mêmes entre l’évaluation de l’exposition cumulée (Figure <a href="diagnostic.html#fig:cumExp">4.7</a>) et l’évaluation des effets cumualtifs (Figure <a href="diagnostic.html#fig:cumEffects">4.10</a>); une interprétation similaire peut ainsi être faite. Les composantes valorisées sont affectées par les stresseurs dans l’ensemble de la zone d’étude. La région de Québec et le sud de l’Île d’Orléans, ainsi que le chenal de navigation entre Trois-Rivières et Montréal sont particulièrement affectés; l’embouchure de la rivière Saguenay est la région du secteur maritime la plus affectée par les stresseurs reliés aux activités maritimes. L’inclusion de la vulnérabilité semble suggérer une intensité supérieure des effets comparativement à l’exposition pour l’embouchure de la rivière Saguenay et sein du lac Saint-Pierre (Figure <a href="diagnostic.html#fig:cumEffectsPanel">4.11</a>). Nous explorons ces résultats plus en détails dans les prochaines sections.</p>
+<p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:cumEffects"></span>
 <a href="./figures/figures-output/cumulative_effects.png" target="_blank"><img src="figures/figures-output/cumulative_effects.png" alt="Distribution des effets cumulatifs des sources de stress reliés aux activités maritimes sur les composantes valorisée" width="100%" /></a>
 <p class="caption">
@@ -315,39 +314,55 @@ Figure 4.10: Distribution des effets cumulatifs des sources de stress reliés au
 Figure 4.11: Distribution des effets cumulatifs des sources de stress reliés aux activités maritimes sur l’intégrité des berges, les habitats, les mammifères marins et les sites d’intérêt culturels, patrimoniaux et archéologiques
 </p>
 </div>
+<p><br/></p>
 </div>
 <div id="régions-administratives" class="section level3" number="4.1.5">
 <h3><span class="header-section-number">4.1.5</span> Régions administratives</h3>
+<p>Une évaluation des effets cumulatifs par <span class="math inline">\(km^2\)</span> au sein des 11 régions administratives se séparant la zone d’étude a été effectuée afin d’explorer les différences régionales au niveau de l’intensité des effets cumulatifs (Figures <a href="diagnostic.html#fig:regionadmin">4.12</a> et <a href="diagnostic.html#fig:regionadminpanel">4.13</a>). L’évaluation globale combinant l’ensemble des composantes valorisées révèle que les régions administrative du secteur fluvial sont beaucoup plus à risque des effets cumulatifs des activités maritimes, alors que le secteur maritime semble moins à risque. La Montérégie en particulier semble être la région la plus affectée par les effets des activités maritimes. Ces observations sont dû à la concentration des activités maritimes au sein d’un corridor beaucoup plus étroit au sein du secteur fluvial comparativement au secteur maritime. Bien que cette observation ne soit pas étonnante, elle suggère qu’une augmentation du traffic maritime au sein du secteur maritime risque d’avoir des conséquences disproportionnelles au sein du secteur fluvial si ce traffic se dirige vers les Grands Lacs. Le passage d’un navire supplémentaire à Québec ne peut ainsi être interprété de la même façon qu’un navire supplémentaire à Montréal. Par extension à la navigation, le second stresseur d’importance au sein des régions administratives du secteur fluvial est le risque de pollution maritime. Les types de navires ayant les effets les plus importants sont d’ailleurs ceux reliés au transport de marchandise (<em>e.g.</em> pétrolier, cargaison sèche, cargo et porte-conteneurs). Les navires gouvernementaux semblent également pouvoir affecté négativement les composantes valorisées de la zone d’étude, sans doute dû à des routes de navigations moins contrainte par la voie navigable.</p>
+<ul>
+<li><p>Les évaluations par composantes valorisées présente un portrait globalement similaire, sauf au niveau des mammifères marins puisque ces derniers sont distribués au sein du secteur maritime.</p></li>
+<li><p>Stresseurs ayant le plus d’effets : navigation et pollution maritime, mais ce sont aussi les stresseurs avec la répartition spatiale la plus importante dans la zone d’étude. Les autres stresseurs sont plus ponctuels.</p></li>
+<li><p>L’intégrité des berges est plus à risque en amont du lac Saint-Pierre en raison de la proximité de la voie navigable et des berges. Il est important de noter que l’absence d’effets sur l’intégrité des berges dans le secteur maritime est dû à la portée de l’étude et non à l’absence de risque d’érosion.</p></li>
+</ul>
+<p>Les stresseurs les plus importants pour les</p>
+<p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:regionadmin"></span>
 <a href="./figures/figures-output/cumulative_effects_region_cea.png" target="_blank"><img src="figures/figures-output/cumulative_effects_region_cea.png" alt="Contribution moyenne par $km^2$ des stresseurs aux effets cumulatifs des activités maritimes sur les composantes valorisées dans les régions administratives du Québec convrant la zone d'étude" width="100%" /></a>
 <p class="caption">
 Figure 4.12: Contribution moyenne par <span class="math inline">\(km^2\)</span> des stresseurs aux effets cumulatifs des activités maritimes sur les composantes valorisées dans les régions administratives du Québec convrant la zone d’étude
 </p>
 </div>
+<p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:regionadminpanel"></span>
 <a href="./figures/figures-output/cumulative_effects_region_cea_panel.png" target="_blank"><img src="figures/figures-output/cumulative_effects_region_cea_panel.png" alt="Contribution moyenne par $km^2$ des stresseurs aux effets cumulatifs des activités maritimes sur l'intégrité des berges, les habitats, les mammifères marins et les sites d’intérêt culturels, patrimoniaux et archéologiques dans les régions administratives du Québec convrant la zone d'étude" width="100%" /></a>
 <p class="caption">
 Figure 4.13: Contribution moyenne par <span class="math inline">\(km^2\)</span> des stresseurs aux effets cumulatifs des activités maritimes sur l’intégrité des berges, les habitats, les mammifères marins et les sites d’intérêt culturels, patrimoniaux et archéologiques dans les régions administratives du Québec convrant la zone d’étude
 </p>
 </div>
+<p><br/></p>
 </div>
 <div id="chemins-deffet" class="section level3" number="4.1.6">
 <h3><span class="header-section-number">4.1.6</span> Chemins d’effet</h3>
+<p>L’évaluation des effets cumulatifs proposée permet d’explorer l’ensemble des combinaisons de stresseurs et de composantes valorisées incluses à l’analyse. Considérant les 26 catégories de stresseurs et les 74 catégories de composantes valorisées, il s’agit de près de 2 000 paires possibles. Bien que nous ne pouvons explorer l’ensemble de ces combinaisons, la figure <a href="diagnostic.html#fig:metanetwork">4.14</a> fournit une représentation visuelle de l’ensemble de ces combinaisons.</p>
+<p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:metanetwork"></span>
 <a href="./figures/figures-output/cumulative_effects_metanetwork.png" target="_blank"><img src="figures/figures-output/cumulative_effects_metanetwork.png" alt="Réseau multiplex présentant la présence d'un effet des stresseurs individuels sur chaque composante valorisée considérées à l'évaluation des effets cumulatifs (*i.e.* liens colorés), les effets cumulatifs totaux sur chaque composante valorisée (*i.e.* taille des points des composantes valorisées) et l'effet moyen des stresseurs (*i.e.* taille des points des stresseurs)." width="100%" /></a>
 <p class="caption">
 Figure 4.14: Réseau multiplex présentant la présence d’un effet des stresseurs individuels sur chaque composante valorisée considérées à l’évaluation des effets cumulatifs (<em>i.e.</em> liens colorés), les effets cumulatifs totaux sur chaque composante valorisée (<em>i.e.</em> taille des points des composantes valorisées) et l’effet moyen des stresseurs (<em>i.e.</em> taille des points des stresseurs).
 </p>
 </div>
+<p><br/></p>
 </div>
 <div id="contribution-régionale" class="section level3" number="4.1.7">
 <h3><span class="header-section-number">4.1.7</span> Contribution régionale</h3>
+<p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:ceakm"></span>
 <a href="./figures/figures-output/cumulative_effects_regional_contribution.png" target="_blank"><img src="figures/figures-output/cumulative_effects_regional_contribution.png" alt="Contribution moyenne par $km^2$ des stresseurs aux effets cumulatifs des activités maritimes sur les composantes valorisées dans la zone d'étude" width="100%" /></a>
 <p class="caption">
 Figure 4.15: Contribution moyenne par <span class="math inline">\(km^2\)</span> des stresseurs aux effets cumulatifs des activités maritimes sur les composantes valorisées dans la zone d’étude
 </p>
 </div>
+<p><br/></p>
 
 </div>
 </div>
