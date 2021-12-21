@@ -139,10 +139,10 @@ fig:cumExpNorm
 fig:cumExpPanel
 fig:cumEffects
 fig:cumEffectsPanel
-fig:regionadmin
-fig:regionadminpanel
 fig:metanetwork
 fig:ceakm
+fig:regionadmin
+fig:regionadminpanel
 tab:stresscomp
 tab:cvcomp
 tab:frayerecriteres
@@ -217,10 +217,11 @@ stresseurs-cumulés
 composantes-valorisées-cumulées
 exposition-cumulée
 effets-cumulatifs-1
-régions-administratives
 chemins-deffet
-contribution-régionale
+régions-administratives
 constats-généraux
 limites-et-lacunes
 perspectives
+projet-résilience-côtière
+pêche-commerciale-secteur-fluvial
 annexes
