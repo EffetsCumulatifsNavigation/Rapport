@@ -198,9 +198,10 @@ sites-dintérêt-culturels-patrimoniaux-et-archéologiques
 aghamm
 essipit
 gcnwa
+nation-huronne-wendat
 kahnawake
 public
-wolastoqiyik-wahsipekuk---pêche-traditionnelle
+wolastoqiyik-wahsipekuk
 vulnerabilite
 intégrité-des-berges-1
 habitats-floristiques-et-fauniques-1
