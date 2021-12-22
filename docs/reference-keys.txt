@@ -227,6 +227,6 @@ sites-dintérêt-culturels-patrimoniaux-et-archéologiques-2
 caractérisation-des-habitats
 données
 scénarios-de-gestion
-opérationer-les-évaluations-des-effets-cumulatifs
+opérationnaliser-les-évaluations-des-effets-cumulatifs
 exploration-interactive-des-évaluations-deffets-cumulatifs
 annexes
