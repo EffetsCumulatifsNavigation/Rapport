@@ -166,7 +166,7 @@ démarche
 portée
 objectifs
 limites-spatiales-et-temporelles
-activités-maritimes-et-facteurs-de-stress
+activités-maritimes-et-stresseurs-environnementaux
 composantes-valorisées
 évaluation-des-effets-cumulatifs
 effets-cumulatifs
@@ -188,7 +188,7 @@ intégrité-des-berges
 habitats-floristiques-et-fauniques
 habitats-dimportance-pour-les-cycles-de-vie
 frayères-et-sites-dalevinage
-oiseaux-marins
+oiseaux
 espèces-fauniques-et-floristiques-à-statut
 milieux-naturels
 zostères
@@ -220,7 +220,7 @@ sites-patrimoniaux-1
 vulnerabilite
 intégrité-des-berges-1
 habitats-floristiques-et-fauniques-1
-habitats
+milieux-naturels-1
 habitats-dimportance-pour-les-espèces-fauniques-et-floristiques
 mammifères-marins-1
 sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1
