@@ -24,7 +24,7 @@
 <meta name="author" content="David Beauchesne, Cindy Grant, Philippe Archambault" />
 
 
-<meta name="date" content="2022-02-21" />
+<meta name="date" content="2022-02-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -284,15 +284,15 @@ div.csl-indent {
 <p>Puisque ce projet pilote ne visait aucune collecte de nouvelles données, le portrait présenté représente une veille des connaissances actuelles permettant de caractériser les activités maritimes et les composantes valorisées au sein de la zone d’étude. La disponibilité et l’accessibilité des données a ainsi guidé le travail accompli. La collecte des données a été effectuée en collaboration avec les différentes parties impliquées aux projet ainsi qu’avec la collaboration et le soutien de Transports Canada et les membres du projet porté par le Plan d’action Saint-Laurent.</p>
 <p>La collecte des données a débuté par l’envoie d’une liste à annoter à divers experts et parties impliquées au projet. Cette liste était constituée de sous-catégories stresseurs environnementaux et de composantes valorisées. Les participants étaient invités à identifier toutes bases de données connues permettant d’effectuer une caractérisation des stresseurs et des composantes valorisées au sein de la zone d’étude, et d’identifier toutes autres sous-catégories ou bases de données jugées pertinentes au projet. Nous avons ensuite colligé les commentaires et suggestions et avons commencé les démarches en vue de collecter les données pertinentes à l’évaluation des effets cumulatifs.</p>
 <p>Lorsque possible, les données ouvertement accessibles à partir de portails de données tels les plateformes de partage fédérale <a href="https://open.canada.ca/fr"><em>Gouvernement ouvert</em></a> et provinciale <a href="https://www.donneesquebec.ca/">*Données Québec</a>, ainsi que les ressources disponibles par l’<a href="https://ogsl.ca/fr/accueil/"><em>Observatoire Global du Saint-Laurent</em></a> (OGSL) ont été priorisées. À cet égard, des recherches ont été effectuées sur ces plateformes afin d’identifier des données pertinentes n’ayant pas été signalées par la liste partagée précédemment. En priorisant les données ouvertes, il sera plus aisé de reproduire et mettre à jour l’évaluation effectuée par ce projet pilote. L’<a href="annexe1.html#annexe1">annexe 1</a> présente l’ensemble des données qui ont été considérées pour l’évaluation. Les données y sont décrites et les données retenues pour l’évaluation y sont identifiées. Les données qui n’ont pas été retenues ont été conservée afin de documenter l’ensemble des données qui ont été explorées pour l’évaluation. Les données non incluses ont été laissées de côté parce qu’elles étaient couvertes par d’autres bases de données sélectionnées ou parce qu’elles n’adressaient pas un objectif spécifique de l’évaluation.</p>
-<p>Une attention particulière a également été attribuée aux connaissances détenues par des experts disciplinaires, ainsi que par les communautés autochtones et non-autochtones. Nous avons ainsi échangé directement avec des personnes ressources afin de réviser les différentes sections du portrait de la zone d’étude caractérisant les stresseurs environnementaux et les composantes valorisées. Les personnes ressources ayant contribué à la révision de ces sections sont d’ailleurs remerciées spécifiquement au début des sections auxquelles elles ont contribué. Une liste des personnes ou organismes ressources pour ce projet est disponible à l’<a href="annexe2.html#annexe2">annexe 2</a>.</p>
-<p>Un processus collaboratif avec les Premières Nations a également été priorisé tout au long du projet afin d’assurer l’intégration des savoirs autochtones et des préoccupations des communautés présentes au sein de la zone d’étude. Nous avons ainsi échangé avec des représentants des Premières Nations en vue d’obtenir une caractérisation spatiale des sites d’intérêt culturels, patrimoniaux et archéologiques pour les communautés impliquées au projet pilote. Davantage de détails sont disponibles à la section présentant les sites d’intérêt culturels, patrimoniaux et archéologiques.</p>
+<p>Une attention particulière a également été attribuée aux connaissances détenues par des experts disciplinaires, ainsi que par les divers collaborateurs participants. Nous avons ainsi échangé directement avec des personnes ressources afin de réviser les différentes sections du portrait de la zone d’étude caractérisant les stresseurs environnementaux et les composantes valorisées. Les personnes ressources ayant contribué à la révision de ces sections sont d’ailleurs remerciées spécifiquement au début des sections auxquelles elles ont contribué. Une liste des personnes ou organismes ressources pour ce projet est disponible à l’<a href="annexe2.html#annexe2">annexe 2</a>.</p>
+<p>La collaboration avec les Premières Nations a également été un élément important du projet afin d’assurer la valorisation des savoirs autochtones et des préoccupations des Premières Nations présentes au sein de la zone d’étude. Nous avons ainsi échangé avec des représentants des Premières Nations participantes en vue d’obtenir une caractérisation spatiale de sites d’intérêt culturels, patrimoniaux et archéologiques. Davantage de détails sont disponibles à la section présentant les sites d’intérêt culturels, patrimoniaux et archéologiques.</p>
 </div>
 <div id="gestion-des-données-et-reproductibilité" class="section level3" number="3.1.2">
 <h3><span class="header-section-number">3.1.2</span> Gestion des données et reproductibilité</h3>
 <p>La gestion des bases de données visait à assurer la transparence et la reproductibilité de l’évaluation des effets cumualtifs. Nous basons notre approche sur les principes <a href="https://ogsl.ca/fr/principes-fair" target="_blank"><i>FAIR</i></a> (Findable, Accessible, Interoperable, Reusable), qui visent à s’assurer que les données utilisées soient découvrables, accessibles, interopérables et réutilisables. Nous utilisons ainsi des outils de programmations, notamment le langage <a href="https://www.r-project.org/" target="_blank"><i>R</i></a><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. L’utilisation d’outils de programmation, à l’instar de logiciels comme <a href="https://www.arcgis.com/index.html" target="_blank"><i>ArcGIS</i></a><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, offre plusieurs avantages. Ils offrent une grande souplesse permettant l’intégration de changements ou de nouvelles considérations très rapidement sans devoir refaire plusieurs étapes d’un processus complexe. Cette souplesse ne se limite pas aux analyses, puisque l’ensemble des étapes d’un projet, de l’intégration des données brutes à la production de rapports, peuvent être intégrées et ainsi facilement modifiées. Il devient alors aisé d’intégrer des commentaires ou de nouvelles recommandations suite à des processus de mobilisation, par exemple.</p>
 <p>Nous avons également utilisé <a href="https://github.com/" target="_blank"><i>GitHub</i></a><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, un outil de contrôle de version qui permettra la documentation, le contrôle de la qualité et l’historique du développements et des modifications des éléments de programmation pertinents à l’ensemble du projet. Nous avons créé une organisation nommée <a href="https://github.com/EffetsCumulatifsNavigation" target="_blank"><i>EffetsCumulatifsNavigation</i></a>. L’ensemble des rapports rédigés et des séminaires offerts pendant le projet pilote y sont disponibles. Un dépôt public intitulé <a href="https://github.com/EffetsCumulatifsNavigation/ceanav" target="_blank"><i>ceanav</i></a> fait office de <em>compendium de recherche</em> et constitue le coeur de l’évaluation; un <em>compendium de recherche</em> est une collection de l’ensemble des parties d’un projet de recherche incluant le texte, les figures, les données et le code assurant la reproductibilité de l’étude. Une description détaillé de la structure du <em>compendium de recherche</em> de l’évaluation est disponible à l’<a href="annexe3.html#annexe3">annexe 3</a> et sur la page web du dépôt GitHub <a href="https://github.com/EffetsCumulatifsNavigation/ceanav" target="_blank"><i>ceanav</i></a>.</p>
 <p>Sans inclure les données directement, le <em>compendium de recherche</em> de l’évaluation contient l’ensemble des ressources permettant d’accéder aux données brutes et de les transformer. Il contient également le code permettant de caractériser les stresseurs environnementaux et les composantes valorisées, d’effectuer les analyses, les figures, les tableaux et le rapport final. Seules les données à nature sensibles pour lesquelles des ententes de confidentialité ont été signées demeurent inaccessibles; ces dernières sont toutefois cataloguées au sein du rapport et des documents accompagnateurs afin qu’un utilisateur ou un lecteur puisse connaître le type et la provenance des données utilisées au sein des analyses, ainsi que les personnes ressources à contacter en vue d’obtenir davantage d’informations sur les données utilisées. Les données intégrées au sein de la grille d’étude et permettant d’effectuer l’évaluation des effets cumulatifs sont quant à elles ouvertement disponibles à travers le dépôt principal du projet pilote <a href="https://github.com/EffetsCumulatifsNavigation/ceanav" target="_blank"><i>ceanav</i></a>; nous travaillons également avec l’OGSL afin de les rendre disponibles sur leur portail.</p>
-<p>Les bases de données qui ont été considérées pour l’évaluation sont identifiées par un identifiant unique de la forme <code>####</code> pour chaque base de données considérées et qui est disponible à l’<a href="annexe1.html#annexe1">annexe 1</a>. Par exemple, la base de donnée <code>0001</code> correspond à un inventaire de la zostère marine (<em>Zostera marina</em>) pour la Baie James, la Baie des Chaleurs, l’estuaire et le golfe du Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-mpo2009" role="doc-biblioref">Pêches et Océans Canada, 2009</a>)</span>. Ces identifiants uniques sont utilisés afin d’identifier, directement sur les figures, les bases de données qui ont été utilisées pour caractériser les catégories de stresseurs environnementaux et de composantes valorisées présentées aux sections <a href="portrait-de-la-zone-détude.html#strportrait">3.2</a> et <a href="portrait-de-la-zone-détude.html#cvportrait">3.3</a>; la liste des identifiants uniques peut être visualisée dans la marge inférieure droite de chaque figure. De plus, toutes les données et métadonnées incluses au <em>compendium de recherche</em> de l’évaluation utilisent ces identifiants uniques afin de faire référence aux bases de données considérées. Au total, 71 bases de données ont été considérées pour l’évaluation et sont accessibles à travers le <em>compendium de recherche</em>; de ce nombre, 52 ont été utilisées pour effectuer l’évaluation des effets cumulatifs des activités maritimes sur les composantes valorisées sélectionnées. Consultez l’<a href="annexe1.html#annexe1">annexe 1</a> pour plus de détails sur ces bases de données. Tout comme pour les données, les différents organismes et experts consultés pour ce projet, ou dépositaires de bases de données ouvertes utilisées, sont identifiés par un identifiant unique de la forme <code>####</code> qui est disponible à l’<a href="annexe2.html#annexe2">annexe 2</a>.</p>
+<p>Les bases de données qui ont été considérées pour l’évaluation sont identifiées par un identifiant unique de la forme <code>####</code> pour chaque base de données considérées et qui est disponible à l’<a href="annexe1.html#annexe1">annexe 1</a>. Par exemple, la base de donnée <code>0001</code> correspond à un inventaire de la zostère marine (<em>Zostera marina</em>) pour la Baie James, la Baie des Chaleurs, l’estuaire et le golfe du Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-mpo2009" role="doc-biblioref">Pêches et Océans Canada, 2009</a>)</span>. Ces identifiants uniques sont utilisés afin d’identifier, directement sur les figures, les bases de données qui ont été utilisées pour caractériser les catégories de stresseurs environnementaux et de composantes valorisées présentées aux sections <a href="portrait-de-la-zone-détude.html#strportrait">3.2</a> et <a href="portrait-de-la-zone-détude.html#cvportrait">3.3</a>; la liste des identifiants uniques peut être visualisée dans la marge inférieure droite de chaque figure. De plus, toutes les données et métadonnées incluses au <em>compendium de recherche</em> de l’évaluation utilisent ces identifiants uniques afin de faire référence aux bases de données considérées. Au total, 72 bases de données ont été considérées pour l’évaluation et sont accessibles à travers le <em>compendium de recherche</em>; de ce nombre, 51 ont été utilisées pour effectuer l’évaluation des effets cumulatifs des activités maritimes sur les composantes valorisées sélectionnées. Consultez l’<a href="annexe1.html#annexe1">annexe 1</a> pour plus de détails sur ces bases de données. Tout comme pour les données, les différents organismes et experts consultés pour ce projet, ou dépositaires de bases de données ouvertes utilisées, sont identifiés par un identifiant unique de la forme <code>####</code> qui est disponible à l’<a href="annexe2.html#annexe2">annexe 2</a>.</p>
 
 </div>
 </div>
@@ -2764,7 +2764,7 @@ Figure 3.26: Intensité de la pollution maritime dans le Saint-Laurent et le Sag
 </div>
 <div id="cvportrait" class="section level2" number="3.3">
 <h2><span class="header-section-number">3.3</span> Composantes valorisées</h2>
-<p>La caractérisation des composantes valorisées dans la zone d’étude a résulté en la description de 4 composantes valorisées divisés en 75 sous-catégories qui sont considérées pour l’évaluation des effets cumulatifs des activités maritimes (Tableau <a href="portrait-de-la-zone-détude.html#tab:cv">3.12</a>). Les sous-catégories ont été identifiées principalement par la disponibilité et l’accessibilité des données pour les composantes valorisées biophysiques (<em>i.e.</em> intégrité des berges, habitats et mammifères marins); elles ne devraient ainsi pas être considérées comme une représentation exhaustive de la diversité des sous-catégories de composantes valorisées. Dans le cas des sites d’intérêt culturels, patrimoniaux et archéologiques, les catégories identifiées correspondent aux données rapportées par les différentes Premières Nations, mais ne devraient pas être interprétées comme une représentation exhaustive de l’utilisation du territoire des Premières Nations (voir section <a href="portrait-de-la-zone-détude.html#pnportrait">3.3.5.1</a> pour plus de détails)</p>
+<p>La caractérisation des composantes valorisées dans la zone d’étude a résulté en la description de 4 composantes valorisées divisés en 77 sous-catégories qui sont considérées pour l’évaluation des effets cumulatifs des activités maritimes (Tableau <a href="portrait-de-la-zone-détude.html#tab:cv">3.12</a>). Les sous-catégories ont été identifiées principalement par la disponibilité et l’accessibilité des données pour les composantes valorisées biophysiques (<em>i.e.</em> intégrité des berges, habitats et mammifères marins); elles ne devraient ainsi pas être considérées comme une représentation exhaustive de la diversité des sous-catégories de composantes valorisées. Dans le cas des sites d’intérêt culturels, patrimoniaux et archéologiques, les catégories identifiées correspondent aux données rapportées par les différentes Premières Nations, mais ne devraient pas être interprétées comme une représentation exhaustive de l’utilisation du territoire des Premières Nations (voir section <a href="portrait-de-la-zone-détude.html#pnportrait">3.3.5.1</a> pour plus de détails)</p>
 <p>La majorité des données ont été intégrées à la grille d’étude en présence-absence; une caractérisation quantitative continue a été effectuée pour les mammifères marins uniquement. L’approche utilisée est décrite à la section spécifique pour les mammifères marins. Les sections suivantes présentent les données et les résultats de l’intégration des données ayant permis la caractérisation des composantes valorisées dans la zone d’étude.</p>
 <p><br/></p>
 <table>
@@ -3324,7 +3324,7 @@ Pêche traditionnelle
 Nation Huronne-Wendat
 </td>
 <td style="text-align:left;">
-Activités récréatives
+Activités rituelles ou sociales
 </td>
 <td style="text-align:left;">
 0055
@@ -3675,10 +3675,34 @@ Zones d’activités
 Nation Wolastoqiyik Wahsipekuk
 </td>
 <td style="text-align:left;">
-Pêche traditionnelle
+Développement portuaire
 </td>
 <td style="text-align:left;">
-0025, 0026
+0072
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Observation du béluga
+</td>
+<td style="text-align:left;">
+0072
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Pêche commerciale
+</td>
+<td style="text-align:left;">
+0022, 0025
 </td>
 </tr>
 <tr>
@@ -3691,7 +3715,7 @@ Public
 Milieux protégés
 </td>
 <td style="text-align:left;">
-0030, 0038, 0039, 0040
+0030, 0038, 0039
 </td>
 </tr>
 <tr>
@@ -5408,7 +5432,7 @@ Figure 3.60: Distribution des mammifères marins dans le Saint-Laurent et le Sag
 </div>
 <div id="sites-dintérêt-culturels-patrimoniaux-et-archéologiques" class="section level3" number="3.3.5">
 <h3><span class="header-section-number">3.3.5</span> Sites d’intérêt culturels, patrimoniaux et archéologiques</h3>
-<p>Le Saint-Laurent et le Saguenay constituent un système d’une importance culturelle, patrimoniale et archéologique majeure pour les Premières Nations et pour les communautés côtières. Les sites d’intérêt culturels, patrimoniaux et archéologiques ont ainsi été identifiés en tant que composante valorisée à considérer pour le projet pilote d’évaluation des effets cumulatifs des activités maritimes. Les sites d’intérêt caractérisés proviennent principalement des Premières Nations, de sites patrimoniaux inscrits aux registres publics et d’aires protégées sur le territoire. Il en résulte un total de 41 catégories distinctes de sites d’intérêt (Tableau <a href="portrait-de-la-zone-détude.html#tab:siteCat">3.19</a>). Les données caractérisant les sites d’intérêt ont été intégrées directement à la grille d’étude en présence-absence. Les sections suivantes décrivent les données utilisées pour dresser le portrait des sites d’intérêt culturels, patrimoniaux et archéologiques dans la zone d’étude.</p>
+<p>Le Saint-Laurent et le Saguenay constituent un système d’une importance culturelle, patrimoniale et archéologique majeure pour les Premières Nations et pour les communautés côtières. Les sites d’intérêt culturels, patrimoniaux et archéologiques ont ainsi été identifiés en tant que composante valorisée à considérer pour le projet pilote d’évaluation des effets cumulatifs des activités maritimes. Les sites d’intérêt caractérisés proviennent principalement des Premières Nations, de sites patrimoniaux inscrits aux registres publics et d’aires protégées sur le territoire. Il en résulte un total de 43 catégories distinctes de sites d’intérêt (Tableau <a href="portrait-de-la-zone-détude.html#tab:siteCat">3.19</a>). Les données caractérisant les sites d’intérêt ont été intégrées directement à la grille d’étude en présence-absence. Les sections suivantes décrivent les données utilisées pour dresser le portrait des sites d’intérêt culturels, patrimoniaux et archéologiques dans la zone d’étude.</p>
 <p><br/></p>
 <table>
 <caption>
@@ -5495,7 +5519,7 @@ Pêche traditionnelle
 Nation Huronne-Wendat
 </td>
 <td style="text-align:left;">
-Activités récréatives
+Activités rituelles ou sociales
 </td>
 </tr>
 <tr>
@@ -5701,7 +5725,21 @@ Zones d’activités
 Nation Wolastoqiyik Wahsipekuk
 </td>
 <td style="text-align:left;">
-Pêche traditionnelle
+Développement portuaire
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Observation du béluga
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Pêche commerciale
 </td>
 </tr>
 <tr>
@@ -5725,23 +5763,7 @@ Sites patrimoniaux
 
 <div id="pnportrait" class="section level4" number="3.3.5.1">
 <h4><span class="header-section-number">3.3.5.1</span> Sites d’intérêt pour les Premières Nations</h4>
-<!-- TODO: Discuter des limites temporelles ici, et du fait que les communautés ont clairement indiqué qu'il s'agit d'une limite de l'étude, et c'est aussi rapporté dans le document du GCNWA
-
-Données caractérisent une activité, mais peuvent difficilement permettre de convenablement les contextualiser culturellement et écologiquement.
-
-> Les données rapportées ici servent donc à documenter les modalités de l’UOT des W8banakiak ainsi que les conditions qui sous-tendent leur exercice. Elles ne peuvent pas prédire les lieux qui seront fréquentés dans le futur ou le type d’activité qui y sera pratiqué. GCNWA
-
-Pour la vulnérabilité : De plus, il est impossible de cartographier adéquatement les valeurs accordées à certains sites ou activités. L’importance d’un site dépend d’une multitude de facteurs. Par exemple, sans être fréquentés sur une base régulière, des lieux sont associés à des récits ou légendes, à l’histoire ou l’imaginaire collectif de la Nation, à des sites archéologiques ou sacrés, etc (GCNWA)
-
-#### Kahnawake
-
-TODO: Vérifier la catégorie traffic identifiée par la communauté. Est-ce qu'on devrait l'ajouter aux stresseurs de navigation?
-TODO: Même chose avec la seigneurie
-
-Bien que ces éléments sont ceux qui sont utilisés au sein de l'évaluation des effets cumulatifs, il demeure important de mentionner que le rapport qui accompage les données spatiales permet de contextualiser l'importance de ces sites en termes qui vont au-delà d'une simple délimitation géographique. De plus, les données identifiées sont contemporaires et ne devraient ainsi pas être considérées représentatives du passé ou du futur. GCNWA
-
--->
-<p>Dans le cadre de ce projet pilote, une importance particulière a été attribuée aux sites d’intérêt pour les Premières Nations. Un processus collaboratif a ainsi été enclenché avec des communautés autochtones ayant des activités historiques et contemporaines au sein de la zone d’étude. Les communautés participantes ayant fournit des données sont les suivantes :</p>
+<p>Dans le cadre de ce projet pilote, une importance particulière a été attribuée aux sites d’intérêt pour les Premières Nations. Les activités maritimes peuvent affecter les conditions qui sous-tendent l’exercice des droits ancestraux des Premières Nations, notamment l’accès aux ressources et au territoire. Un processus collaboratif a ainsi été enclenché avec des Nations autochtones ayant des activités historiques et contemporaines au sein de la zone d’étude. Les Nations autochtones participantes ayant fournit des données sont les suivantes :</p>
 <ul>
 <li>Nation Huronne-Wendat</li>
 <li>Nation des Innus d’Essipit</li>
@@ -5749,12 +5771,12 @@ Bien que ces éléments sont ceux qui sont utilisés au sein de l'évaluation de
 <li>Nation Wolastoqiyik Wahsipekuk</li>
 <li>Nation W8banaki</li>
 </ul>
-<p>Un protocole de partage d’informations a été élaboré en collaboration avec les communautés participantes. Ce protocole offre un cadre pour l’utilisation des données qui soutient les principes des Premières Nations de PCAP<span class="math inline">\(^{MD}\)</span> (propriété, contrôle, accès, possession) dans le domaine de la recherche. L’application de ces principes sert de mécanisme de protection du patrimoine informationnel et des connaissances des Premières Nations. Ces principes évoquent la propriété collective de l’information par une communauté, une nation, un groupe. Ces principes s’appliquent à tous types de recherche et à tous les domaines de recherche qui se déroulent sur les territoires des Premières Nations et/ou qui concernent les Premières Nations.</p>
-<p>Des rencontres individuelles ont été organisées avec des représentants des communautés participantes afin de présenter le projet et de discuter des besoins en informations en vue d’intégrer les sites d’intérêt au sein de l’évaluation des effets cumulatifs. Les communautés participantes ont subséquemment procédé au rassemblement d’informations cartographiques et non-cartographiques représentant des sites d’intérêt pour leur communauté respective.</p>
-<p>Un atlas cartographique en accès libre développé par l’Association de gestion halieutique Mi’kmaq et Malécite [AGHAMM; <span class="citation"><a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al.</a> (<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">2017</a>)</span>] a également permi d’obtenir des données d’utilisation du territoire pour les Nations Mi’kmaq de Gespeg et Mi’kmaq de Gesgapegiag.</p>
-<p>Les sites d’intérêt proviennent généralement d’un exercice d’intégration de connaissances issues d’autres études effectuées avec les membres des Premières Nations. Les sites d’intérêt identifiés par les communautés participantes peuvent globalement être classés en 9 grandes catégories :</p>
+<p>Un protocole de partage d’informations a été élaboré en collaboration avec les Premières Nations participantes. Ce protocole offre un cadre pour l’utilisation des données qui soutient les principes des Premières Nations de PCAP<span class="math inline">\(^{MD}\)</span> (propriété, contrôle, accès, possession) dans le domaine de la recherche. L’application de ces principes sert de mécanisme de protection du patrimoine informationnel et des connaissances des Premières Nations. Ces principes évoquent la propriété collective de l’information par une communauté, une nation, un groupe. Ces principes s’appliquent à tous types de recherche et à tous les domaines de recherche qui se déroulent sur les territoires des Premières Nations et/ou qui concernent les Premières Nations.</p>
+<p>Des rencontres individuelles ont été organisées avec des représentants des Premières Nations participantes afin de présenter le projet et de discuter des besoins en informations en vue d’intégrer les sites d’intérêt au sein de l’évaluation des effets cumulatifs. Les Premières Nations participantes ont subséquemment procédé au rassemblement d’informations cartographiques et non-cartographiques représentant des sites d’intérêt pour leur Nation respective. Notre équipe de recherche n’a ainsi effectué aucune collecte de données; ce travail a été effectué par les Premières Nations participantes, qui nous ont subséquemment fait parvenir les données désignant des sites d’intérêt à considérer pour l’évaluation des effets cumulatifs des activités maritimes.</p>
+<p>Un atlas cartographique en accès libre développé par l’Association de gestion halieutique Mi’kmaq et Malécite [AGHAMM; <span class="citation"><a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al.</a> (<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">2017</a>)</span>] a également permi d’obtenir des données d’utilisation du territoire pour les Nations Mi’kmaq de Gespeg, Mi’kmaq de Gesgapegiag et Wolastoqiyik Wahsipekuk.</p>
+<p>Les sites d’intérêt proviennent généralement d’un exercice d’intégration de connaissances issues d’autres études effectuées avec les membres des Premières Nations. Les sites d’intérêt identifiés par les Premières Nations participantes peuvent globalement être classés en 9 grandes catégories :</p>
 <ul>
-<li>Activités récréatives</li>
+<li>Activités rituelles ou sociales</li>
 <li>Chasse</li>
 <li>Culture et patrimoine</li>
 <li>Occupation du territoire</li>
@@ -5765,17 +5787,122 @@ Bien que ces éléments sont ceux qui sont utilisés au sein de l'évaluation de
 <li>Tourisme</li>
 </ul>
 <p>Les sites d’intérêt identifiés par les Nations ont été conservés distinct plutôt qu’intégrés en une couche unique par grandes catégories de sites d’intérêt, et ce malgré l’identification de catégories de sites d’intérêt similaires entre Nations. Par exemple, bien que la majorité des Nations aient identifié des sites d’intérêt pour la chasse, les sites identifiés demeurent distincts entre Nations pour l’évaluation des effets cumulatifs. Cette approche a pour but de respecter l’indépendance de chaque Nation et d’attribuer une importance supérieure à un milieu si ce dernier est identifié par plus d’une Nation. C’est le cas, entre autres, du Lac Saint-Pierre, qui est identifié en tant que site d’intérêt par plus d’une Nation participante.</p>
-<p>Chaque Nation a organisé et catégorisé ses propres sites d’intérêt; ces catégories ont été conservées telles que rapportées bien que des catégories similaires ont été identifiées entre les communautés participantes. Aucune tentative d’harmonisation des catégories entre communautés n’a été effectuée. Cette absence d’harmonisation a été adoptée afin d’éviter de dénaturer les informations transmises par les Nations. De plus, puisque les sites provenant des différentes Nations demeurent distincts pour l’évaluation, l’harmonisation des catégories de sites d’intérêt n’aurait pas affecté l’évaluation. Nous avons ainsi décidé de conserver les libellés utilisées dans les données transmises.</p>
-<p>Il est important de noter quelques mises en gardes quant aux sites d’intérêt pour les Premières Nations. Premièrement, les informations rapportées ne peuvent être considérées comme un portrait exhaustif des sites d’intérêt pour l’ensemble des membres des communautés; en effet, les informations résultent d’un processus de consultation limité des membres de chaque communauté et intégrées uniquement dans le contexte du projet d’évaluation des effets cumulatifs des activités maritimes. Les sites d’intérêt identifiés proviennent d’autres d’études dont les données ont été intégrées afin de répondre aux objectifs de la présente étude. De plus, toutes les Premières Nations ayant un intérêt au sein de la zone d’étude n’ont pu être impliquée au projet. Par exemple, malgré l’inclusion de sites d’intérêt pour la Nation Wolastoqiyik Wahsipekuk, un processus collaboratif semble à celui effectué avec les autres Nations n’a pu être mis en place; les données socio-culturelles de la Nation Wolastoqiyik Wahsipekuk n’ont ainsi pu être incluses au sein de notre évaluation. La caractérisation des sites d’intérêt ne peut ainsi être considérée exhaustive pour l’ensemble des Premières Nations sur le territoire à l’étude.</p>
-<p>Deuxièmement, le lien et l’appartenance des Premières Nations au territoire va au-delà d’une vision strictement utilitaire et fonctionnelle; cette vision est difficile à capturer à travers une cartographie des sites d’intérêt, qui a pour effet de les objectiver. Il est ainsi important de considérer que les sites d’intérêts identifiés par les Premières Nations s’insèrent dans un contexte culturel et écologique plus large qu’une simple localisation géographique.</p>
-<p>Troisièmement, les limites spatio-temporelles de la présente étude a été évoquée comme une limite importance dans un contexte autochtone puisqu’elle ne capture pas adéquatement le caractère évolutif de l’occupation et de l’utilisation du territoire par les Premières Nations. Le portrait des sites d’intérêt présenté ne devrait ainsi pas être interprété comme représentatif du passé ou garant du futur.</p>
+<p>Chaque Nation a organisé et catégorisé ses propres sites d’intérêt; ces catégories ont été conservées telles que rapportées bien que des catégories similaires ont été identifiées entre les Premières Nations participantes. Aucune tentative d’harmonisation des catégories entre Premières Nations n’a été effectuée. Cette absence d’harmonisation a été adoptée afin d’éviter de dénaturer les informations transmises par les Nations. De plus, puisque les sites provenant des différentes Nations demeurent distincts pour l’évaluation, l’harmonisation des catégories de sites d’intérêt n’aurait pas affecté l’évaluation. Nous avons ainsi décidé de conserver les libellés utilisées dans les données transmises.</p>
+<p>Il est important de noter quelques mises en gardes quant aux sites d’intérêt pour les Premières Nations. Premièrement, les informations rapportées ne peuvent être considérées comme un portrait exhaustif des sites d’intérêt pour l’ensemble des membres des Nations autochtones; en effet, les informations résultent d’un processus de consultation limité des membres de chaque Nation et intégrées uniquement dans le contexte du projet d’évaluation des effets cumulatifs des activités maritimes. Les sites d’intérêt identifiés proviennent d’autres d’études dont les données ont été intégrées afin de répondre aux objectifs de la présente étude. De plus, toutes les Premières Nations ayant un intérêt au sein de la zone d’étude n’ont pu être impliquée au projet. Par exemple, malgré l’inclusion de sites d’intérêt pour la Nation Wolastoqiyik Wahsipekuk, un processus collaboratif semble à celui effectué avec les autres Nations n’a pu être mis en place; les données socio-culturelles de la Nation Wolastoqiyik Wahsipekuk n’ont ainsi pu être incluses au sein de notre évaluation. La caractérisation des sites d’intérêt ne peut ainsi être considérée exhaustive pour l’ensemble des Premières Nations sur le territoire à l’étude.</p>
+<p>Deuxièmement, le lien et l’appartenance des Premières Nations au territoire va au-delà d’une vision strictement utilitaire et fonctionnelle; cette vision est difficile à capturer à travers une cartographie des sites d’intérêt, qui a pour effet de les objectiver. Il est ainsi important de considérer que les sites d’intérêts qui ont été identifiés s’insèrent dans un contexte culturel et écologique plus large qu’une simple localisation géographique.</p>
+<p>Troisièmement, la notion d’utilisation du territoire des Premières Nations va au-delà d’une simple utilisation. En effet, les activités coutumières autochtones constituent des droits ancestraux protégés par l’article 35(1) de la Constitution canadienne. La Loi constitutionnelle de 1982 affirme les droits existants ancestraux ou issus de traités. Cependant, la plupart de ces droits demeurent indéfinis et la Proclamation royale de 1763 stipule que les peuples autochtones continuent à détenir toutes terres qu’ils n’ont pas cédées ou vendues. Il importe donc de bien distinguer ces activités alimentaires, rituelles et sociales faisant l’objet de droits protégés par la Constitution et liés à la subsistance de la Nation, des activités de pêche, de chasse et de piégeage sportives et de loisir pratiquées par la population allochtone.</p>
+<p>Quatrièmement, les limites spatio-temporelles de la présente étude a été évoquée comme une limite importance dans un contexte autochtone puisqu’elle ne capture pas adéquatement le caractère évolutif de l’occupation et de l’utilisation du territoire qu’ils en font. Le portrait des sites d’intérêt présenté ne devrait ainsi pas être interprété comme représentatif du passé ou garant du futur.</p>
 <p>Finalement, la participation des Premières Nations à cette étude est faite sans préjudice à l’exercice de leurs droits juridiques sur leur territoire traditionnel respectif pour lesquels s’appliquent leurs droits et responsabilités d’intendance et qui se basent sur l’application d’une approche écosystémique plus large. Les sites d’intérêt identifiés doivent ainsi être interprétés dans le contexte élargi de ces droits et responsabilités.</p>
-<p>Les sections suivantes décrivent brièvement les données partagées par les communautés participantes et les données qui ont été accessibles à travers des plateformes ouvertes.</p>
+<p>Les sections suivantes décrivent brièvement les données partagées par les Premières Nations participantes et les données qui ont été accessibles à travers des plateformes ouvertes.</p>
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-<div id="nation-huronne-wendat" class="section level5" number="3.3.5.1.1">
-<h5><span class="header-section-number">3.3.5.1.1</span> Nation Huronne-Wendat</h5>
+<div id="aghammportrait" class="section level5" number="3.3.5.1.1">
+<h5><span class="header-section-number">3.3.5.1.1</span> Association de gestion halieutique Mi’kmaq et Malécite</h5>
+<blockquote>
+<p><em>Nous remercions Lisa M. Arsenault pour les échanges et le support.</em></p>
+</blockquote>
+<p>L’Association de gestion halieutique Mi’kmaq et Malécite (AGHAMM) a developpé un atlas cartographique décrivant divers sites et usages reliés aux activités de pêche commerciale et traditionnelle d’importance pour les Nations de Gesgapegiag, Gespeg et Wolastoqiyik Wahsipekuk <span class="citation">(<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al., 2017</a>)</span>. L’Atlas décrit des activités de pêches commerciales ciblant neuf espèces différentes : le buccin (<em>Buccinum</em> sp.), le concombre de mer (<em>Holothurie</em> sp.), le crabe commun (<em>Cancer irroratus</em>), le crage des neiges (<em>Chionoecetes opilio</em>), la crevette nordique (<em>Pandalus</em> sp.), le flétan Atlantique (<em>Hippoglossus hippoglossus</em>), le flétan du Groenland (<em>Reinhardtius hippoglossoides</em>), le homard (<em>Homarus americanus</em>) et l’oursin (<em>Strongylocentrotus</em> sp.) dans l’estuaire du Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al., 2017</a>; <a href="bibliographie.html#ref-racine2017" role="doc-biblioref">Racine and Arsenault, 2017</a>)</span>. Puisque la majorité de ces pêches sont effectuées par la Nation Wolastoqiyik Wahsipekuk, ces données sont utilisées afin de décrire les activités de pêches commerciales de cette dernière (voir section <a href="portrait-de-la-zone-détude.html#pnwwportrait">3.3.5.1.6</a>). Puisque la Nation Mi’kmaq de Gespeg effectue également une pêche commerciale à la crevette nordique dans l’estuaire du Saint-Laurent, nous avons sélectionné cette pêche parmi les données de l’Atlas.</p>
+<p>L’atlas identifie également les rivières Rimouski, Métis et Matane en tant que sites d’importance pour la pêche au Saumon Atlantique [<em>Salmo salar</em>; <span class="citation"><a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al.</a> (<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">2017</a>)</span>]. Nous avons ainsi ajouter une zone tampon de 3 <span class="math inline">\(km\)</span> à l’embouchure de ces trois rivière afin de capturer leur présence en tant que site d’intérêt pour l’évaluation.</p>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:aghammpechetraditionnelle"></span>
+<a href="./figures/figures-integrated/site-aghamm_peche_traditionnelle.png" target="_blank"><img src="figures/figures-integrated/site-aghamm_peche_traditionnelle.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche traditionnelle" width="100%" /></a>
+<p class="caption">
+Figure 3.61: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche traditionnelle
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:aghammpechecommerciale"></span>
+<a href="./figures/figures-integrated/site-aghamm_peche_commerciale.png" target="_blank"><img src="figures/figures-integrated/site-aghamm_peche_commerciale.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche commerciale" width="100%" /></a>
+<p class="caption">
+Figure 3.62: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche commerciale
+</p>
+</div>
+<p><br></p>
+<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
+<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
+<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
+</div>
+<div id="nation-des-innus-dessipit" class="section level5" number="3.3.5.1.2">
+<h5><span class="header-section-number">3.3.5.1.2</span> Nation des Innus d’Essipit</h5>
+<blockquote>
+<p><em>Nous remercions la Nation des Innus d’Essipit pour leur participation, ainsi que Donald Bouchard et Pierre Tremblay pour les échanges et le support.</em></p>
+</blockquote>
+<p>Les données transmises par la Nation des Innus d’Essipit sont une intégration de données provenant de divers sources d’informations <span class="citation">(<a href="bibliographie.html#ref-bouchard2021" role="doc-biblioref">Bouchard and Tremblay, 2021</a>)</span> :</p>
+<ul>
+<li>Inventaire des sites archéologiques du Québec.</li>
+<li>Suivi Innu-Aitun, 2004 à 2018, Essipit.</li>
+<li>Historique des pêches commerciales (crabe des neiges, oursin) et alimentaire (flétan atlantique), 1996 à 2020, Essipit.</li>
+<li>Atlas des usages côtiers et marins du Saint-Laurent par les Innus de la Côte-Nord, Agence Mamu Innu Kaikusseht​, 2019.</li>
+<li>Collecte de données sur la récolte d’oiseaux migrateurs dans sept communautés innues de la Côte-Nord, Agence Mamu Innu Kaihusseht, 2014</li>
+</ul>
+<p>Le résultat de l’intégration de ces données fournit la localisation de sites d’intérêts localisés dans l’estuaire du Saint-Laurent et la rivière Saguenay. Ces sites sont divisés en sept catégories :</p>
+<ul>
+<li>Chasse aux oiseaux migrateurs</li>
+<li>Chasse au phoque</li>
+<li>Pêche commerciale</li>
+<li>Pêche traditionnelle</li>
+<li>Activités touristiques</li>
+<li>Accès au plan d’eau</li>
+<li>Culture et patrimoine</li>
+</ul>
+<p>Ces catégories de sites d’intérêts sont utilisées pour l’évaluation des effets cumulatifs des activités maritimes dans la zone d’étude. Il est important de noter que les données originales utilisées couvrent un territoire plus large que la zone d’étude de la présente évaluation, mais que ces dernières ont été intersectées et limitées à notre zone d’étude.</p>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitchasseoiseaux"></span>
+<a href="./figures/figures-integrated/site-essipit_chasse_oiseaux.png" target="_blank"><img src="figures/figures-integrated/site-essipit_chasse_oiseaux.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux oiseaux migrateurs" width="100%" /></a>
+<p class="caption">
+Figure 3.63: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux oiseaux migrateurs
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitchassephoque"></span>
+<a href="./figures/figures-integrated/site-essipit_chasse_phoque.png" target="_blank"><img src="figures/figures-integrated/site-essipit_chasse_phoque.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux phoques" width="100%" /></a>
+<p class="caption">
+Figure 3.64: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux phoques
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitpechecommerciale"></span>
+<a href="./figures/figures-integrated/site-essipit_peche_commerciale.png" target="_blank"><img src="figures/figures-integrated/site-essipit_peche_commerciale.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche commerciale" width="100%" /></a>
+<p class="caption">
+Figure 3.65: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche commerciale
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitpechetraditionnelle"></span>
+<a href="./figures/figures-integrated/site-essipit_peche_traditionnelle.png" target="_blank"><img src="figures/figures-integrated/site-essipit_peche_traditionnelle.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche traditionnelle" width="100%" /></a>
+<p class="caption">
+Figure 3.66: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche traditionnelle
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipittourisme"></span>
+<a href="./figures/figures-integrated/site-essipit_tourisme.png" target="_blank"><img src="figures/figures-integrated/site-essipit_tourisme.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Activités touristiques" width="100%" /></a>
+<p class="caption">
+Figure 3.67: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Activités touristiques
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitacceseau"></span>
+<a href="./figures/figures-integrated/site-essipit_acces_eau.png" target="_blank"><img src="figures/figures-integrated/site-essipit_acces_eau.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Accès au plan d'eau" width="100%" /></a>
+<p class="caption">
+Figure 3.68: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Accès au plan d’eau
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitculturepatrimoine"></span>
+<a href="./figures/figures-integrated/site-essipit_culture_patrimoine.png" target="_blank"><img src="figures/figures-integrated/site-essipit_culture_patrimoine.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Culture et patrimoine" width="100%" /></a>
+<p class="caption">
+Figure 3.69: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Culture et patrimoine
+</p>
+</div>
+<p><br></p>
+<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
+<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
+<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
+</div>
+<div id="nation-huronne-wendat" class="section level5" number="3.3.5.1.3">
+<h5><span class="header-section-number">3.3.5.1.3</span> Nation Huronne-Wendat</h5>
 <blockquote>
 <p><em>Nous remercions la Nation Huronne-Wendat pour leur participation, ainsi que Maria Rodriguez, Stéphanie B. Nadeau et Mario Gros-Louis pour les échanges et le support.</em></p>
 </blockquote>
@@ -5783,7 +5910,7 @@ Bien que ces éléments sont ceux qui sont utilisés au sein de l'évaluation de
 <ul>
 <li>Sites contemporains
 <ul>
-<li>Activités récréatives</li>
+<li>Activités rituelles ou sociales</li>
 <li>Chasse</li>
 <li>Pêche</li>
 <li>Récolte de végétaux</li>
@@ -5800,79 +5927,79 @@ Bien que ces éléments sont ceux qui sont utilisés au sein de l'évaluation de
 <li>Toponymie</li>
 </ul></li>
 </ul>
-<p>Les thèmes ont été considérés en tant que catégories uniques de composantes valorisées pour l’évaluation des effets cumulatifs.</p>
+<p>La catégorie d’occupation du territoire regroupe divers types de sites d’intérêt pour la Nation Huronne-Wendat. Une formule générale pour désigner ces sites a été conservée en raison de la sensibilité des données qui y sont incluses. Les thèmes ont été considérés en tant que catégories uniques de composantes valorisées pour l’évaluation des effets cumulatifs. Il est important de noter que les données originales utilisées couvrent un territoire plus large que la zone d’étude de la présente évaluation, mais que ces dernières ont été intersectées et limitées à notre zone d’étude.</p>
 <p><br></p>
-<div id="sites-contemporains" class="section level6" number="3.3.5.1.1.1">
-<h6><span class="header-section-number">3.3.5.1.1.1</span> Sites contemporains</h6>
+<div id="sites-contemporains" class="section level6" number="3.3.5.1.3.1">
+<h6><span class="header-section-number">3.3.5.1.3.1</span> Sites contemporains</h6>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatactiviterecreative"></span>
-<a href="./figures/figures-integrated/site-huronne_wendat_activite_recreative.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_activite_recreative.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Activités récréatives" width="100%" /></a>
+<a href="./figures/figures-integrated/site-huronne_wendat_activite_recreative.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_activite_recreative.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Activités rituelles ou sociales" width="100%" /></a>
 <p class="caption">
-Figure 3.61: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Activités récréatives
+Figure 3.70: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Activités rituelles ou sociales
 </p>
 </div>
 <br>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatchasse"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_chasse.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_chasse.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Chasse" width="100%" /></a>
 <p class="caption">
-Figure 3.62: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Chasse
+Figure 3.71: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Chasse
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatpeche"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_peche.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_peche.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Pêche" width="100%" /></a>
 <p class="caption">
-Figure 3.63: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Pêche
+Figure 3.72: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Pêche
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatvegetaux"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_vegetaux.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_vegetaux.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Récolte de végétaux" width="100%" /></a>
 <p class="caption">
-Figure 3.64: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Récolte de végétaux
+Figure 3.73: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Récolte de végétaux
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatoccupation"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_occupation.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_occupation.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Occupation du territoire" width="100%" /></a>
 <p class="caption">
-Figure 3.65: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Occupation du territoire
+Figure 3.74: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Occupation du territoire
 </p>
 </div>
 <p><br></p>
 </div>
-<div id="sites-écologiques" class="section level6" number="3.3.5.1.1.2">
-<h6><span class="header-section-number">3.3.5.1.1.2</span> Sites écologiques</h6>
+<div id="sites-écologiques" class="section level6" number="3.3.5.1.3.2">
+<h6><span class="header-section-number">3.3.5.1.3.2</span> Sites écologiques</h6>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatespeceperil"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_espece_peril.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_espece_peril.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Espèce en péril" width="100%" /></a>
 <p class="caption">
-Figure 3.66: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Espèce en péril
+Figure 3.75: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Espèce en péril
 </p>
 </div>
 <p><br></p>
 </div>
-<div id="sites-patrimoniaux" class="section level6" number="3.3.5.1.1.3">
-<h6><span class="header-section-number">3.3.5.1.1.3</span> Sites patrimoniaux</h6>
+<div id="sites-patrimoniaux" class="section level6" number="3.3.5.1.3.3">
+<h6><span class="header-section-number">3.3.5.1.3.3</span> Sites patrimoniaux</h6>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendatarcheologie"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_archeologie.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_archeologie.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Archéologie" width="100%" /></a>
 <p class="caption">
-Figure 3.67: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Archéologie
+Figure 3.76: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Archéologie
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendathistoire"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_histoire.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_histoire.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Histoire" width="100%" /></a>
 <p class="caption">
-Figure 3.68: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Histoire
+Figure 3.77: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Histoire
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:huronnewendattoponymie"></span>
 <a href="./figures/figures-integrated/site-huronne_wendat_toponymie.png" target="_blank"><img src="figures/figures-integrated/site-huronne_wendat_toponymie.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Toponymie" width="100%" /></a>
 <p class="caption">
-Figure 3.69: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Toponymie
+Figure 3.78: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Huronne-Wendat - Toponymie
 </p>
 </div>
 <p><br></p>
@@ -5881,86 +6008,8 @@ Figure 3.69: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
 </div>
 </div>
-<div id="nation-des-innus-dessipit" class="section level5" number="3.3.5.1.2">
-<h5><span class="header-section-number">3.3.5.1.2</span> Nation des Innus d’Essipit</h5>
-<blockquote>
-<p><em>Nous remercions la Nation des Innus d’Essipit pour leur participation, ainsi que Donald Bouchard et Pierre Tremblay pour les échanges et le support.</em></p>
-</blockquote>
-<p>Les données transmises par la Nation des Innus d’Essipit sont une intégration de données provenant de divers sources d’informations <span class="citation">(<a href="bibliographie.html#ref-bouchard2021" role="doc-biblioref">Bouchard and Tremblay, 2021</a>)</span> :</p>
-<ul>
-<li>Inventaire des sites archéologiques du Québec.</li>
-<li>Suivi Innu-Aitun, 2004 à 2018, Essipit.</li>
-<li>Historique des pêches commerciales (crabe des neiges, oursin) et alimentaire (flétan atlantique), 1996 à 2020, Essipit.</li>
-<li>Atlas des usages côtiers et marins du Saint-Laurent par les Innus de la Côte-Nord, Agence Mamu Innu Kaikusseht​, 2019.</li>
-<li>Collecte de données sur la récolte d’oiseaux migrateurs dans sept communautés innues de la Côte-Nord, Agence Mamu Innu Kaihusseht, 2014</li>
-</ul>
-<p>Le résultat de l’intégration de ces données fournit la localisation de sites d’intérêts localisés dans l’estuaire du Saint-Laurent et la rivière Saguenay . Ces sites sont divisés en sept catégories :</p>
-<ul>
-<li>Chasse aux oiseaux migrateurs</li>
-<li>Chasse au phoque</li>
-<li>Pêche commerciale</li>
-<li>Pêche traditionnelle</li>
-<li>Activités touristiques</li>
-<li>Accès au plan d’eau</li>
-<li>Culture et patrimoine</li>
-</ul>
-<p>Ces catégories de sites d’intérêts sont utilisées pour l’évaluation des effets cumulatifs des activités maritimes dans la zone d’étude.</p>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitchasseoiseaux"></span>
-<a href="./figures/figures-integrated/site-essipit_chasse_oiseaux.png" target="_blank"><img src="figures/figures-integrated/site-essipit_chasse_oiseaux.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux oiseaux migrateurs" width="100%" /></a>
-<p class="caption">
-Figure 3.70: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux oiseaux migrateurs
-</p>
-</div>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitchassephoque"></span>
-<a href="./figures/figures-integrated/site-essipit_chasse_phoque.png" target="_blank"><img src="figures/figures-integrated/site-essipit_chasse_phoque.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux phoques" width="100%" /></a>
-<p class="caption">
-Figure 3.71: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Chasse aux phoques
-</p>
-</div>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitpechecommerciale"></span>
-<a href="./figures/figures-integrated/site-essipit_peche_commerciale.png" target="_blank"><img src="figures/figures-integrated/site-essipit_peche_commerciale.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche commerciale" width="100%" /></a>
-<p class="caption">
-Figure 3.72: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche commerciale
-</p>
-</div>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitpechetraditionnelle"></span>
-<a href="./figures/figures-integrated/site-essipit_peche_traditionnelle.png" target="_blank"><img src="figures/figures-integrated/site-essipit_peche_traditionnelle.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche traditionnelle" width="100%" /></a>
-<p class="caption">
-Figure 3.73: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Pêche traditionnelle
-</p>
-</div>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipittourisme"></span>
-<a href="./figures/figures-integrated/site-essipit_tourisme.png" target="_blank"><img src="figures/figures-integrated/site-essipit_tourisme.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Activités touristiques" width="100%" /></a>
-<p class="caption">
-Figure 3.74: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Activités touristiques
-</p>
-</div>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitacceseau"></span>
-<a href="./figures/figures-integrated/site-essipit_acces_eau.png" target="_blank"><img src="figures/figures-integrated/site-essipit_acces_eau.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Accès au plan d'eau" width="100%" /></a>
-<p class="caption">
-Figure 3.75: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Accès au plan d’eau
-</p>
-</div>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:essipitculturepatrimoine"></span>
-<a href="./figures/figures-integrated/site-essipit_culture_patrimoine.png" target="_blank"><img src="figures/figures-integrated/site-essipit_culture_patrimoine.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Culture et patrimoine" width="100%" /></a>
-<p class="caption">
-Figure 3.76: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation des Innus d’Essipit - Culture et patrimoine
-</p>
-</div>
-<p><br></p>
-<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-</div>
-<div id="nation-mohawk-de-kahnawàke" class="section level5" number="3.3.5.1.3">
-<h5><span class="header-section-number">3.3.5.1.3</span> Nation Mohawk de Kahnawà:ke</h5>
+<div id="nation-mohawk-de-kahnawàke" class="section level5" number="3.3.5.1.4">
+<h5><span class="header-section-number">3.3.5.1.4</span> Nation Mohawk de Kahnawà:ke</h5>
 <blockquote>
 <p><em>Nous remercions la Nation Mohawk de Kahnawà:ke pour leur participation, ainsi que le Comité Consultatif du Conseil Mohawk de Kahnawà:ke pour les échanges et le support.</em></p>
 </blockquote>
@@ -5983,7 +6032,7 @@ Figure 3.76: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <li>Navigation</li>
 </ul></li>
 </ul>
-<p>Les sites composant ces huit catégories ont été utilisées pour l’évaluation des effets cumulatifs des activités maritimes.</p>
+<p>Les sites composant ces huit catégories ont été utilisées pour l’évaluation des effets cumulatifs des activités maritimes. Il est important de noter que les données originales utilisées couvrent un territoire plus large que la zone d’étude de la présente évaluation, mais que ces dernières ont été intersectées et limitées à notre zone d’étude.</p>
 <p>Un clause accompagne les données partagées, que nous nous permettons de retranscrire en son intégralité en anglais :</p>
 <blockquote>
 <p>The Mohawk Council of Kahnawà:ke (MCK) has gathered some information from community members concerning the value and use of the St. Lawrence River in the vicinity of Kahnawà:ke. These comments have been organized according to the valued components identified for the fluvial section of the river through the Cumulative Effects of Marine Shipping by the Transport Canada team in collaboration with project partners. Therefore, the information provided is based on a limited consultation of community members, with the intent of responding to the specific parameters of this Transport Canada study only and should not be interpreted as a comprehensive study of Mohawk traditional land use or rights throughout the study area. The information provided should also not be used to replace engagement, including the gathering of traditional land use information within the context of any other future study or project. In addition, our participation in this study is without prejudice to the exercise of our jurisdictional rights to our traditional territory to which our stewardship rights and responsibilities apply and that are based on the application of a broader ecosystem-based approach. Therefore, the identification of specific areas of concern or value, including the identification of specific fish species or archaeological sites of interest is to be understood within the context of these broader rights and responsibilities.</p>
@@ -6044,30 +6093,13 @@ knitr::include_graphics("./figures/figures-integrated/site-kahnawake_traffic.png
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
 </div>
-<div id="nation-wolastoqiyik-wahsipekuk" class="section level5" number="3.3.5.1.4">
-<h5><span class="header-section-number">3.3.5.1.4</span> Nation Wolastoqiyik Wahsipekuk</h5>
-<blockquote>
-<p><em>Nous remercions la Nation Wolastoqiyik Wahsipekuk pour leur participation, ainsi que David Poissant pour les échanges et le support.</em></p>
-</blockquote>
-<p>Nous utilisont des données qui nous ont été transmises par des représentants de la Nation Wolastoqiyik Wahsipekuk pour caractériser des sites d’importances pour la pêche traditionnelle au homard [<em>Homarus americanus</em>; <span class="citation"><a href="bibliographie.html#ref-pnww2021" role="doc-biblioref">Wahsipekuk</a> (<a href="bibliographie.html#ref-pnww2021" role="doc-biblioref">2021a</a>)</span>] et l’oursin [<em>Strongylocentrotus</em> sp.; <span class="citation"><a href="bibliographie.html#ref-pnww2021b" role="doc-biblioref">Wahsipekuk</a> (<a href="bibliographie.html#ref-pnww2021b" role="doc-biblioref">2021b</a>)</span>]. Ces données identifient des milieux jugés important pour la pêche sur la rive sud du Saint-Laurent. Il est toutefois important de noter que malgré l’inclusion de sites d’intérêt pour la Nation Wolastoqiyik Wahsipekuk, un processus collaboratif semble à celui effectué avec les autres Nations n’a pu être mis en place. Les données socio-culturelles de la Nation Wolastoqiyik Wahsipekuk n’ont ainsi pu être incluses au sein de notre évaluation.</p>
-<p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:wolastoqiyikwahsipekukpechecommerciale"></span>
-<a href="./figures/figures-integrated/site-wolastoqiyik_wahsipekuk_peche_commerciale.png" target="_blank"><img src="figures/figures-integrated/site-wolastoqiyik_wahsipekuk_peche_commerciale.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Pêche traditionnelle" width="100%" /></a>
-<p class="caption">
-Figure 3.77: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Pêche traditionnelle
-</p>
-</div>
-<p><br></p>
-<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-<!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
-</div>
 <div id="nation-w8banaki" class="section level5" number="3.3.5.1.5">
 <h5><span class="header-section-number">3.3.5.1.5</span> Nation W8banaki</h5>
 <blockquote>
 <p><em>Nous remercions la Nation W8banaki pour leur participation, ainsi que le Grand Conseil de la Nation Waban-Aki, Edgar Blanchet, Hadrien Bois et David Bernard pour les échanges et le support.</em></p>
 </blockquote>
-<p>Dans le cadre de ce projet pilote, le Grand Conseil de la Nation Waban-Aki (GCNWA) a procédé à l’intégration d’informations spatialisée et non-spatialisées provenant d’entretiens semi-dirigés individuels ou en petits groupes sur l’utilisation du territoire précédemment effectuées auprès de membres de la communauté. Ces études regroupent un échantillon de 33 répondant pour 74 entretiens. La cartographie est accompagnée d’informations qualitatives provenant principalement de 1) deux ateliers de type “groupe d’expression” tenus en 2016, des entretiens d’ateliers tenus entre 2019 et 2020 avec des femmes de la Nation, et 3) des analyses d’évaluation des effets de projets d’agrandissements portuaires sur les droits ancestraux de la Nation. Ce travail d’intégration a mené à la production d’un rapport présentant les préoccupations connues de certains membres de la Nation quant aux pressions environnementales exercées au sein de leur territoire et touchant les composantes valorisées couvertes par notre évaluation des effets cumulatifs des activités maritimes <span class="citation">(<a href="bibliographie.html#ref-gcnwa2021" role="doc-biblioref">Grand Conseil de la Nation Waban-Aki (GCNWA), 2021</a>)</span>.</p>
+<!-- Pour de plus amples informations, veuillez contacter directement le GCNWA. -->
+<p>Dans le cadre de ce projet pilote, le Grand Conseil de la Nation Waban-Aki (GCNWA) a procédé à l’intégration d’informations spatialisée et non-spatialisées provenant d’entretiens semi-dirigés individuels ou en petits groupes sur l’utilisation du territoire précédemment effectuées auprès de membres de la Nation. Ces études regroupent un échantillon de 33 répondant pour 74 entretiens. La cartographie est accompagnée d’informations qualitatives provenant principalement de 1) deux ateliers de type “groupe d’expression” tenus en 2016, des entretiens d’ateliers tenus entre 2019 et 2020 avec des femmes de la Nation, et 3) des analyses d’évaluation des effets de projets d’agrandissements portuaires sur les droits ancestraux de la Nation. Ce travail d’intégration a mené à la production d’un rapport présentant les préoccupations connues de certains membres de la Nation quant aux pressions environnementales exercées au sein de leur territoire et touchant les composantes valorisées couvertes par notre évaluation des effets cumulatifs des activités maritimes <span class="citation">(<a href="bibliographie.html#ref-gcnwa2021" role="doc-biblioref">Grand Conseil de la Nation Waban-Aki (GCNWA), 2021</a>)</span>.</p>
 <p>Les données transmises par le GCNWA fournissent la localisation de sites d’intérêt principalement dans la dans la portion fluviale du Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-gcnwa2021" role="doc-biblioref">Grand Conseil de la Nation Waban-Aki (GCNWA), 2021</a>)</span>. Les sites identifiés sont divisée en 13 catégories distinctes :</p>
 <ul>
 <li>Utilisation et occupation contemporaine du territoire
@@ -6090,7 +6122,7 @@ Figure 3.77: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <li>Sites à potentiel archéologique</li>
 </ul></li>
 </ul>
-<p>Ces catégories de sites d’intérêts sont utilisées pour l’évaluation des effets cumulatifs des activités maritimes dans la zone d’étude.</p>
+<p>Ces catégories de sites d’intérêts sont utilisées pour l’évaluation des effets cumulatifs des activités maritimes dans la zone d’étude. Il est important de noter que les données originales utilisées couvrent un territoire plus large que la zone d’étude de la présente évaluation, mais que ces dernières ont été intersectées et limitées à notre zone d’étude.</p>
 <p><br></p>
 <div id="utilisation-et-occupation-contemporaine-du-territoire" class="section level6" number="3.3.5.1.5.1">
 <h6><span class="header-section-number">3.3.5.1.5.1</span> Utilisation et occupation contemporaine du territoire</h6>
@@ -6098,70 +6130,70 @@ Figure 3.77: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwapeche"></span>
 <a href="./figures/figures-integrated/site-gcnwa_peche.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_peche.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Pêche" width="100%" /></a>
 <p class="caption">
-Figure 3.78: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Pêche
+Figure 3.79: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Pêche
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwaoiseauxmigrateurs"></span>
 <a href="./figures/figures-integrated/site-gcnwa_oiseaux_migrateurs.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_oiseaux_migrateurs.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Chasse aux oiseaux migrateurs" width="100%" /></a>
 <p class="caption">
-Figure 3.79: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Chasse aux oiseaux migrateurs
+Figure 3.80: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Chasse aux oiseaux migrateurs
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwagibier"></span>
 <a href="./figures/figures-integrated/site-gcnwa_gibier.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_gibier.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Chasse au gibier" width="100%" /></a>
 <p class="caption">
-Figure 3.80: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Chasse au gibier
+Figure 3.81: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Chasse au gibier
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwaanimauxfourrure"></span>
 <a href="./figures/figures-integrated/site-gcnwa_animaux_fourrure.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_animaux_fourrure.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Trappe d'animaux à fourrure" width="100%" /></a>
 <p class="caption">
-Figure 3.81: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Trappe d’animaux à fourrure
+Figure 3.82: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Trappe d’animaux à fourrure
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwacueillettecollecte"></span>
 <a href="./figures/figures-integrated/site-gcnwa_cueillette_collecte.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_cueillette_collecte.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Cueillette et collecte de végétaux" width="100%" /></a>
 <p class="caption">
-Figure 3.82: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Cueillette et collecte de végétaux
+Figure 3.83: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Cueillette et collecte de végétaux
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwanavigation"></span>
 <a href="./figures/figures-integrated/site-gcnwa_navigation.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_navigation.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Navigation" width="100%" /></a>
 <p class="caption">
-Figure 3.83: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Navigation
+Figure 3.84: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Navigation
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwasitescoucher"></span>
 <a href="./figures/figures-integrated/site-gcnwa_sites_coucher.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_sites_coucher.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites de coucher" width="100%" /></a>
 <p class="caption">
-Figure 3.84: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites de coucher
+Figure 3.85: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites de coucher
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwasitesessentiels"></span>
 <a href="./figures/figures-integrated/site-gcnwa_sites_essentiels.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_sites_essentiels.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites essentiels" width="100%" /></a>
 <p class="caption">
-Figure 3.85: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites essentiels
+Figure 3.86: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites essentiels
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwazonesactivites"></span>
 <a href="./figures/figures-integrated/site-gcnwa_zones_activites.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_zones_activites.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Zones d'activités" width="100%" /></a>
 <p class="caption">
-Figure 3.86: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Zones d’activités
+Figure 3.87: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Zones d’activités
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwaproblemesterritoire"></span>
 <a href="./figures/figures-integrated/site-gcnwa_problemes_territoire.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_problemes_territoire.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Problèmes liés à l'accès au territoire" width="100%" /></a>
 <p class="caption">
-Figure 3.87: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Problèmes liés à l’accès au territoire
+Figure 3.88: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Problèmes liés à l’accès au territoire
 </p>
 </div>
 <p><br></p>
@@ -6172,21 +6204,21 @@ Figure 3.87: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwasitesculturels"></span>
 <a href="./figures/figures-integrated/site-gcnwa_sites_culturels.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_sites_culturels.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites culturels" width="100%" /></a>
 <p class="caption">
-Figure 3.88: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites culturels
+Figure 3.89: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites culturels
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwasitesarcheologiques"></span>
 <a href="./figures/figures-integrated/site-gcnwa_sites_archeologiques.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_sites_archeologiques.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites archéologiques" width="100%" /></a>
 <p class="caption">
-Figure 3.89: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites archéologiques
+Figure 3.90: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites archéologiques
 </p>
 </div>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:gcnwasitespotentielarcheologique"></span>
 <a href="./figures/figures-integrated/site-gcnwa_sites_potentiel_archeologique.png" target="_blank"><img src="figures/figures-integrated/site-gcnwa_sites_potentiel_archeologique.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites à potentiel archéologique" width="100%" /></a>
 <p class="caption">
-Figure 3.90: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites à potentiel archéologique
+Figure 3.91: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation W8banaki - Sites à potentiel archéologique
 </p>
 </div>
 <p><br></p>
@@ -6195,25 +6227,32 @@ Figure 3.90: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <!-- =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= =~-~= -->
 </div>
 </div>
-<div id="association-de-gestion-halieutique-mikmaq-et-malécite" class="section level5" number="3.3.5.1.6">
-<h5><span class="header-section-number">3.3.5.1.6</span> Association de gestion halieutique Mi’kmaq et Malécite</h5>
+<div id="pnwwportrait" class="section level5" number="3.3.5.1.6">
+<h5><span class="header-section-number">3.3.5.1.6</span> Nation Wolastoqiyik Wahsipekuk</h5>
 <blockquote>
-<p><em>Nous remercions Lisa M. Arsenault pour les échanges et le support.</em></p>
+<p><em>Nous remercions la Nation Wolastoqiyik Wahsipekuk pour leur participation, ainsi que David Poissant pour les échanges et le support.</em></p>
 </blockquote>
-<p>L’Association de gestion halieutique Mi’kmaq et Malécite (AGHAMM) a developpé un atlas cartographique décrivant divers sites et usages reliés aux activités de pêche commerciale et traditionnelle d’importance pour les communautés de Gesgapegiag, Gespeg et Viger <span class="citation">(<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al., 2017</a>)</span>. Plus spécifiquement, nous avons utilisé les couches de données décrivant les activités de pêches commerciales ciblant neuf espèces différentes : le buccin (<em>Buccinum</em> sp.), le concombre de mer (<em>Holothurie</em> sp.), le crabe commun (<em>Cancer irroratus</em>), le crage des neiges (<em>Chionoecetes opilio</em>), la crevette nordique (<em>Pandalus</em> sp.), le flétan Atlantique (<em>Hippoglossus hippoglossus</em>), le flétan du Groenland (<em>Reinhardtius hippoglossoides</em>), le homard (<em>Homarus americanus</em>) et l’oursin (<em>Strongylocentrotus</em> sp.) dans l’estuaire du Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al., 2017</a>; <a href="bibliographie.html#ref-racine2017" role="doc-biblioref">Racine and Arsenault, 2017</a>)</span>.</p>
-<p>L’atlas identifie également les rivières Rimouski, Métis et Matane en tant que sites d’importance pour la pêche au Saumon Atlantique [<em>Salmo salar</em>; <span class="citation"><a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al.</a> (<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">2017</a>)</span>]. Nous avons ainsi ajouter une zone tampon de 3 <span class="math inline">\(km\)</span> à l’embouchure de ces trois rivière afin de capturer leur présence en tant que site d’intérêt pour l’évaluation.</p>
+<p>Nous utilisont des données qui nous ont été transmises par des représentants de la Nation Wolastoqiyik Wahsipekuk pour caractériser des sites d’importances pour la pêche commerciale au homard [<em>Homarus americanus</em>; <span class="citation"><a href="bibliographie.html#ref-pnww2021" role="doc-biblioref">Wahsipekuk</a> (<a href="bibliographie.html#ref-pnww2021" role="doc-biblioref">2021a</a>)</span>]. Ces données identifient des milieux jugés important pour la pêche sur la rive sud du Saint-Laurent. Ces données ont été complétées avec les données de de l’AGHAMM (voir section <a href="portrait-de-la-zone-détude.html#aghammportrait">3.3.5.1.1</a>) sur les pêche commerciales au buccin (<em>Buccinum</em> sp.), le concombre de mer (<em>Holothurie</em> sp.), le crabe commun (<em>Cancer irroratus</em>), le crage des neiges (<em>Chionoecetes opilio</em>), la crevette nordique (<em>Pandalus</em> sp.), le flétan Atlantique (<em>Hippoglossus hippoglossus</em>), le flétan du Groenland (<em>Reinhardtius hippoglossoides</em>), le homard (<em>Homarus americanus</em>) et l’oursin (<em>Strongylocentrotus</em> sp.) dans l’estuaire du Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-arsenault2017" role="doc-biblioref">Arsenault et al., 2017</a>; <a href="bibliographie.html#ref-racine2017" role="doc-biblioref">Racine and Arsenault, 2017</a>)</span>.</p>
+<p>Deux sites d’intérêt pour l’observation du béluga et pour le développement portuaire sont également considérés en tant que sites d’intérêt pour la Nation Wolastoqiyik Wahsipekuk <span class="citation">(<a href="bibliographie.html#ref-pnww2022" role="doc-biblioref">Wahsipekuk, 2022</a>)</span>. Il est toutefois important de noter que malgré l’inclusion de sites d’intérêt pour la Nation Wolastoqiyik Wahsipekuk, un processus collaboratif semble à celui effectué avec les autres Nations n’a pu être mis en place. Les données socio-culturelles de la Nation Wolastoqiyik Wahsipekuk n’ont ainsi pu être incluses au sein de notre évaluation.</p>
 <p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:aghammpechetraditionnelle"></span>
-<a href="./figures/figures-integrated/site-aghamm_peche_traditionnelle.png" target="_blank"><img src="figures/figures-integrated/site-aghamm_peche_traditionnelle.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche traditionnelle" width="100%" /></a>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:wolastoqiyikwahsipekukdeveloppementportuaire"></span>
+<a href="./figures/figures-integrated/site-wolastoqiyik_wahsipekuk_developpement_portuaire.png" target="_blank"><img src="figures/figures-integrated/site-wolastoqiyik_wahsipekuk_developpement_portuaire.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Développement portuaire" width="100%" /></a>
 <p class="caption">
-Figure 3.91: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche traditionnelle
+Figure 3.92: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Développement portuaire
 </p>
 </div>
 <p><br></p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:aghammpechecommerciale"></span>
-<a href="./figures/figures-integrated/site-aghamm_peche_commerciale.png" target="_blank"><img src="figures/figures-integrated/site-aghamm_peche_commerciale.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche commerciale" width="100%" /></a>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:wolastoqiyikwahsipekukobservationbeluga"></span>
+<a href="./figures/figures-integrated/site-wolastoqiyik_wahsipekuk_observation_beluga.png" target="_blank"><img src="figures/figures-integrated/site-wolastoqiyik_wahsipekuk_observation_beluga.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Observation du béluga" width="100%" /></a>
 <p class="caption">
-Figure 3.92: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - AGHAMM - Pêche commerciale
+Figure 3.93: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Observation du béluga
+</p>
+</div>
+<p><br></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:wolastoqiyikwahsipekukpechecommerciale"></span>
+<a href="./figures/figures-integrated/site-wolastoqiyik_wahsipekuk_peche_commerciale.png" target="_blank"><img src="figures/figures-integrated/site-wolastoqiyik_wahsipekuk_peche_commerciale.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Pêche commerciale" width="100%" /></a>
+<p class="caption">
+Figure 3.94: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Nation Wolastoqiyik Wahsipekuk - Pêche commerciale
 </p>
 </div>
 <p><br></p>
@@ -6224,26 +6263,25 @@ Figure 3.92: Distribution des sites d’intérêt culturels, patrimoniaux et arc
 <h4><span class="header-section-number">3.3.5.2</span> Sites d’intérêt publics</h4>
 <div id="milieux-protégés" class="section level5" number="3.3.5.2.1">
 <h5><span class="header-section-number">3.3.5.2.1</span> Milieux protégés</h5>
-<p>Les milieux protégés ont été caractérisé par l’intégration de quatre bases de données. La première base de données correspond à la délimitation des différentes mesures de gestion spatiales mises en place dans le parc marin du Saguenay–Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-apc2021" role="doc-biblioref">Canada, 2021a</a>)</span>. Cette base de données regroupe la délimitation de mesures spatiales règlementaires (<em>e.g.</em> zones d’interdiction de navigation et zones de ralentissement) ainsi que des mesures spatiales volontaires (<em>e.g.</em> zones de ralentissement et zones à éviter).</p>
-<p>La deuxième base de données est le Registre des aires protégées au Québec <span class="citation">(<a href="bibliographie.html#ref-melcc2021" role="doc-biblioref">Ministère de l’Environnement et de la Lutte contre les changements climatiques, 2021</a>)</span>. Ce registre offre une compilation des aires protégées au Québec – identifiés selon les définitions de la Loi sur la conservation du patrimoine naturel (LCPN; RLRQ, chapitre C-61.01) ou de l’Union internationale pour la conservation de la nature (UICN) – et des territoires d’importance pour la conservation – identifiés par le ministère de l’Environnement et de la Lutte contre les changements climatiques (MELCC) ou une instance du gouvernement du Québec. Nous avons retiré de cette base de données les habitats fauniques, les habitats d’une espèces floristique menacée ou vulnérable et les réserves de territoire aux fins d’aire protégée puis ces catégories couvraient l’entièreté de la zone d’étude ou parce qu’elles étaient couvertes par d’autres composantes valorisées.</p>
-<p>La troisième base de données est</p>
-<p>Finalement, la quatrième base de données est</p>
+<p>Les milieux protégés ont été caractérisé par l’intégration de trois bases de données. La première base de données correspond à la délimitation des différentes mesures de gestion spatiales mises en place dans le parc marin du Saguenay–Saint-Laurent <span class="citation">(<a href="bibliographie.html#ref-apc2021" role="doc-biblioref">Canada, 2021a</a>)</span>. Cette base de données regroupe la délimitation de mesures spatiales règlementaires (<em>e.g.</em> zones d’interdiction de navigation et zones de ralentissement) ainsi que des mesures spatiales volontaires (<em>e.g.</em> zones de ralentissement et zones à éviter). La deuxième base de données provient du Gouvernement du Canada et délimite des milieux où des mesures de gestion reconnues comme <em>autres mesures efficaces de conservation par zone</em> [EMCEZ; <span class="citation"><a href="bibliographie.html#ref-mpo2021d" role="doc-biblioref">Pêches et Océans Canada</a> (<a href="bibliographie.html#ref-mpo2021d" role="doc-biblioref">2021e</a>)</span>]. Au sein de notre zone d’étude, cette base de donnée présente une seule zone protégée <a href="https://www.dfo-mpo.gc.ca/oceans/oecm-amcepz/refuges/saguenay-fra.html">en amont de la Rivière Saguenay</a> qui limite les activités de pêche pour protéger l’habitat du béluga et pour éviter la remise en suspension de sédiments contaminés.</p>
+<p>Finalement, les données du Registre des aires protégées au Québec <span class="citation">(<a href="bibliographie.html#ref-melcc2021" role="doc-biblioref">Ministère de l’Environnement et de la Lutte contre les changements climatiques, 2021</a>)</span> ont été utilisées afin de compléter le portrait. Ce registre offre une compilation des aires protégées au Québec – identifiés selon les définitions de la Loi sur la conservation du patrimoine naturel (LCPN; RLRQ, chapitre C-61.01) ou de l’Union internationale pour la conservation de la nature (UICN) – et des territoires d’importance pour la conservation – identifiés par le ministère de l’Environnement et de la Lutte contre les changements climatiques (MELCC) ou une instance du gouvernement du Québec. Nous avons retiré de cette base de données les habitats fauniques, les habitats d’une espèces floristique menacée ou vulnérable et les réserves de territoire aux fins d’aire protégée puis ces catégories couvraient l’entièreté de la zone d’étude ou parce qu’elles étaient couvertes par d’autres composantes valorisées.</p>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:publicmilieuprotege"></span>
 <a href="./figures/figures-integrated/site-public_milieu_protege.png" target="_blank"><img src="figures/figures-integrated/site-public_milieu_protege.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Public - Milieux protégés" width="100%" /></a>
 <p class="caption">
-Figure 3.93: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Public - Milieux protégés
+Figure 3.95: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Public - Milieux protégés
 </p>
 </div>
 <p><br></p>
 </div>
 <div id="sites-patrimoniaux-1" class="section level5" number="3.3.5.2.2">
 <h5><span class="header-section-number">3.3.5.2.2</span> Sites patrimoniaux</h5>
+<p>La caractérisation des sites patrimoniaux publics provient de l’intégration de deux bases de données provenant du Ministère de la Culture et des Communications. La première base de données présente des données sur les sites patrimoniaux classés par la ministre et qui font partie du patrimoine protégé en vertu de la Loi sur le patrimoine culturel [L.R.Q., c. 21; <span class="citation"><a href="bibliographie.html#ref-mcc2021" role="doc-biblioref">Ministère de la Culture et des Communications</a> (<a href="bibliographie.html#ref-mcc2021" role="doc-biblioref">2021b</a>)</span>]. La deuxième base de données correspond à des sites patrimoniaux cités par les municipalités et les communautés autochtones <span class="citation">(<a href="bibliographie.html#ref-mcc2021b" role="doc-biblioref">Ministère de la Culture et des Communications, 2021a</a>)</span>; ces sites font également partie du patrimoine protégé en vertu de la Loi sur le patrimoine culturel.</p>
 <p><br></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:publicsitespatrimoniaux"></span>
 <a href="./figures/figures-integrated/site-public_sites_patrimoniaux.png" target="_blank"><img src="figures/figures-integrated/site-public_sites_patrimoniaux.png" alt="Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Public - Sites patrimoniaux" width="100%" /></a>
 <p class="caption">
-Figure 3.94: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Public - Sites patrimoniaux
+Figure 3.96: Distribution des sites d’intérêt culturels, patrimoniaux et archéologiques dans le Saint-Laurent et le Saguenay - Public - Sites patrimoniaux
 </p>
 </div>
 <p><br></p>
@@ -6325,12 +6363,12 @@ Le temps moyen (années) requis pour que l’espèce, le niveau trophique, ou la
 <p>où <span class="math inline">\(D^j_{i,k}\)</span> est la valeur du stresseur <span class="math inline">\(i\)</span> pour le critère <span class="math inline">\(k\)</span> au sein de l’écosystème <span class="math inline">\(j\)</span> et <span class="math inline">\(W_k\)</span> est le poids associé au critère <span class="math inline">\(k\)</span>, avec la somme de tous les poids égal à 1. Le poids <span class="math inline">\(W_k\)</span> permet ainsi de pondérer la valeur attribuée aux critères individuels selon leur importance individuelle. Ce modèle additif et linéaire suppose que la vulnérabilité est monotone pour l’ensemble des critères de vulnérabilité, c.-à-d. que la vulnérabilité augmente avec une augmentation de la valeur de chaque critère. Une transformation des valeurs de <span class="math inline">\(W_k\)</span> est nécessaire afin d’assurer que l’étendue des valeurs est comparable pour les différents critères. Cette équation permet ultimement de générer une matrice de scores de vulnérabilité pour l’ensemble des combinaisons stresseur-écosystème.</p>
 <p><span class="citation"><a href="bibliographie.html#ref-teck2010" role="doc-biblioref">Teck et al.</a> (<a href="bibliographie.html#ref-teck2010" role="doc-biblioref">2010</a>)</span> et <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> ont fait appel à des sondages d’experts afin d’évaluer, pour chaque combinaison stresseurs-habitats, les valeurs et le poids associé à chaque critère de vulnérabilité. Au total, 107 experts ont évalué la vulnérabilité relative de 19 types d’habitats à 53 stresseurs environnementaux. Les matrices de vulnérabilité résultantes ont été utilisée et adaptée à de maintes reprises depuis <span class="citation">(e.g. <a href="bibliographie.html#ref-ban2010" role="doc-biblioref">Ban et al., 2010</a>; <a href="bibliographie.html#ref-clarkemurray2015" role="doc-biblioref">Clarke Murray et al., 2015b</a>)</span>. Ces matrices de vulnérabilité offrent également un point de départ à notre évaluation; en effet, l’entièreté des stresseurs environnementaux, et une portion importante des habitats considérés pour notre évaluation se retrouvent dans la liste présentée par <span class="citation"><a href="bibliographie.html#ref-teck2010" role="doc-biblioref">Teck et al.</a> (<a href="bibliographie.html#ref-teck2010" role="doc-biblioref">2010</a>)</span>, <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> et <span class="citation"><a href="bibliographie.html#ref-clarkemurray2015" role="doc-biblioref">Clarke Murray et al.</a> (<a href="bibliographie.html#ref-clarkemurray2015" role="doc-biblioref">2015b</a>)</span>. Plus particulièrement, nous avons utilisé la matrice de vulnérabilité issue de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> afin d’informer l’évaluation de la vulnérabilité des habitats pour lesquels une correspondance claire pouvait être établie, c.-à-d. les milieux naturels. Référez à l’<a href="annexe6.html#annexe6">annexe 6</a> et à l’<a href="annexe7.html#annexe7">annexe 7</a> pour les correspondances utilisées entre notre étude et celle de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> pour les stresseur et les composantes valorisées, respectivement.</p>
 <p>Certains habitats considérés pour notre évaluation n’avaient cependant pas de correspondance claire avec la matrice de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>. Dans ces cas, nous avons adopté l’approche utilisée par <span class="citation"><a href="bibliographie.html#ref-clarkemurray2015" role="doc-biblioref">Clarke Murray et al.</a> (<a href="bibliographie.html#ref-clarkemurray2015" role="doc-biblioref">2015b</a>)</span> et nous avons sélectionné le ou les habitats présentés par <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> qui étaient les plus similaires à ceux pour lesquels une correspondance claire était indisponible. Par exemple, les scores des habitats peu profonds à sédiments meubles et de marais salés de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> ont été utilisés pour les gisements coquilliers et les terrasses fluviales, respectivement. Si un habitat considéré pouvait regrouper plusieurs habitats de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>, nous avons plutôt utilisé le score moyen de ces habitats afin d’obtenir un score de vulnérabilité. Les scores de vulnérabilités attribués aux zones inondables a ainsi été obtenu à partir de la moyenne des scores de vulnérabilité attribués aux milieux intertidaux rocheux, aux milieux intertidaux et aux marais salés dans la matrice de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>. Similairement, la catégorie de navigation gouvernementale et de recherche inclut une diversité importante de types de navires comme des embarcations militaires, des navires de patrouille et des navires de recherche scientifique. La vulnérabilité des habitats à ce type de navigation a ainsi été évaluée à partir de la moyenne des scores attribués à la navigation, aux activités militaires, à la recherche et à l’échantillonnage scientifique de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>.</p>
-<p>Certaines modifications ont également été apportées aux scores de vulnérabilité rapportées par <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>. Premièrement, les valeurs de vulnérabilité attribuées aux milieux humides ont été modifiées afin de capturer convenablement la finesse du jeu de données disponible pour notre étude. En effet, les milieux humides caractérisés témoignent de la nature étagée des milieux humides, avec les milieux humides en eau peu profonde, suivie des marais, puis des marécages, diminuant ainsi progressivement l’exposition potentielle de ces milieux aux sources de stress d’origine marine. Nous avons ainsi diminué la vulnérabilité des milieux humides proportionnellement par un facteur de 5% pour les marais et de 10% pour les marécages face à l’ensemble des sources de stress. Nous avons conservé l’évaluation de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> pour la catégorie d’habitat <em>milieu humide</em> contenant des milieux humides dont le type est inconnu par principe de précaution. Deuxièmement, les déversements accidentels ont été catégorisés afin de différencier les déversements d’hydrocarbures des autres types de déversements. Nous diminuons ainsi les valeurs de vulnérabilité aux déversements par un facteur de 10% pour les déversements de type <em>autres</em>. Tout comme pour les milieux humides, nous avons conservé la valeur de vulnérabilité intacte pour les déversements dont le contenu est inconnu par principe de précaution. Finalement, un score relatif a été évalué en normalisant les scores totaux par la valeur maximale de vulnérabilité observée parmis les habitats considérés (<em>i.e.</em> 3.6) afin d’obtenir un score variant entre 0 et 1. La matrice de vulnérabilité résultante peut être consultée au Tableau <a href="portrait-de-la-zone-détude.html#fig:habitatvuln">3.95</a>.</p>
+<p>Certaines modifications ont également été apportées aux scores de vulnérabilité rapportées par <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span>. Premièrement, les valeurs de vulnérabilité attribuées aux milieux humides ont été modifiées afin de capturer convenablement la finesse du jeu de données disponible pour notre étude. En effet, les milieux humides caractérisés témoignent de la nature étagée des milieux humides, avec les milieux humides en eau peu profonde, suivie des marais, puis des marécages, diminuant ainsi progressivement l’exposition potentielle de ces milieux aux sources de stress d’origine marine. Nous avons ainsi diminué la vulnérabilité des milieux humides proportionnellement par un facteur de 5% pour les marais et de 10% pour les marécages face à l’ensemble des sources de stress. Nous avons conservé l’évaluation de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> pour la catégorie d’habitat <em>milieu humide</em> contenant des milieux humides dont le type est inconnu par principe de précaution. Deuxièmement, les déversements accidentels ont été catégorisés afin de différencier les déversements d’hydrocarbures des autres types de déversements. Nous diminuons ainsi les valeurs de vulnérabilité aux déversements par un facteur de 10% pour les déversements de type <em>autres</em>. Tout comme pour les milieux humides, nous avons conservé la valeur de vulnérabilité intacte pour les déversements dont le contenu est inconnu par principe de précaution. Finalement, un score relatif a été évalué en normalisant les scores totaux par la valeur maximale de vulnérabilité observée parmis les habitats considérés (<em>i.e.</em> 3.6) afin d’obtenir un score variant entre 0 et 1. La matrice de vulnérabilité résultante peut être consultée au Tableau <a href="portrait-de-la-zone-détude.html#fig:habitatvuln">3.97</a>.</p>
 <p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:habitatvuln"></span>
 <a href="./figures/figures-vulnerability/habitat.png" target="_blank"><img src="figures/figures-vulnerability/habitat.png" alt="Scores de vulnérabilité relative des habitats face aux stresseurs environnementaux. Les scores sont obtenus à partir des scores de vulnérabilités établis par [@kappel2012] et normalisés entre 0 et 1 à partir de la valeur maximale de vulnérabilité observée parmis les habitats considérés (i.e. 3.6). Les scores originaux dérivés de la matrice de @kappel2012 peuvent être obtenus en multipliant les valeurs de la matrice par 3.6." width="735" /></a>
 <p class="caption">
-Figure 3.95: Scores de vulnérabilité relative des habitats face aux stresseurs environnementaux. Les scores sont obtenus à partir des scores de vulnérabilités établis par <span class="citation">(<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al., 2012</a>)</span> et normalisés entre 0 et 1 à partir de la valeur maximale de vulnérabilité observée parmis les habitats considérés (i.e. 3.6). Les scores originaux dérivés de la matrice de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> peuvent être obtenus en multipliant les valeurs de la matrice par 3.6.
+Figure 3.97: Scores de vulnérabilité relative des habitats face aux stresseurs environnementaux. Les scores sont obtenus à partir des scores de vulnérabilités établis par <span class="citation">(<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al., 2012</a>)</span> et normalisés entre 0 et 1 à partir de la valeur maximale de vulnérabilité observée parmis les habitats considérés (i.e. 3.6). Les scores originaux dérivés de la matrice de <span class="citation"><a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">Kappel et al.</a> (<a href="bibliographie.html#ref-kappel2012" role="doc-biblioref">2012</a>)</span> peuvent être obtenus en multipliant les valeurs de la matrice par 3.6.
 </p>
 </div>
 <p><br/></p>
@@ -6881,15 +6919,16 @@ Résidente
 </tbody>
 </table>
 <p><br/></p>
-<p>Les critères utilisés varient selon les types d’habitats évalués. La fréquence des stresseurs environnementaux a été utilisée pour l’ensemble des habitats d’importance pour les espèces. La vulnérabilité des frayères et des sites d’alevinage a considéré les critères de fréquence des stresseurs environnementaux et d’effets sur la reproduction et sur la population. La vulnérabilité des habitats d’importance pour les oiseaux marins a quant à elle été évaluée en considérant les critères de fréquence des stresseurs et des effets sur les populations. Finalement, l’évaluation de la vulnérabilité des habitats d’importance pour les espèces à statut a été effectuée à partir des critères de fréquence des stresseurs environnementaux, des effets sur les populations et du statut des espèces. Pour chaque combinaison de composante valorisée <span class="math inline">\(CV_i\)</span> et de stresseur <span class="math inline">\(S_j\)</span>, le score de vulnérabilité <span class="math inline">\(\mu_{CV_i, S_j}\)</span> final est obtenu à partir de la somme des scores de chaque critère :</p>
+<p>Les critères utilisés varient selon les types d’habitats évalués. La fréquence des stresseurs environnementaux a été utilisée pour l’ensemble des habitats d’importance pour les espèces. La vulnérabilité des frayères et des sites d’alevinage a considéré les critères de fréquence des stresseurs environnementaux et d’effets sur la reproduction et sur la population. La vulnérabilité des habitats d’importance pour les oiseaux marins a quant à elle été évaluée en considérant les critères de fréquence des stresseurs et des effets sur les populations. Finalement, l’évaluation de la vulnérabilité des habitats d’importance pour les espèces à statut a été effectuée à partir des critères de fréquence des stresseurs environnementaux, des effets sur les populations et du statut des espèces. Il est à noter que la vulnérabilité des sites d’importance pour les espèces fauniques et floristiques à statut a été considérée de façon analogue. Bien que les espèces fauniques et floristiques répondent différemment aux stresseurs environnementaux, notre évaluation utilisant les occurrence d’espèces en péril en tant que proxy de milieux vulnérables plutôt que pour effectuer une évaluation par espèce. Le caractérisation générale utilisée ne nous permettait ainsi pas de différencier entre les différentes espèce; nous avons ainsi focusé sur des critères spécifique aux statuts des espèces.</p>
+<p>Pour chaque combinaison de composante valorisée <span class="math inline">\(CV_i\)</span> et de stresseur <span class="math inline">\(S_j\)</span>, le score de vulnérabilité <span class="math inline">\(\mu_{CV_i, S_j}\)</span> final est obtenu à partir de la somme des scores de chaque critère :</p>
 <p><span class="math display">\[\mu_{CV_i, S_j} = \sum_{k \in K} C^i_{j,k}\]</span></p>
 <p>où <span class="math inline">\(C^i_{j,k}\)</span> est la valeur de la composante valorisée <span class="math inline">\(i\)</span> pour le stresseur <span class="math inline">\(j\)</span> et le critère <span class="math inline">\(k\)</span>, et <span class="math inline">\(K\)</span> sont l’ensemble des critères considérés pour évaluer la vulnérabilité de la composante valorisée <span class="math inline">\(i\)</span>.</p>
-<p>Finalement, un score relatif a été évalué en normalisant les scores totaux par la valeur maximale de vulnérabilité observée par groupe d’habitat évaluée à partir de critères similaires. Les frayères et les sites d’alevinage constituaient le premier groupe, les oiseaux marins le second, et les espèces à statut le troisième. Les scores de vulnérabilité finaux sont disponibles au tableau <a href="portrait-de-la-zone-détude.html#fig:speciesvuln">3.96</a> et les tableaux d’évaluation des critères individuels par catégorie d’habitat sont disponibles à l’<a href="annexe8.html#annexe8">annexe 8</a>.</p>
+<p>Finalement, un score relatif a été évalué en normalisant les scores totaux par la valeur maximale de vulnérabilité observée par groupe d’habitat évaluée à partir de critères similaires. Les frayères et les sites d’alevinage constituaient le premier groupe, les oiseaux marins le second, et les espèces à statut le troisième. Les scores de vulnérabilité finaux sont disponibles au tableau <a href="portrait-de-la-zone-détude.html#fig:speciesvuln">3.98</a> et les tableaux d’évaluation des critères individuels par catégorie d’habitat sont disponibles à l’<a href="annexe8.html#annexe8">annexe 8</a>.</p>
 <p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:speciesvuln"></span>
 <a href="./figures/figures-vulnerability/faune_flore.png" target="_blank"><img src="figures/figures-vulnerability/faune_flore.png" alt="Scores de vulnérabilité relative des habitats d'importance pour les espèces face aux stresseurs environnementaux." width="656" /></a>
 <p class="caption">
-Figure 3.96: Scores de vulnérabilité relative des habitats d’importance pour les espèces face aux stresseurs environnementaux.
+Figure 3.98: Scores de vulnérabilité relative des habitats d’importance pour les espèces face aux stresseurs environnementaux.
 </p>
 </div>
 <p><br/></p>
@@ -6917,11 +6956,11 @@ Du côté des pressions anthropiques, les facteurs exerçant une influence parti
 <li>Naturelle - Semi-Végétalisée (IE = 1): 0.8</li>
 <li>Artificielle - Semi-Végétalisée (IE = 1): 0.7</li>
 </ol>
-<p>Aucune comparaison n’a été effectuée afin de distinguer la vulnérabilité relative des berges à la navigation et au dragage, optant plutôt de leur attribuer des valeurs similaires de vulnérabilité (Tableau <a href="portrait-de-la-zone-détude.html#fig:bergevuln">3.97</a>).</p>
+<p>Aucune comparaison n’a été effectuée afin de distinguer la vulnérabilité relative des berges à la navigation et au dragage, optant plutôt de leur attribuer des valeurs similaires de vulnérabilité (Tableau <a href="portrait-de-la-zone-détude.html#fig:bergevuln">3.99</a>).</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:bergevuln"></span>
 <a href="./figures/figures-vulnerability/berge.png" target="_blank"><img src="figures/figures-vulnerability/berge.png" alt="Scores de vulnérablité relative des berges à l'érosion face aux stresseurs environnementaux." width="525" /></a>
 <p class="caption">
-Figure 3.97: Scores de vulnérablité relative des berges à l’érosion face aux stresseurs environnementaux.
+Figure 3.99: Scores de vulnérablité relative des berges à l’érosion face aux stresseurs environnementaux.
 </p>
 </div>
 
@@ -6933,12 +6972,12 @@ Figure 3.97: Scores de vulnérablité relative des berges à l’érosion face a
 </blockquote>
 <p>La section précédente présente les différents critères utilisés afin de caractériser la vulnérabilité des espèces aux stresseurs environnementaux. La vulnérabilité des mammifères marins a été évaluée en utilisant l’ensemble des critères présentés au tableau <a href="portrait-de-la-zone-détude.html#tab:vulnerabilitySpecies">3.21</a> et l’équation présentée à la section précédente.</p>
 <p>Les statuts fédéraux du Comité sur la situation des espèces en péril au Canada (COSEPAC) ont été utilisés afin de déterminer le statut des espèces de mammifères marins.</p>
-<p>Les scores de vulnérabilité finaux sont disponibles au tableau <a href="portrait-de-la-zone-détude.html#fig:mmvuln">3.98</a> et les tableaux d’évaluation des critères individuels par espèce de mammifère marin sont disponibles à l’<a href="annexe9.html#annexe9">annexe 9</a>.</p>
+<p>Les scores de vulnérabilité finaux sont disponibles au tableau <a href="portrait-de-la-zone-détude.html#fig:mmvuln">3.100</a> et les tableaux d’évaluation des critères individuels par espèce de mammifère marin sont disponibles à l’<a href="annexe9.html#annexe9">annexe 9</a>.</p>
 <p><br/></p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:mmvuln"></span>
 <a href="./figures/figures-vulnerability/mammiferes_marins.png" target="_blank"><img src="figures/figures-vulnerability/mammiferes_marins.png" alt="Scores de vulnérabilité relative des habitats d'importance pour les espèces face aux stresseurs environnementaux." width="656" /></a>
 <p class="caption">
-Figure 3.98: Scores de vulnérabilité relative des habitats d’importance pour les espèces face aux stresseurs environnementaux.
+Figure 3.100: Scores de vulnérabilité relative des habitats d’importance pour les espèces face aux stresseurs environnementaux.
 </p>
 </div>
 <p><br/></p>
@@ -6951,11 +6990,11 @@ Une justification référencée est fournie avec les scores de vulnérabilité p
 </div>
 <div id="sites-dintérêt-culturels-patrimoniaux-et-archéologiques-1" class="section level3" number="3.4.4">
 <h3><span class="header-section-number">3.4.4</span> Sites d’intérêt culturels, patrimoniaux et archéologiques</h3>
-<p>Les sites d’intérêt sont principalement constitué de sites identifiés par les Premières Nations. Ces sites représentent l’utilisation et l’occupation du territoires par les différentes communautés autochtones et ont déjà été jugées importantes par les Premières Nations participantes au projet. Déterminer la vulnérabilité relative d’un site d’intérêt pour une communauté telle qu’effectué pour les autres composantes valorisées (voir sections précédentes) serait un exercice similaire à attribuer une valeur supérieure ou inférieure aux sites entre eux. Or, attribuer une valeur à un site d’intérêt est un exercice particulièrement complexe, voire impossible. Par exemple, un site de chasse a-t-il plus de valeur qu’un site archéologique? Comme noté par le Grand Conseil de la Nation Waban-Aki <span class="citation">(<a href="bibliographie.html#ref-gcnwa2021" role="doc-biblioref">Grand Conseil de la Nation Waban-Aki (GCNWA), 2021</a>)</span> :</p>
+<p>Les sites d’intérêt sont principalement constitués de sites identifiés par les Premières Nations. Ces sites représentent l’utilisation et l’occupation du territoires par les différentes Nations participantes et ont déjà été jugées importantes pour le projet sur la base que les activités maritimes peuvent affecter les conditions qui sous-tendent l’exercice des droits ancestraux des Premières Nations. Déterminer la vulnérabilité relative d’un site d’intérêt pour une Nation autochtone telle qu’effectué pour les autres composantes valorisées (voir sections précédentes) serait un exercice similaire à attribuer une valeur supérieure ou inférieure aux sites entre eux. Or, attribuer une valeur à un site d’intérêt est un exercice particulièrement complexe, voire impossible. Par exemple, un site de chasse a-t-il plus de valeur qu’un site archéologique? Comme noté par le Grand Conseil de la Nation Waban-Aki <span class="citation">(<a href="bibliographie.html#ref-gcnwa2021" role="doc-biblioref">Grand Conseil de la Nation Waban-Aki (GCNWA), 2021</a>)</span> :</p>
 <blockquote>
 <p>[…] il est impossible de cartographier adéquatement les valeurs accordées à certains sites ou activités. L’importance d’un site dépend d’une multitude de facteurs. Par exemple, sans être fréquentés sur une base régulière, des lieux sont associés à des récits ou légendes, à l’histoire ou l’imaginaire collectif de la Nation, à des sites archéologiques ou sacrés, etc.</p>
 </blockquote>
-<p>À cet égard, et après discussions avec plusieurs représentants des communautés, nous avons jugé qu’il serait inadéquat d’attribuer un score de vulnérabilité aux sites identifiés dans le cadre de ce projet pilote. Nous avons plutôt attribué une valeur de vulnérabilité égale à 1 pour l’ensemble des sites d’intérêt identifiés. Ceci ne veut pas dire que tous les sites sont automatiquement considérés comme affectés par les activités maritimes pour l’évaluation des effets cumulatifs. L’évaluation des effets cumulatifs devient plutôt le résultat du croisement entre la distribution et l’intensité des stresseurs environnementaux et la distribution des sites d’intérêt, <em>i.e.</em> l’exposition des sites d’intérêt aux stresseurs environnementaux. Un site d’intérêt exposés à plusieurs stresseurs à haute intensité serait ainsi plus affectué qu’un site d’intérêt qui n’est pas exposé aux stresseurs environnementaux considérés.</p>
+<p>À cet égard, et après discussions avec plusieurs représentants des Premières Nations participantes, nous avons jugé qu’il serait inadéquat d’attribuer un score de vulnérabilité aux sites identifiés dans le cadre de ce projet pilote. Nous avons plutôt attribué une valeur de vulnérabilité égale à 1 pour l’ensemble des sites d’intérêt identifiés. Ceci ne veut pas dire que tous les sites sont automatiquement considérés comme affectés par les activités maritimes pour l’évaluation des effets cumulatifs. L’évaluation des effets cumulatifs devient plutôt le résultat du croisement entre la distribution et l’intensité des stresseurs environnementaux et la distribution des sites d’intérêt, <em>i.e.</em> l’exposition des sites d’intérêt aux stresseurs environnementaux. Un site d’intérêt exposés à plusieurs stresseurs à haute intensité serait ainsi plus affectué qu’un site d’intérêt qui n’est pas exposé aux stresseurs environnementaux considérés.</p>
 <p>L’utilisation d’une valeur de vulnérabilité égale à 1 pour l’ensemble des sites d’intérêt a toutefois un effet sur l’évaluation globale des effets cumulatifs incluant l’ensemble des composantes valorisées; en effet, les sites d’intérêt reçoivent un score de vulnérabilité maximal, ce qui n’est pas le cas pour les autres composantes valorisées considérées au sein de cette évaluation (voir sections précédentes). En termes relatifs, la vulnérabilité des sites d’intérêt est ainsi considérée supérieure à la majorité des autres composantes valorisées incluses à l’évaluation. Ceci impose nécessairement un biais “en faveur” des sites d’intérêt pour l’évaluation globale. Les résultats de l’évaluation sont toutefois présentés et discutés par composantes valorisées individuelles afin de palier à ce biais.</p>
 <p>Afin d’assurer une continuité pour la vulnérabilité des sites d’intérêt, une valeur de vulnérabilité égale à 1 a également été attribuée aux sites d’intérêt publics, <em>i.e.</em> les aires protégées et les sites patrimoniaux.</p>
 
