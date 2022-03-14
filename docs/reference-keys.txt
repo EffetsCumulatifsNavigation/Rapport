@@ -167,8 +167,8 @@ deversement
 dragage
 naufrage
 navigation
-peche_commerciale
-pollution_maritime
+pechecommerciale
+pollutionmaritime
 cvportrait
 habitat
 habitats-dimportance-pour-les-cycles-de-vie
@@ -184,7 +184,7 @@ gisements-coquilliers
 berge
 berges-artificielles
 berges-naturelles
-mammiferes_marins
+mammiferesmarins
 baleines
 phoques
 qualité-de-leau
