@@ -37,6 +37,7 @@ fig:DNH
 fig:DNL
 fig:PHB
 fig:PLB
+fig:pechefleuve
 fig:ballast
 fig:pollutionmaritime
 tab:cv
@@ -52,6 +53,9 @@ fig:faunemenacee
 fig:floresusceptible
 fig:florevulnerable
 fig:floremenacee
+tab:statutlep
+fig:lepmenacee
+fig:lepvoiedisparition
 fig:zostere
 fig:zoneinondable
 fig:meublesansfalaise
@@ -64,6 +68,9 @@ fig:marais
 fig:marecage
 fig:milieuhumide
 fig:gisementcoquilliers
+fig:biovolumeherbiereleve
+fig:biovolumeherbiermodere
+fig:biovolumeherbierfaible
 tab:bergeCat
 fig:artificiellesemivegetalisee
 fig:artificiellevive
@@ -117,6 +124,7 @@ fig:wolastoqiyikwahsipekukobservationbeluga
 fig:wolastoqiyikwahsipekukpechecommerciale
 fig:publicmilieuprotege
 fig:publicsitespatrimoniaux
+fig:publicepaves
 tab:critereTeck
 fig:habitatvuln
 tab:vulnerabilitySpecies
@@ -168,6 +176,8 @@ dragage
 naufrage
 navigation
 pechecommerciale
+secteur-maritime
+secteur-fluvial
 pollutionmaritime
 cvportrait
 habitat
@@ -181,6 +191,7 @@ zones-inondables
 milieux-côtiers
 milieux-humides
 gisements-coquilliers
+herbiers-aquatiques
 berge
 berges-artificielles
 berges-naturelles
@@ -204,6 +215,7 @@ pnwwportrait
 sites-dintérêt-publics
 milieux-protégés
 sites-patrimoniaux-1
+épaves
 vulnportrait
 habitats-floristiques-et-fauniques
 milieux-naturels-1
